@@ -1,0 +1,86 @@
+:root {
+    --primary-color: #4CAF50;
+}
+
+.nav-bar{
+    height: 50vh;
+    width: 100%;
+   margin-top: 0;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 40px;
+}
+nav img{
+    height: 300pxpx;
+    width: 200px;
+    padding-top: 0px;
+}
+nav ul li {
+    list-style-type: none;
+    padding: 10px 20px;
+    margin: 0;
+    height: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-weight: bold;
+}
+nav ul li a:hover{
+    color: brown;
+    transition: .3s ;
+}
+button{
+    padding: 10px; 
+    font-size: 16px; 
+    background-color: var(--primary-color); 
+    color: white; border: none; border-radius: 5px; cursor: pointer;
+}
+/* COVER SLIKA I DUGME */
+.hero-image {
+   position: relative;
+    max-height: 70vh;
+    overflow: hidden;
+}
+
+/* Style for the image */
+img {
+    width: 100%; /* Make the image fill the container */
+    height: auto; /* Maintain aspect ratio */
+    display: block; /* Remove any default spacing */
+}
+
+/* Style for the button */
+.hero-image-button {
+    position: absolute;
+    top: 50%; /* Position the button at the vertical center */
+    left: 50%; /* Position the button at the horizontal center */
+    transform: translate(-50%, -50%); /* Center the button precisely */
+    max-width: 300px;
+    height: 20%;
+    min-height: 50px;
+    width: 70vw;
+    /* padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    max-width:400px ;
+    height: 100px; */
+}
+
+h1{
+    text-align: center;
+}
+.tortije{
+    padding: 30px;
+}
+
+.no-wrap {
+    white-space: nowrap;
+}
