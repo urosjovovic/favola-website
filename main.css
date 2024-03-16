@@ -81,6 +81,16 @@ h1{
     padding: 30px;
 }
 
-.no-wrap {
-    white-space: nowrap;
+.dodaci h5 {
+   text-align: center;
+   margin-bottom:0 ;
+  }
+.dodaci p {
+    margin-top: 0;
+    text-align: center;
 }
+.dodatak {
+    white-space: nowrap;;
+}
+
+
