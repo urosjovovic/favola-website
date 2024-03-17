@@ -1035,7 +1035,40 @@
             <h1>Zone i dostave</h1>
           </div>
 
+
+<!-- My Maps Test -->
     <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1vjqWTL5556Nn7v17-OFRfczKgNLKGGQ&ehbc=2E312F&noprof=1" width="100%" style="height: 70vh;"></iframe>
+    <div id="map-canvas"></div>
+
+    <style>
+      html, body, #map-canvas {
+        height: 100%;
+        margin: 0px;
+        padding: 0px
+      }
+    </style>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDArA1yk8Lc8yca0Vco4xkJ2xY7nELpNZs&callback=initMap"></script>
+    <script>
+var map;
+var infowindow;
+function initialize() {
+  var mapOptions = {gestureHandling: 'cooperative'}
+
+  map = new google.maps.Map(document.getElementById('map-canvas'), mapOptions);
+
+
+  var mapLayer = new google.maps.KmlLayer({
+    url: "https://www.google.com/maps/d/kml?mid=1zKE0tMK2R_ecfuQzbi-cAVZpeS1d0As"  });
+  mapLayer.setMap(map);
+
+}
+
+google.maps.event.addDomListener(window, 'load', initialize);
+
+    </script>
+
+    <!-- My Maps test -->
+    
     <div class="row m-5 d-flex justify-content-evenly zona">
       <div class="col text-center">
         Opis Zone 1 (min dostava i doplata)
