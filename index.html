@@ -86,7 +86,7 @@
       <button class="hero-image-button btn-lg" onclick="alert('Button Clicked!')">Poruci onlajn</button>
     </div>
     
-  <div class="container">
+  <div class="container meni">
        <!-- Pice -->
       <div class="row d-flex justify-content-evenly gy-4 mt-3" id="pice"> 
         <div class="m-3">
@@ -98,10 +98,17 @@
             <div class="card-body">
               <h5 class="card-title">Margherita</h5>
               <p class="card-text">24/32/42cm</p>
-              <p class="card-text">
-                <b>Sastav: </b>pelat, kačkavalj, bosiljak, crne masline
-              </p>
               <p class="card-text">590/910/1210 din.</p>
+              <div class="accordion border-0">
+                <div class="accordion-item border-0">
+                    <button class="accordion-button collapsed p-0 w-auto border-0" type="button" data-bs-toggle="collapse" data-bs-target="#pice-margarita-sastav">
+                      <b>Sastav</b>
+                    </button>
+                  <div id="pice-margarita-sastav" class="accordion-collapse collapse border-0">
+                    pelat, kačkavalj, bosiljak, crne masline
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -751,6 +758,7 @@
     </div>
 
 
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 
   </body>
 </html>

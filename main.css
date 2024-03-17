@@ -148,3 +148,20 @@ h1{
 .navbar-content-pusher {
     position: unset !important;
 }
+
+.meni .accordion-button:focus {
+    box-shadow: unset;
+}
+
+.meni .accordion-button:not(.collapsed) {
+    color: unset;
+    background-color: unset;
+    box-shadow: unset;
+}
+
+.meni .accordion-button::after {
+    margin-left: 5px;
+    width: 1rem;
+    height: 1rem;
+    background-size: 1rem;
+}
