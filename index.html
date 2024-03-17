@@ -8,11 +8,42 @@
     <link rel="stylesheet" type="text/css" href="main.css">
   </head>
   <body>
-    <!-- <div class="container"> -->
-    <!-- <div class="nav-bar"><nav><ul><li><a href="#"></a>Pice</li><li><a href="#"></a>Piroske</li><li><a href="#"></a>Tortilje</li><li><a href="#"></a>Sendvici</li><li><a href="#"></a>Palacinke</li><li><a href="#"></a>Obroci</li><li><a href="#"></a>Pomfrit</li></ul><img src="images/logo.png" alt="logo"><div class="button"><a href="tel:+123456789" style="text-decoration: none;"><button >
-                Pozovi
-            </button></a><p>Radno vreme 0:24h</p></div></nav></div> -->
-    <!-- </div> -->
+    <div class="container">
+      <div class="nav-bar">
+        <nav>
+          <ul class="col-4">
+            <li>
+              <a href="#"></a>Pice
+            </li>
+            <li>
+              <a href="#"></a>Piroske
+            </li>
+            <li>
+              <a href="#"></a>Tortilje
+            </li>
+            <li>
+              <a href="#"></a>Sendvici
+            </li>
+            <li>
+              <a href="#"></a>Palacinke
+            </li>
+            <li>
+              <a href="#"></a>Obroci
+            </li>
+            <li>
+              <a href="#"></a>Pomfrit
+            </li>
+          </ul>
+          <img src="images/logo.png" alt="logo">
+          <div class="button">
+            <a href="tel:+123456789" style="text-decoration: none;">
+              <button> Pozovi </button>
+            </a>
+            <p>Radno vreme 0:24h</p>
+          </div>
+        </nav>
+      </div>
+    </div>
     <div class="container-fluid g-0 hero-image">
       <img src="images/Cover.jpg" alt="Slika">
       <button class="hero-image-button btn-lg" onclick="alert('Button Clicked!')">Poruci onlajn</button>
@@ -20,10 +51,10 @@
     
   <div class="container">
        <!-- Pice -->
-      <div class="m-3">
-        <h1>Pice</h1>
-      </div>
       <div class="row d-flex justify-content-evenly gy-4">
+        <div class="m-3">
+          <h1>Pice</h1>
+        </div>
         <div class="col-6 col-md-3">
           <div class="card">
             <img src="images/pice/margarita.jpg" class="card-img-top" alt="...">
@@ -195,10 +226,10 @@
         </div>
       </div>
         <!-- Tortilje -->
-      <div class="m-3">
-        <h1>Tortilje</h1>
-      </div>
       <div class="row d-flex justify-content-evenly gy-4">
+        <div class="m-3">
+          <h1>Tortilje</h1>
+        </div>
         <div class="col-6 col-md-3">
           <div class="card">
             <img src="images/tortilje/tortilja-sunka.JPG" class="card-img-top" alt="...">
@@ -279,10 +310,10 @@
         </div>
       </div>
         <!-- Obroci i piroske -->
-        <div class="m-3">
-          <h1>Piroske i obroci</h1>
-        </div>
         <div class="row d-flex justify-content-evenly gy-4">
+          <div class="m-3">
+            <h1>Piroske i obroci</h1>
+          </div>
           <div class="col-6 col-md-3">
             <div class="card">
               <img src="images/piroske/piroska-italijanska.JPG" class="card-img-top" alt="...">
@@ -336,12 +367,11 @@
             </div>
           </div>
         </div>
-
           <!--Sendvici  -->
-          <div class="m-3">
-            <h1>Sendvici</h1>
-          </div>
           <div class="row d-flex justify-content-evenly gy-4">
+            <div class="m-3">
+              <h1>Sendvici</h1>
+            </div>
             <div class="col-6 col-md-3">
               <div class="card">
                 <img src="images/sendvici/sendvic-sunka.JPG" class="card-img-top" alt="...">
@@ -421,49 +451,55 @@
               </div>
             </div>
           </div>
-        <!-- Palacinke -->
-        <div class="m-3">
-          <h1>Palacinke slatke i slane</h1>
-        </div>
+        <!-- Palacinke slane -->
         <div class="row d-flex justify-content-evenly gy-4">
-          <div class="col-6 col-md-3">
-            <div class="card">
-              <img src="images/slane_palacinke/palacinka-sunka.JPG" class="card-img-top" alt="...">
-              <div class="card-body">
-                <h5 class="card-title">Slana palačinka Šunka</h5>
-                <p class="card-text">300g</p>
-                <p class="card-text">
-                  <b>Sastav: </b>šunka, pavlaka, kačkavalj
-                </p>
-                <p class="card-text">_din.</p>
-              </div>
+        <div class="m-3">
+          <h1>Palacinke slane</h1>
+        </div>
+        <div class="col-6 col-md-3">
+          <div class="card">
+            <img src="images/slane_palacinke/palacinka-sunka.JPG" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Slana palačinka Šunka</h5>
+              <p class="card-text">300g</p>
+              <p class="card-text">
+                <b>Sastav: </b>šunka, pavlaka, kačkavalj
+              </p>
+              <p class="card-text">_din.</p>
             </div>
           </div>
-          <div class="col-6 col-md-3">
-            <div class="card">
-              <img src="images/slane_palacinke/palacinka-kulen.JPG" class="card-img-top" alt="...">
-              <div class="card-body">
-                <h5 class="card-title">Slana palačinka kulen</h5>
-                <p class="card-text">300g</p>
-                <p class="card-text">
-                  <b>Sastav: </b>kulen, pavlaka, kačkavalj
-                </p>
-                <p class="card-text">_din.</p>
-              </div>
+        </div>
+        <div class="col-6 col-md-3">
+          <div class="card">
+            <img src="images/slane_palacinke/palacinka-kulen.JPG" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Slana palačinka kulen</h5>
+              <p class="card-text">300g</p>
+              <p class="card-text">
+                <b>Sastav: </b>kulen, pavlaka, kačkavalj
+              </p>
+              <p class="card-text">_din.</p>
             </div>
           </div>
-          <div class="col-6 col-md-3">
-            <div class="card">
-              <img src="images/slane_palacinke/palacinka-pecenica.JPG" class="card-img-top" alt="...">
-              <div class="card-body">
-                <h5 class="card-title">Slana palačinka pečenica</h5>
-                <p class="card-text">300g</p>
-                <p class="card-text">
-                  <b>Sastav: </b>pečenica, pavlaka, kačkavalj
-                </p>
-                <p class="card-text">_din.</p>
-              </div>
+        </div>
+        <div class="col-6 col-md-3">
+          <div class="card">
+            <img src="images/slane_palacinke/palacinka-pecenica.JPG" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Slana palačinka pečenica</h5>
+              <p class="card-text">300g</p>
+              <p class="card-text">
+                <b>Sastav: </b>pečenica, pavlaka, kačkavalj
+              </p>
+              <p class="card-text">_din.</p>
             </div>
+          </div>
+        </div>
+        </div>
+          <!-- Slatke palacinke -->
+        <div class="row d-flex justify-content-evenly gy-4">
+          <div class="m-3">
+            <h1>Palacinke slatke</h1>
           </div>
           <div class="col-6 col-md-3">
             <div class="card">

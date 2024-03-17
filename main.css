@@ -19,6 +19,7 @@ nav img{
     padding-top: 0px;
 }
 nav ul li {
+    display: inline-block;
     list-style-type: none;
     padding: 10px 20px;
     margin: 0;
