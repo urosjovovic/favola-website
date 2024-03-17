@@ -63,6 +63,15 @@ img {
     height: 20%;
     min-height: 50px;
     width: 70vw;
+    background-color: var(--primary-color);
+    color: white;
+    font-size: 16px;
+    padding: 10px;
+    background-color: var(--primary-color);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
     /* padding: 10px;
     background-color: #4CAF50;
     color: white;
@@ -99,7 +108,10 @@ h1{
     flex: 1;
 }
 .navbar{
-    box-shadow: 0px 0px 11px 0px #349966;
+    box-shadow: 0px 0px 11px 5px #349966;
+    position: fixed;
+    z-index: 100;
+    width: 100%;
 }
 .navbar-brand {
     max-width: 150px;
@@ -119,3 +131,15 @@ h1{
 .navbar .meni ul li {
     display:inline-block;
 } */
+
+.navbar .call-to-action a {
+    color: #fff;
+    background-color: #349966;
+}
+.navbar .call-to-action .radno-vreme {
+    display: block;
+}
+
+.navbar .call-to-action {
+    text-align: center;
+}
