@@ -8,7 +8,8 @@
     <link rel="stylesheet" type="text/css" href="main.css">
   </head>
   <body>
-    
+   
+        
     <nav class="navbar navbar-expand-md navbar-light bg-light p-0">
       <div class="container p-0">
         <a class="navbar-brand p-0" href="#">
@@ -66,7 +67,6 @@
         </div>
       </div>
     </nav>
-
     <div class="container-fluid g-0 hero-image">
       <img src="images/Cover.jpg" alt="Slika">
       <button class="hero-image-button btn-lg" onclick="alert('Button Clicked!')">Poruci onlajn</button>
@@ -74,10 +74,10 @@
     
   <div class="container">
        <!-- Pice -->
-      <div class="m-3">
-        <h1>Pice</h1>
-      </div>
-      <div class="row d-flex justify-content-evenly gy-4">
+      <div class="row d-flex justify-content-evenly gy-4 " id="pice">
+        <div class="m-3">
+          <h1>Pice</h1>
+        </div>
         <div class="col-6 col-md-3">
           <div class="card">
             <img src="images/pice/margarita.jpg" class="card-img-top" alt="...">
@@ -249,10 +249,10 @@
         </div>
       </div>
         <!-- Tortilje -->
-      <div class="m-3">
-        <h1>Tortilje</h1>
-      </div>
-      <div class="row d-flex justify-content-evenly gy-4">
+      <div class="row d-flex justify-content-evenly gy-4" id="tortilje">
+        <div class="m-3">
+          <h1>Tortilje</h1>
+        </div>
         <div class="col-6 col-md-3">
           <div class="card">
             <img src="images/tortilje/tortilja-sunka.JPG" class="card-img-top" alt="...">
@@ -333,10 +333,10 @@
         </div>
       </div>
         <!-- Obroci i piroske -->
-        <div class="m-3">
-          <h1>Piroske i obroci</h1>
-        </div>
-        <div class="row d-flex justify-content-evenly gy-4">
+        <div class="row d-flex justify-content-evenly gy-4" id="obroci-i-piroske">
+          <div class="m-3">
+            <h1>Piroske i obroci</h1>
+          </div>
           <div class="col-6 col-md-3">
             <div class="card">
               <img src="images/piroske/piroska-italijanska.JPG" class="card-img-top" alt="...">
@@ -390,12 +390,11 @@
             </div>
           </div>
         </div>
-
           <!--Sendvici  -->
-          <div class="m-3">
-            <h1>Sendvici</h1>
-          </div>
-          <div class="row d-flex justify-content-evenly gy-4">
+          <div class="row d-flex justify-content-evenly gy-4" id="sendvici" >
+            <div class="m-3">
+              <h1>Sendvici</h1>
+            </div>
             <div class="col-6 col-md-3">
               <div class="card">
                 <img src="images/sendvici/sendvic-sunka.JPG" class="card-img-top" alt="...">
@@ -475,49 +474,55 @@
               </div>
             </div>
           </div>
-        <!-- Palacinke -->
+        <!-- Palacinke slane -->
+        <div class="row d-flex justify-content-evenly gy-4" id="palacinke-slane">
         <div class="m-3">
-          <h1>Palacinke slatke i slane</h1>
+          <h1>Palacinke slane</h1>
         </div>
-        <div class="row d-flex justify-content-evenly gy-4">
-          <div class="col-6 col-md-3">
-            <div class="card">
-              <img src="images/slane_palacinke/palacinka-sunka.JPG" class="card-img-top" alt="...">
-              <div class="card-body">
-                <h5 class="card-title">Slana palačinka Šunka</h5>
-                <p class="card-text">300g</p>
-                <p class="card-text">
-                  <b>Sastav: </b>šunka, pavlaka, kačkavalj
-                </p>
-                <p class="card-text">_din.</p>
-              </div>
+        <div class="col-6 col-md-3">
+          <div class="card">
+            <img src="images/slane_palacinke/palacinka-sunka.JPG" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Slana palačinka Šunka</h5>
+              <p class="card-text">300g</p>
+              <p class="card-text">
+                <b>Sastav: </b>šunka, pavlaka, kačkavalj
+              </p>
+              <p class="card-text">_din.</p>
             </div>
           </div>
-          <div class="col-6 col-md-3">
-            <div class="card">
-              <img src="images/slane_palacinke/palacinka-kulen.JPG" class="card-img-top" alt="...">
-              <div class="card-body">
-                <h5 class="card-title">Slana palačinka kulen</h5>
-                <p class="card-text">300g</p>
-                <p class="card-text">
-                  <b>Sastav: </b>kulen, pavlaka, kačkavalj
-                </p>
-                <p class="card-text">_din.</p>
-              </div>
+        </div>
+        <div class="col-6 col-md-3">
+          <div class="card">
+            <img src="images/slane_palacinke/palacinka-kulen.JPG" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Slana palačinka kulen</h5>
+              <p class="card-text">300g</p>
+              <p class="card-text">
+                <b>Sastav: </b>kulen, pavlaka, kačkavalj
+              </p>
+              <p class="card-text">_din.</p>
             </div>
           </div>
-          <div class="col-6 col-md-3">
-            <div class="card">
-              <img src="images/slane_palacinke/palacinka-pecenica.JPG" class="card-img-top" alt="...">
-              <div class="card-body">
-                <h5 class="card-title">Slana palačinka pečenica</h5>
-                <p class="card-text">300g</p>
-                <p class="card-text">
-                  <b>Sastav: </b>pečenica, pavlaka, kačkavalj
-                </p>
-                <p class="card-text">_din.</p>
-              </div>
+        </div>
+        <div class="col-6 col-md-3">
+          <div class="card">
+            <img src="images/slane_palacinke/palacinka-pecenica.JPG" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Slana palačinka pečenica</h5>
+              <p class="card-text">300g</p>
+              <p class="card-text">
+                <b>Sastav: </b>pečenica, pavlaka, kačkavalj
+              </p>
+              <p class="card-text">_din.</p>
             </div>
+          </div>
+        </div>
+        </div>
+          <!-- Slatke palacinke -->
+        <div class="row d-flex justify-content-evenly gy-4" id="palacinke-slatke" >
+          <div class="m-3">
+            <h1>Palacinke slatke</h1>
           </div>
           <div class="col-6 col-md-3">
             <div class="card">
@@ -677,19 +682,19 @@
               <p>100/200din</p>
             </div>
             <div class="row mb-5 d-flex justify-content-evenly">
-              <div class=" text-center dodatak">pavlaka</div>
-              <div class=" text-center dodatak">Masline</div>
-              <div class=" text-center dodatak">jaje</div>
-              <div class=" text-center dodatak">pecurke</div>
-              <div class=" text-center dodatak">kackavalj</div>
-              <div class=" text-center dodatak">sunka</div>
-              <div class=" text-center dodatak">suvi vrat</div>
-              <div class=" text-center dodatak">pecenica</div>
-              <div class=" text-center dodatak">kulen</div>
-              <div class=" text-center dodatak">prsuta</div>
-              <div class=" text-center dodatak">slanina</div>
-              <div class=" text-center dodatak">kajmak</div>
-              <div class=" text-center dodatak">pelat</div>
+              <div class=" text-center col-md-2 col-3 dodatak">pavlaka</div>
+              <div class=" text-center col-md-2 col-3 dodatak">Masline</div>
+              <div class=" text-center col-md-2 col-3 dodatak">jaje</div>
+              <div class=" text-center col-md-2 col-3 dodatak">pecurke</div>
+              <div class=" text-center col-md-2 col-3 dodatak">kackavalj</div>
+              <div class=" text-center col-md-2 col-3 dodatak">sunka</div>
+              <div class=" text-center col-md-2 col-3 dodatak">suvi vrat</div>
+              <div class=" text-center col-md-2 col-3 dodatak">pecenica</div>
+              <div class=" text-center col-md-2 col-3 dodatak">kulen</div>
+              <div class=" text-center col-md-2 col-3 dodatak">prsuta</div>
+              <div class=" text-center col-md-2 col-3 dodatak">slanina</div>
+              <div class=" text-center col-md-2 col-3 dodatak">kajmak</div>
+              <div class=" text-center col-md-2 col-3 dodatak">pelat</div>
             </div>
             <h5>Slatki dodaci <br>
             </h5>
@@ -717,7 +722,6 @@
 
     <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1vjqWTL5556Nn7v17-OFRfczKgNLKGGQ&ehbc=2E312F&noprof=1" width="100%" style="height: 70vh;"></iframe>
     <div class="row m-5 d-flex justify-content-evenly zona">
-<<<<<<< HEAD
       <div class="col text-center">
         Zona1
       </div>
@@ -725,15 +729,6 @@
         Zona2
       </div>
       <div class="col text-center">
-=======
-      <div class="col">
-        Zona1
-      </div>
-      <div class="col">
-        Zona2
-      </div>
-      <div class="col">
->>>>>>> main
         Zona3
       </div>
       <div class="text-center mt-5">
