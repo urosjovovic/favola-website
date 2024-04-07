@@ -1053,7 +1053,18 @@
 var map;
 var infowindow;
 function initialize() {
-  var mapOptions = {gestureHandling: 'cooperative'}
+  var mapOptions = {
+  gestureHandling: 'cooperative',
+  // maxZoom: 16,
+  // minZoom: 13,
+  restriction: {
+    latLngBounds: {
+      north: 44.878633,
+      south: 44.724634,
+      east: 20.569483,
+      west: 20.381334,
+    },
+  }, }
 
   map = new google.maps.Map(document.getElementById('map-canvas'), mapOptions);
 
