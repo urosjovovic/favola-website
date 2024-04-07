@@ -165,3 +165,8 @@ h1{
     height: 1rem;
     background-size: 1rem;
 }
+
+#map-canvas {
+    height: 60vh !important;
+    /* Other styles you might have... */
+  }
