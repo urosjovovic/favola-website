@@ -120,7 +120,7 @@ h1{
 @media (max-width: 768px)
 {
     .navbar-brand {
-        max-width: 90px;
+        max-width: 65px;
     }
 }
 
