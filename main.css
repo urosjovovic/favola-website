@@ -121,6 +121,12 @@ h1{
 {
     .navbar-brand {
         max-width: 65px;
+        width: auto;
+        height: 56px;
+    }
+    .navbar-brand img {
+        width: auto;
+        height: 100%;
     }
 }
 
