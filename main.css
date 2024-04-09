@@ -139,7 +139,8 @@ h1{
 }
 
 .meni .card .card-img-top{
-    width: 100%;
+    width: 373px;
+    max-width: 100%;
 }
 /* .navbar {
     position: fixed;
