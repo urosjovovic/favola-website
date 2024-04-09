@@ -57,6 +57,11 @@
             <a class="btn ms-auto" href="tel:+381628950833">+38162 895 0833</a>
             <span class="radno-vreme">Pon-Sub: 12:00-03:30h</span>
           </div>
+          <div class="d-md-none">
+            <a class="ms-auto" href="tel:+381628950833">Telefon: +38162 895 0833</a>
+            <span class="radno-vreme">Radno vreme - Pon-Sub: 12:00-03:30h</span>
+            <span class="radno-vreme">Adresa: Ljubićka 14, Beograd</span>
+          </div>
         </div>
       </div>
     </nav>
@@ -99,15 +104,22 @@
             <li class="nav-item">
               <a class="nav-link free-dostava-btn d-md-block d-none" href="#zone">FREE DOSTAVA</a>
             </li>
+            <div class="d-md-none py-2 border-info border-top">
+              <span>Telefon: <a class="ms-auto" href="tel:+381628950833">+38162 895 0833</a></span>
+              <p class="radno-vreme mb-0">Radno vreme - Pon-Sub: 12:00-03:30h</p>
+              <p class="radno-vreme mb-0">Adresa: Ljubićka 14, Beograd</p>
+            </div>
           </ul>
           <div class="call-to-action d-none d-md-block">
             <a class="btn ms-auto" href="tel:+381628950833">+38162 895 0833</a>
             <span class="radno-vreme">Pon-Sub: 12:00-03:30h</span>
           </div>
+          
         </div>
       </div>
     </nav>
-    <nav class="mobile-bottom-bar navbar fixed-bottom navbar-light bg-light justify-content-center d-md-none pb-3">
+    <nav class="mobile-bottom-bar navbar fixed-bottom navbar-light bg-light justify-content-center d-md-none pb-3 pt-0">
+      <div class="w-100 text-center border-bottom border-1 text-muted">Plaćanje je moguće isključivo gotovinom</div>
       <div class="quick-info mx-3">
         <p class="besplatna-dostava my-0"><b>BESPLATNA DOSTAVA</b></p>
         <p class="radno-vreme my-0">Pon-Sub: 12:00-03:30h</p>
@@ -1059,7 +1071,7 @@
         }
       </style>
       <!--  -->
-      <script async src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDArA1yk8Lc8yca0Vco4xkJ2xY7nELpNZs&loading=async&callback=initMap"></script>
+      <script async src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDArA1yk8Lc8yca0Vco4xkJ2xY7nELpNZs&loading=async&callback=initMap&region=RS&language=en"></script>
       <script>
         var map;
         var infowindow;
@@ -1068,6 +1080,7 @@
           var mapOptions = {
             gestureHandling: 'cooperative',
             maxZoom: 22,
+            streetViewControl: false,
             minZoom: 12,
             restriction: {
               latLngBounds: {
