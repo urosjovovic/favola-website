@@ -131,11 +131,13 @@ h1{
 }
 
 .navbar-brand img{
-    width: 100%;
+    width: 373px;
+    max-width: 100%;
 }
 
 .meni .card .card-body {
-    width: 100%;
+    width: 373px;
+    max-width: 100%;
 }
 
 .meni .card .card-img-top{
