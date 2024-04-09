@@ -138,6 +138,9 @@ h1{
     width: 100%;
 }
 
+.meni .card .card-img-top{
+    width: 100%;
+}
 /* .navbar {
     position: fixed;
     top: 0;
