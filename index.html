@@ -17,8 +17,9 @@
     <nav class="container-fluid navbar navbar-expand-md navbar-light bg-white p-0 invisible navbar-content-pusher">
       <div class="container p-0">
         <a class="navbar-brand p-0 pt-1 ms-3 ms-lg-0" href="#">
-          <img src="images/favola-header-logo.png">
+          <img src = "images/logo.svg" alt="Picerija Favola Logo"/>
         </a>
+        <h1 class="d-block d-md-none">Pizerija Favola</h1>
         <button class="navbar-toggler me-3 me-lg-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -52,7 +53,7 @@
               <a class="nav-link free-dostava-btn d-md-block d-none" href="#zone">FREE DOSTAVA</a>
             </li>
           </ul>
-          <div class="call-to-action">
+          <div class="call-to-action d-none d-md-block">
             <a class="btn ms-auto" href="tel:+381628950833">+38162 895 0833</a>
             <span class="radno-vreme">Pon-Sub: 12:00-03:30h</span>
           </div>
@@ -65,6 +66,7 @@
           <!-- <img loading="lazy" alt="Picerija Favola Logo" src="images/favola-header-logo.png"> -->
           <img src = "images/logo.svg" alt="Picerija Favola Logo"/>
         </a>
+        <h1 class="d-block d-md-none">Pizerija Favola</h1>
         <button class="navbar-toggler me-3 me-lg-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -98,13 +100,25 @@
               <a class="nav-link free-dostava-btn d-md-block d-none" href="#zone">FREE DOSTAVA</a>
             </li>
           </ul>
-          <div class="call-to-action">
+          <div class="call-to-action d-none d-md-block">
             <a class="btn ms-auto" href="tel:+381628950833">+38162 895 0833</a>
             <span class="radno-vreme">Pon-Sub: 12:00-03:30h</span>
           </div>
         </div>
       </div>
     </nav>
+    <nav class="mobile-bottom-bar navbar fixed-bottom navbar-light bg-light justify-content-center d-md-none">
+      <div class="quick-info mx-3">
+        <p class="besplatna-dostava my-0"><b>BESPLATNA DOSTAVA</b></p>
+        <p class="radno-vreme my-0">Pon-Sub: 12:00-03:30h</p>
+      </div>
+      
+    <a class="nav-item mx-3" href="#zone"><i class="location-icon fa-solid fa-location-dot fa-2xl"></i>
+</a>
+<a class="nav-item mx-3" href="tel:+381628950833"><i class="phone-icon fa-solid fa-phone fa-2xl"></i>
+</a>
+
+</nav>
     <div class="container-fluid g-0 hero-image">
       <img src="images/cover.jpg" alt="Slika">
       <button class="hero-image-button btn-lg" onclick="alert('Button Clicked!')">Poruci onlajn</button>
