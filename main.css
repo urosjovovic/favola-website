@@ -145,11 +145,16 @@ img {
     background-color: #f00;
     border-radius: 0.5rem;
     color: #fff;
+    align-self: center;
 }
 
 .meni .card .card-body {
     width: 373px;
     max-width: 100%;
+}
+
+.navbar .nav-item.free-dostava-item {
+    display: flex;
 }
 
 .meni .card .card-img-top{
