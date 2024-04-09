@@ -1045,12 +1045,12 @@
           padding: 0px
         }
       </style>
-      <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDArA1yk8Lc8yca0Vco4xkJ2xY7nELpNZs"></script>
+      <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDArA1yk8Lc8yca0Vco4xkJ2xY7nELpNZs&callback=initMap"></script>
       <script>
         var map;
         var infowindow;
 
-        function initialize() {
+        async function initialize() {
           var mapOptions = {
             gestureHandling: 'cooperative',
             maxZoom: 22,
