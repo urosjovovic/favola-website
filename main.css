@@ -135,6 +135,12 @@ h1{
     max-width: 100%;
 }
 
+.navbar .navbar-item .free-dostava-btn {
+    background-color: #f00;
+    border-radius: 0.5rem;
+    color: #fff;
+}
+
 .meni .card .card-body {
     width: 373px;
     max-width: 100%;
