@@ -14,7 +14,7 @@
   </head>
   <body>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-    <nav class="navbar navbar-expand-md navbar-light bg-white p-0 invisible navbar-content-pusher">
+    <nav class="container-fluid navbar navbar-expand-md navbar-light bg-white p-0 invisible navbar-content-pusher">
       <div class="container p-0">
         <a class="navbar-brand p-0 pt-1 ms-3 ms-lg-0" href="#">
           <img src="images/favola-header-logo.png">
@@ -59,7 +59,7 @@
         </div>
       </div>
     </nav>
-    <nav class="navbar navbar-expand-md navbar-light bg-white p-0">
+    <nav class="container-fluid navbar navbar-expand-md navbar-light bg-white p-0">
       <div class="container p-0">
         <a class="navbar-brand p-0 pt-1 ms-3 ms-lg-0" href="#">
           <!-- <img loading="lazy" alt="Picerija Favola Logo" src="images/favola-header-logo.png"> -->
@@ -1045,12 +1045,13 @@
           padding: 0px
         }
       </style>
-      <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDArA1yk8Lc8yca0Vco4xkJ2xY7nELpNZs&callback=initMap"></script>
+      <!--  -->
+      <!-- <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDArA1yk8Lc8yca0Vco4xkJ2xY7nELpNZs"></script>
       <script>
         var map;
         var infowindow;
 
-        async function initialize() {
+        async function initMap() {
           var mapOptions = {
             gestureHandling: 'cooperative',
             maxZoom: 22,
@@ -1076,10 +1077,54 @@
           });
           mapLayer.setMap(map);
         }
-        google.maps.event.addDomListener(window, 'load', initialize);
+        google.maps.event.addDomListener(window, 'load', initMap);
+      </script> -->
+      <script>
+        function loadGoogleMapsScript(callback) {
+  var script = document.createElement('script');
+  script.type = 'text/javascript';
+  script.src = 'https://maps.googleapis.com/maps/api/js?key=AIzaSyDArA1yk8Lc8yca0Vco4xkJ2xY7nELpNZs&callback=' + callback;
+  script.async = true;
+  script.defer = true;
+  document.head.appendChild(script);
+}
+
+var map;
+var infowindow;
+
+// Modified initMap function that no longer directly loads the map
+function initMap() {
+  var mapOptions = {
+    gestureHandling: 'cooperative',
+    maxZoom: 22,
+    minZoom: 12,
+    restriction: {
+      latLngBounds: {
+        north: 44.878633,
+        south: 44.724634,
+        east: 20.569483,
+        west: 20.381334,
+      },
+    },
+    styles: [{
+      featureType: "poi.business",
+      stylers: [{ visibility: "off" }],
+    }]
+  };
+  map = new google.maps.Map(document.getElementById('map-canvas'), mapOptions);
+  var mapLayer = new google.maps.KmlLayer({
+    url: "https://www.google.com/maps/d/kml?mid=1zKE0tMK2R_ecfuQzbi-cAVZpeS1d0As"
+  });
+  mapLayer.setMap(map);
+}
+
+// Load the Google Maps script asynchronously and then initialize the map
+window.onload = function() {
+  loadGoogleMapsScript('initMap');
+};
       </script>
       <!-- My Maps test -->
-      <div class="row d-flex justify-content-evenly zona">
+      <div class="row m-0 d-flex justify-content-evenly zona">
         <div class="my-3 text-center">Moguće je poručiti i bez ostvarenja minimuma, sa doplatom do minimalnog iznosa za Vašu zonu!</div>
         <div class="col text-center"><i class="fa-solid fa-circle fa-xl mb-3" style="color: #0f9d58;"></i><h3>Zona 1</h3><p class="mb-1">Minimum:</p><p>1000 din.</p></div>
         <div class="col text-center"><i class="fa-solid fa-circle fa-xl mb-3" style="color: #ffd600;"></i><h3>Zona 2</h3><p class="mb-1">Minimum:</p><p>1200 din.</p></div>
