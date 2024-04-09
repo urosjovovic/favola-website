@@ -204,6 +204,7 @@ img {
 #map-canvas {
     height: 60vh !important;
     width: 100%;
+    min-height: 300px;
     /* Other styles you might have... */
   }
 
