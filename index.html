@@ -1046,7 +1046,7 @@
         }
       </style>
       <!--  -->
-      <!-- <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDArA1yk8Lc8yca0Vco4xkJ2xY7nELpNZs"></script>
+      <script async src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDArA1yk8Lc8yca0Vco4xkJ2xY7nELpNZs&loading=async&callback=initMap"></script>
       <script>
         var map;
         var infowindow;
@@ -1077,51 +1077,7 @@
           });
           mapLayer.setMap(map);
         }
-        google.maps.event.addDomListener(window, 'load', initMap);
-      </script> -->
-      <script>
-        function loadGoogleMapsScript(callback) {
-  var script = document.createElement('script');
-  script.type = 'text/javascript';
-  script.src = 'https://maps.googleapis.com/maps/api/js?key=AIzaSyDArA1yk8Lc8yca0Vco4xkJ2xY7nELpNZs&callback=' + callback;
-  script.async = true;
-  script.defer = true;
-  document.head.appendChild(script);
-}
-
-var map;
-var infowindow;
-
-// Modified initMap function that no longer directly loads the map
-function initMap() {
-  var mapOptions = {
-    gestureHandling: 'cooperative',
-    maxZoom: 22,
-    minZoom: 12,
-    restriction: {
-      latLngBounds: {
-        north: 44.878633,
-        south: 44.724634,
-        east: 20.569483,
-        west: 20.381334,
-      },
-    },
-    styles: [{
-      featureType: "poi.business",
-      stylers: [{ visibility: "off" }],
-    }]
-  };
-  map = new google.maps.Map(document.getElementById('map-canvas'), mapOptions);
-  var mapLayer = new google.maps.KmlLayer({
-    url: "https://www.google.com/maps/d/kml?mid=1zKE0tMK2R_ecfuQzbi-cAVZpeS1d0As"
-  });
-  mapLayer.setMap(map);
-}
-
-// Load the Google Maps script asynchronously and then initialize the map
-window.onload = function() {
-  loadGoogleMapsScript('initMap');
-};
+        // google.maps.event.addDomListener(window, 'load', initMap);
       </script>
       <!-- My Maps test -->
       <div class="row m-0 d-flex justify-content-evenly zona">
