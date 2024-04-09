@@ -203,6 +203,7 @@ img {
 
 #map-canvas {
     height: 60vh !important;
+    width: 100%;
     /* Other styles you might have... */
   }
 
@@ -222,4 +223,10 @@ footer{
     padding: 20px;
     text-align: center;
     background-color: rgba(255, 255, 255, 0.8);
+}
+
+.zone .address a {
+    text-decoration: underline;
+    text-decoration-color: black;
+    color: black;
 }
