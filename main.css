@@ -1,6 +1,11 @@
 :root {
     --primary-color: #4CAF50;
 }
+
+html{
+    scroll-padding-top: 100px;
+}
+
 /* 
 .nav-bar{
     height: 50vh;
