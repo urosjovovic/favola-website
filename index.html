@@ -959,11 +959,11 @@
           <div class="my-3 text-center">
             <h2>Slani Dodaci</h2>
           </div>
-          <div class="my-3 text-center">
-            <p>50/100g</p>
+          <div class="my-3 text-center slani-dodaci-gramaza">
+            <p><u>50/100g</u></p>
           </div>
-          <div class="my-3 text-center">
-            <p>100/200din</p>
+          <div class="my-3 text-center slani-dodaci-cena">
+            <p><u>100/200din</u></p>
           </div>
           <div class="row mb-5 d-flex justify-content-evenly">
             <div class="text-center row d-flex justify-content-evenly" style="max-width: 500px;">
@@ -984,19 +984,66 @@
           </div>
         </div>
         <!-- Dodaci Slatki -->
-        <div class="slatki-dodaci" id="slatki-dodaci">
+        <div class="slatki-dodaci row justify-content-center" id="slatki-dodaci">
           <div class="my-3 text-center">
             <h2>Slatki Dodaci</h2>
           </div>
-          <p>Plazma u mleku(50g)-din; Lešnik(30g)-70din; Orah(30g)-70din Plazma(30g)-60din; </p>
-          <ul>
-            <li>Kokos(30g)-60din;
-            <li>Kikiriki(30g)-60din;
-            <li>Malina(50g)-din;
-            <li>Višnja(50g)-din;
-            <li>Banana(50g)-din;
-            <li>Šlag</li>
-          </ul>
+          <div class="slatki-dodaci-items">
+            <table class="table-striped table">
+              <tbody>
+                <tr>
+                  <td>Plazma u mleku</td>
+                  <td>50g</td>
+                  <td>120</td>
+                </tr>
+                <tr>
+                  <td>Lešnik</td>
+                  <td>30g</td>
+                  <td>90</td>
+                </tr>
+                <tr>
+                  <td>Orah</td>
+                  <td>30g</td>
+                  <td>90</td>
+                </tr>
+                <tr>
+                  <td>Malina</td>
+                  <td>50g</td>
+                  <td>90</td>
+                </tr>
+                <tr>
+                  <td>Višnja</td>
+                  <td>50g</td>
+                  <td>90</td>
+                </tr>
+                <tr>
+                  <td>Banana</td>
+                  <td>50g</td>
+                  <td>90</td>
+                </tr>
+                <tr>
+                  <td>Šlag</td>
+                  <td></td>
+                  <td>90</td>
+                </tr>
+                <tr>
+                  <td>Plazma</td>
+                  <td>30g</td>
+                  <td>80</td>
+                </tr>
+                <tr>
+                  <td>Kokos</td>
+                  <td>30g</td>
+                  <td>80</td>
+                </tr>
+                <tr>
+                  <td>Kikiriki</td>
+                  <td>30g</td>
+                  <td>80</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
         </div>
       </div>
       <!-- Pica -->
@@ -1063,9 +1110,10 @@
       <div class="my-3 text-center">
         <h2>Zone i Dostave</h2>
       </div>
-      <div class="text-center mb-3 address">
+      <div class="text-center mb-2 address">
         <a href="https://maps.app.goo.gl/X1V4ZRvGGvvAr5oU8" target="_blank"><h3><i class="fa-solid fa-location-dot me-3" style="color: #f00;"></i>Adresa: Ljubićka 14, Beograd</h3></a>
       </div>
+      <div class="w-100 text-center text-muted mb-2">Plaćanje je moguće isključivo gotovinom</div>
       <!-- My Maps Test -->
       <div id="map-canvas"></div>
       <style>

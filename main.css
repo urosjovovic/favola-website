@@ -260,3 +260,11 @@ footer{
 .mobile-bottom-bar a {
     text-decoration: unset;
 }
+
+.slatki-dodaci .slatki-dodaci-items {
+    max-width: 700px;
+}
+
+.slani-dodaci .slani-dodaci-gramaza, .slani-dodaci-cena {
+    text-underline-offset: 4px;
+}
