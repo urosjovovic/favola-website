@@ -268,9 +268,7 @@ footer{
 .slani-dodaci .slani-dodaci-gramaza, .slani-dodaci-cena {
     text-underline-offset: 4px;
 }
-.socialIcons{
-    display: flex;
-}
+
 .socialIcons a{
     text-decoration: none;
     margin: 7px;
