@@ -216,8 +216,7 @@ img {
 
 footer{
     width: 100%;
- 
-    background-color: #349966;
+    color:#FFF;
 }
 
 .dodaci-grid-container {
@@ -271,22 +270,30 @@ footer{
 }
 .socialIcons{
     display: flex;
-    justify-content: center;
 }
 .socialIcons a{
     text-decoration: none;
-    padding: 10px;
-    background-color: #fff;
-    margin: 10px;
-    border-radius: 50%;
+    margin: 7px;
 }
 
 .socialIcons a i {
     font-size: 2em;
-    color: black;
+    color: white;
     opacity: 0.9;
 }
 
 .footernav {
     margin: 30px 0px;
+}
+
+.flex-basis-0 {
+    flex-basis: 0;
+}
+
+.footer-wrapper {
+    background-color: #349966;
+}
+
+.footer-wrapper a {
+    color: #FFF;
 }
