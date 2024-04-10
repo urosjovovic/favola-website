@@ -292,6 +292,6 @@ footer{
     background-color: #349966;
 }
 
-.footer-wrapper a {
+.footer-wrapper a,li {
     color: #FFF;
 }
