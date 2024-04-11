@@ -61,7 +61,7 @@
         </ul>
       </div>
       <div class="col-6 col-md-5 offset-md-1 mb-3">
-        <form>
+        <div>
           <?= $footer_title_html_raw ?>
           <p>
             <b>Neka svaki zalogaj bude bajka!</b>
@@ -73,7 +73,7 @@
           <p class="mb-0">
             <small>Telefonske porudžbine isključivo je moguće platiti u gotovini.</small>
           </p>
-        </form>
+        </div>
       </div>
     </div>
     <div class="d-flex flex-column flex-sm-row justify-content-between py-2 border-top">
