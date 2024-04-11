@@ -40,10 +40,10 @@
             <a href="/#cover" class="nav-link p-0">Online poručivanje</a>
           </li>
           <li class="nav-item mb-2">
-            <a href="/politika-privatnosti.html" class="nav-link p-0">Politika privatnosti</a>
+            <a href="/politika-privatnosti" class="nav-link p-0">Politika privatnosti</a>
           </li>
           <li class="nav-item mb-2">
-            <a href="/uslovi-koriscenja.html" class="nav-link p-0">Uslovi korišćenja</a>
+            <a href="/uslovi-koriscenja" class="nav-link p-0">Uslovi korišćenja</a>
           </li>
         </ul>
       </div>
