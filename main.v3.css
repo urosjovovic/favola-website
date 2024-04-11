@@ -100,10 +100,7 @@ img {
    text-align: center;
    margin-bottom:0 ;
   }
-.dodaci p {
-    margin-top: 0;
-    text-align: center;
-}
+
 .dodatak {
     white-space: nowrap;;
 }
@@ -294,4 +291,10 @@ footer{
 
 .footer-wrapper a,li {
     color: #FFF;
+}
+
+footer h2 {
+    text-decoration: underline;
+    text-underline-offset: 4px;
+
 }

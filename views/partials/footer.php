@@ -2,7 +2,7 @@
   <footer class="container py-2">
     <div class="row">
       <div class="col-6 col-md-2 mb-3">
-        <h2>Meni</h2>
+        <h2 class="h4">Meni</h2>
         <ul class="nav flex-column">
           <li class="nav-item mb-2">
             <a href="/#pice" class="nav-link p-0">Pice</a>
@@ -28,7 +28,7 @@
         </ul>
       </div>
       <div class="col-6 col-md-2 mb-3">
-        <h2>Opšte</h2>
+        <h2 class="h4">Opšte</h2>
         <ul class="nav flex-column">
           <li class="nav-item mb-2">
             <a href="/#zone" class="nav-link p-0">Lokacija</a>
@@ -47,8 +47,9 @@
           </li>
         </ul>
       </div>
+      <!--
       <div class="col-6 col-md-2 mb-3">
-        <h2>Podaci</h2>
+        <h2 class="h4">Podaci</h2>
         <ul class="nav flex-column">
           <li class="nav-item mb-2">
           <li>Naziv firme:_</li>
@@ -60,13 +61,14 @@
           <li>Adresa firme:_</li>
         </ul>
       </div>
-      <div class="col-6 col-md-5 offset-md-1 mb-3">
+-->
+      <div class="col-6 col-md-5 offset-md-3 mb-3">
         <div>
           <?= $footer_title_html_raw ?>
           <p>
             <b>Neka svaki zalogaj bude bajka!</b>
           </p>
-          <p>Gladan si? Poruči iz picerije Favola i dobijaš dostavu u 35 minuta! Uživaj u bajkovitim zalogajima pica, tortilja, palačinki i mnogih drugih proizvoda.</p>
+          <p>Gladni ste? Poručite iz picerije Favola i dobijate dostavu do 35 minuta! Uživaćete u bajkovitim zalogajima italijanske kuhinje. Pice, tortilje, piroške, palačinke, obroci pružiće Vam raznovrsnost ukusa, užitak i nezaboravno iskustvo.</p>
           <p class="mb-0">
             <small>Plaćanje karticom je moguće isključivo pri onlajn porudžbinama.</small>
           </p>
@@ -83,7 +85,7 @@
       </div>
       <div class="footerbottom flex-grow-1 flex-basis-0">
         <div class="text-center">
-          <div class="socialIcons justify-content-md-end justify-content-center">
+          <div class="socialIcons justify-content-md-end justify-content-center d-flex">
             <a href="" aria-label="facebook">
               <i class="fa-brands fa-facebook"></i>
             </a>
