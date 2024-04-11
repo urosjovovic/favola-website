@@ -1,5 +1,5 @@
 <div class="w-100 footer-wrapper">
-  <footer class="container px-0 py-2">
+  <footer class="container py-2">
     <div class="row">
       <div class="col-6 col-md-2 mb-3">
         <h2>Meni</h2>
