@@ -62,7 +62,7 @@
         </ul>
       </div>
 -->
-      <div class="col-6 col-md-5 offset-md-3 mb-3">
+      <div class="col-12 col-md-5 offset-md-3 mb-3">
         <div>
           <?= $footer_title_html_raw ?>
           <p>
