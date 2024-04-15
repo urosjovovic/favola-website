@@ -146,7 +146,7 @@ require 'views/partials/header.php';
         <div class="card-body">
           <h3 class="card-title h4">Favola Specijal</h3>
           <p class="card-text">24/32/42cm</p>
-          <p class="card-text"> 810/1360/1850din.</p>
+          <p class="card-text"> 810/1360/1850 din.</p>
           <div class="accordion border-0">
             <div class="accordion-item border-0">
               <button class="accordion-button collapsed p-0 w-auto border-0" type="button" data-bs-toggle="collapse" data-bs-target="#pice-favola-sastav">
@@ -164,7 +164,7 @@ require 'views/partials/header.php';
         <div class="card-body">
           <h3 class="card-title h4">Srbijana</h3>
           <p class="card-text">24/32/42cm</p>
-          <p class="card-text">830/1390/1890din.</p>
+          <p class="card-text">830/1390/1890 din.</p>
           <div class="accordion border-0">
             <div class="accordion-item border-0">
               <button class="accordion-button collapsed p-0 w-auto border-0" type="button" data-bs-toggle="collapse" data-bs-target="#pice-srbijana-sastav">
@@ -182,7 +182,7 @@ require 'views/partials/header.php';
         <div class="card-body">
           <h3 class="card-title h4">Pršuta</h3>
           <p class="card-text">24/32/42cm</p>
-          <p class="card-text">800/1250/1650din.</p>
+          <p class="card-text">800/1250/1650 din.</p>
           <div class="accordion border-0">
             <div class="accordion-item border-0">
               <button class="accordion-button collapsed p-0 w-auto border-0" type="button" data-bs-toggle="collapse" data-bs-target="#pice-prsuta-sastav">
@@ -200,7 +200,7 @@ require 'views/partials/header.php';
         <div class="card-body">
           <h3 class="card-title h4">Pikante</h3>
           <p class="card-text">24/32/42cm</p>
-          <p class="card-text">700/1110/1450din.</p>
+          <p class="card-text">700/1110/1450 din.</p>
           <div class="accordion border-0">
             <div class="accordion-item border-0">
               <button class="accordion-button collapsed p-0 w-auto border-0" type="button" data-bs-toggle="collapse" data-bs-target="#pice-pikanta-sastav">
@@ -218,7 +218,7 @@ require 'views/partials/header.php';
         <div class="card-body">
           <h3 class="card-title h4">Quattro Formaggi</h3>
           <p class="card-text">24/32/42cm</p>
-          <p class="card-text">680/1090/1440din.</p>
+          <p class="card-text">680/1090/1440 din.</p>
           <div class="accordion border-0">
             <div class="accordion-item border-0">
               <button class="accordion-button collapsed p-0 w-auto border-0" type="button" data-bs-toggle="collapse" data-bs-target="#pice-quattro-formaggi-sastav">
@@ -236,7 +236,7 @@ require 'views/partials/header.php';
         <div class="card-body">
           <h3 class="card-title h4">BBQ</h3>
           <p class="card-text">24/32/42cm</p>
-          <p class="card-text">680/1090/1440din.</p>
+          <p class="card-text">680/1090/1440 din.</p>
           <div class="accordion border-0">
             <div class="accordion-item border-0">
               <button class="accordion-button collapsed p-0 w-auto border-0" type="button" data-bs-toggle="collapse" data-bs-target="#pice-bbq-sastav">
@@ -260,7 +260,7 @@ require 'views/partials/header.php';
         <div class="card-body">
           <h3 class="card-title h4">Tortilja Šunka</h3>
           <p class="card-text">350g</p>
-          <p class="card-text">550din.</p>
+          <p class="card-text">550 din.</p>
           <div class="accordion border-0">
             <div class="accordion-item border-0">
               <button class="accordion-button collapsed p-0 w-auto border-0" type="button" data-bs-toggle="collapse" data-bs-target="#tortilje-sunka-sastav">
@@ -278,7 +278,7 @@ require 'views/partials/header.php';
         <div class="card-body">
           <h3 class="card-title h4">Tortilja Pečenica</h3>
           <p class="card-text">350g</p>
-          <p class="card-text">570din.</p>
+          <p class="card-text">570 din.</p>
           <div class="accordion border-0">
             <div class="accordion-item border-0">
               <button class="accordion-button collapsed p-0 w-auto border-0" type="button" data-bs-toggle="collapse" data-bs-target="#tortilje-pecenica-sastav">
@@ -296,7 +296,7 @@ require 'views/partials/header.php';
         <div class="card-body">
           <h3 class="card-title h4">Tortilja Kulen</h3>
           <p class="card-text">350g</p>
-          <p class="card-text">590din.</p>
+          <p class="card-text">590 din.</p>
           <div class="accordion border-0">
             <div class="accordion-item border-0">
               <button class="accordion-button collapsed p-0 w-auto border-0" type="button" data-bs-toggle="collapse" data-bs-target="#tortilje-kulen-sastav">
@@ -314,7 +314,7 @@ require 'views/partials/header.php';
         <div class="card-body">
           <h3 class="card-title h4">Tortilja Pršuta</h3>
           <p class="card-text">350g</p>
-          <p class="card-text">650din.</p>
+          <p class="card-text">650 din.</p>
           <div class="accordion border-0">
             <div class="accordion-item border-0">
               <button class="accordion-button collapsed p-0 w-auto border-0" type="button" data-bs-toggle="collapse" data-bs-target="#tortilje-prsuta-sastav">
@@ -332,7 +332,7 @@ require 'views/partials/header.php';
         <div class="card-body">
           <h3 class="card-title h4">Tortilja Dimljena Piletina</h3>
           <p class="card-text">350g</p>
-          <p class="card-text">5900din.</p>
+          <p class="card-text">5900 din.</p>
           <div class="accordion border-0">
             <div class="accordion-item border-0">
               <button class="accordion-button collapsed p-0 w-auto border-0" type="button" data-bs-toggle="collapse" data-bs-target="#tortilje-dimljena-piletina-sastav">
@@ -350,7 +350,7 @@ require 'views/partials/header.php';
         <div class="card-body">
           <h3 class="card-title h4">Hrskava Piletina</h3>
           <p class="card-text">350g</p>
-          <p class="card-text">630din.</p>
+          <p class="card-text">630 din.</p>
           <div class="accordion border-0">
             <div class="accordion-item border-0">
               <button class="accordion-button collapsed p-0 w-auto border-0" type="button" data-bs-toggle="collapse" data-bs-target="#tortilje-dimljena-pilertina-sastav">
@@ -374,7 +374,7 @@ require 'views/partials/header.php';
         <div class="card-body">
           <h3 class="card-title h4">Italijanska Piroška</h3>
           <p class="card-text">400g</p>
-          <p class="card-text">710din.</p>
+          <p class="card-text">710 din.</p>
           <div class="accordion border-0">
             <div class="accordion-item border-0">
               <button class="accordion-button collapsed p-0 w-auto border-0" type="button" data-bs-toggle="collapse" data-bs-target="#piroska-italijanska-sastav">
@@ -392,7 +392,7 @@ require 'views/partials/header.php';
         <div class="card-body">
           <h3 class="card-title h4">Zlatiborska Piroška</h3>
           <p class="card-text">500g</p>
-          <p class="card-text">830din.</p>
+          <p class="card-text">830 din.</p>
           <div class="accordion border-0">
             <div class="accordion-item border-0">
               <button class="accordion-button collapsed p-0 w-auto border-0" type="button" data-bs-toggle="collapse" data-bs-target="#piroska-zlatiborska-sastav">
@@ -410,7 +410,7 @@ require 'views/partials/header.php';
         <div class="card-body">
           <h3 class="card-title h4">Pohovani Štapići</h3>
           <p class="card-text">550g</p>
-          <p class="card-text">780din.</p>
+          <p class="card-text">780 din.</p>
           <div class="accordion border-0">
             <div class="accordion-item border-0">
               <button class="accordion-button collapsed p-0 w-auto border-0" type="button" data-bs-toggle="collapse" data-bs-target="#obrok-stapici-sastav">
@@ -428,7 +428,7 @@ require 'views/partials/header.php';
         <div class="card-body">
           <h3 class="card-title h4">Pohovani Kačkavalj</h3>
           <p class="card-text">550g</p>
-          <p class="card-text">720din.</p>
+          <p class="card-text">720 din.</p>
           <div class="accordion border-0">
             <div class="accordion-item border-0">
               <button class="accordion-button collapsed p-0 w-auto border-0" type="button" data-bs-toggle="collapse" data-bs-target="#obrok-kackavalj-sastav">
@@ -452,7 +452,7 @@ require 'views/partials/header.php';
         <div class="card-body">
           <h3 class="card-title h4">Šunka</h3>
           <p class="card-text">330g</p>
-          <p class="card-text">410din.</p>
+          <p class="card-text">410 din.</p>
           <div class="accordion border-0">
             <div class="accordion-item border-0">
               <button class="accordion-button collapsed p-0 w-auto border-0" type="button" data-bs-toggle="collapse" data-bs-target="#sendvic-sunka-sastav">
@@ -470,7 +470,7 @@ require 'views/partials/header.php';
         <div class="card-body">
           <h3 class="card-title h4">Suvi Vrat</h3>
           <p class="card-text">330g</p>
-          <p class="card-text">430din.</p>
+          <p class="card-text">430 din.</p>
           <div class="accordion border-0">
             <div class="accordion-item border-0">
               <button class="accordion-button collapsed p-0 w-auto border-0" type="button" data-bs-toggle="collapse" data-bs-target="#sendvic-suvi-vrat-sastav">
@@ -488,7 +488,7 @@ require 'views/partials/header.php';
         <div class="card-body">
           <h3 class="card-title h4">Pečenica</h3>
           <p class="card-text">330g</p>
-          <p class="card-text">430din.</p>
+          <p class="card-text">430 din.</p>
           <div class="accordion border-0">
             <div class="accordion-item border-0">
               <button class="accordion-button collapsed p-0 w-auto border-0" type="button" data-bs-toggle="collapse" data-bs-target="#sendvic-pecenica-sastav">
@@ -506,7 +506,7 @@ require 'views/partials/header.php';
         <div class="card-body">
           <h3 class="card-title h4">Tuna</h3>
           <p class="card-text">330g</p>
-          <p class="card-text">470din.</p>
+          <p class="card-text">470 din.</p>
           <div class="accordion border-0">
             <div class="accordion-item border-0">
               <button class="accordion-button collapsed p-0 w-auto border-0" type="button" data-bs-toggle="collapse" data-bs-target="#sendvic-tuna-sastav">
@@ -524,7 +524,7 @@ require 'views/partials/header.php';
         <div class="card-body">
           <h3 class="card-title h4">Kulen</h3>
           <p class="card-text">330g</p>
-          <p class="card-text">470din.</p>
+          <p class="card-text">470 din.</p>
           <div class="accordion border-0">
             <div class="accordion-item border-0">
               <button class="accordion-button collapsed p-0 w-auto border-0" type="button" data-bs-toggle="collapse" data-bs-target="#sendvic-kulen-sastav">
@@ -542,7 +542,7 @@ require 'views/partials/header.php';
         <div class="card-body">
           <h3 class="card-title h4">Pršuta</h3>
           <p class="card-text">330g</p>
-          <p class="card-text">510din.</p>
+          <p class="card-text">510 din.</p>
           <div class="accordion border-0">
             <div class="accordion-item border-0">
               <button class="accordion-button collapsed p-0 w-auto border-0" type="button" data-bs-toggle="collapse" data-bs-target="#sendvic-prsuta-sastav">
@@ -566,7 +566,7 @@ require 'views/partials/header.php';
         <div class="card-body">
           <h3 class="card-title h4">Slana Palačinka Šunka</h3>
           <p class="card-text">300g</p>
-          <p class="card-text">370din.</p>
+          <p class="card-text">370 din.</p>
           <div class="accordion border-0">
             <div class="accordion-item border-0">
               <button class="accordion-button collapsed p-0 w-auto border-0" type="button" data-bs-toggle="collapse" data-bs-target="#slane_palacinke/palacinka-sunka-sastav">
@@ -584,7 +584,7 @@ require 'views/partials/header.php';
         <div class="card-body">
           <h3 class="card-title h4">Slana Palačinka Kulen</h3>
           <p class="card-text">300g</p>
-          <p class="card-text">400din.</p>
+          <p class="card-text">400 din.</p>
           <div class="accordion border-0">
             <div class="accordion-item border-0">
               <button class="accordion-button collapsed p-0 w-auto border-0" type="button" data-bs-toggle="collapse" data-bs-target="#slane_palacinke/palacinka-kulen-sastav">
@@ -602,7 +602,7 @@ require 'views/partials/header.php';
         <div class="card-body">
           <h3 class="card-title h4">Slana Palačinka Pečenica</h3>
           <p class="card-text">300g</p>
-          <p class="card-text">400din.</p>
+          <p class="card-text">400 din.</p>
           <div class="accordion border-0">
             <div class="accordion-item border-0">
               <button class="accordion-button collapsed p-0 w-auto border-0" type="button" data-bs-toggle="collapse" data-bs-target="#slane_palacinke/palacinka-pecenica-sastav">
@@ -626,7 +626,7 @@ require 'views/partials/header.php';
         <div class="card-body">
           <h3 class="card-title h4">Eurokrem</h3>
           <p class="card-text">300g</p>
-          <p class="card-text">300din.</p>
+          <p class="card-text">300 din.</p>
           <div class="accordion border-0">
             <div class="accordion-item border-0">
               <button class="accordion-button collapsed p-0 w-auto border-0" type="button" data-bs-toggle="collapse" data-bs-target="#slatke_palacinke/eurokrem-sastav">
@@ -644,7 +644,7 @@ require 'views/partials/header.php';
         <div class="card-body">
           <h3 class="card-title h4">Nutela</h3>
           <p class="card-text">300g</p>
-          <p class="card-text">310din.</p>
+          <p class="card-text">310 din.</p>
           <div class="accordion border-0">
             <div class="accordion-item border-0">
               <button class="accordion-button collapsed p-0 w-auto border-0" type="button" data-bs-toggle="collapse" data-bs-target="#slatke_palacinke/nutela-sastav">
@@ -662,7 +662,7 @@ require 'views/partials/header.php';
         <div class="card-body">
           <h3 class="card-title h4">Bounty</h3>
           <p class="card-text">350g</p>
-          <p class="card-text">380din.</p>
+          <p class="card-text">380 din.</p>
           <div class="accordion border-0">
             <div class="accordion-item border-0">
               <button class="accordion-button collapsed p-0 w-auto border-0" type="button" data-bs-toggle="collapse" data-bs-target="#slatke_palacinke/baunti-sastav">
@@ -680,7 +680,7 @@ require 'views/partials/header.php';
         <div class="card-body">
           <h3 class="card-title h4">Mars</h3>
           <p class="card-text">300g</p>
-          <p class="card-text">380din.</p>
+          <p class="card-text">380 din.</p>
           <div class="accordion border-0">
             <div class="accordion-item border-0">
               <button class="accordion-button collapsed p-0 w-auto border-0" type="button" data-bs-toggle="collapse" data-bs-target="#slatke_palacinke/mars-sastav">
@@ -698,7 +698,7 @@ require 'views/partials/header.php';
         <div class="card-body">
           <h3 class="card-title h4">Milka</h3>
           <p class="card-text">300g</p>
-          <p class="card-text">400din.</p>
+          <p class="card-text">400 din.</p>
           <div class="accordion border-0">
             <div class="accordion-item border-0">
               <button class="accordion-button collapsed p-0 w-auto border-0" type="button" data-bs-toggle="collapse" data-bs-target="#slatke_palacinke/milka-sastav">
@@ -716,7 +716,7 @@ require 'views/partials/header.php';
         <div class="card-body">
           <h3 class="card-title h4">Kinder</h3>
           <p class="card-text">300g</p>
-          <p class="card-text">400din.</p>
+          <p class="card-text">400 din.</p>
           <div class="accordion border-0">
             <div class="accordion-item border-0">
               <button class="accordion-button collapsed p-0 w-auto border-0" type="button" data-bs-toggle="collapse" data-bs-target="#slatke_palacinke/kinder-sastav">
@@ -734,7 +734,7 @@ require 'views/partials/header.php';
         <div class="card-body">
           <h3 class="card-title h4">Snikers</h3>
           <p class="card-text">300g</p>
-          <p class="card-text">400din.</p>
+          <p class="card-text">400 din.</p>
           <div class="accordion border-0">
             <div class="accordion-item border-0">
               <button class="accordion-button collapsed p-0 w-auto border-0" type="button" data-bs-toggle="collapse" data-bs-target="#slatke_palacinke/snikers-sastav">
@@ -752,7 +752,7 @@ require 'views/partials/header.php';
         <div class="card-body">
           <h3 class="card-title h4">Oreo</h3>
           <p class="card-text">350g</p>
-          <p class="card-text">400din.</p>
+          <p class="card-text">400 din.</p>
           <div class="accordion border-0">
             <div class="accordion-item border-0">
               <button class="accordion-button collapsed p-0 w-auto border-0" type="button" data-bs-toggle="collapse" data-bs-target="#palacinke/oreo-sastav">
@@ -770,7 +770,7 @@ require 'views/partials/header.php';
         <div class="card-body">
           <h3 class="card-title h4">Med</h3>
           <p class="card-text">300g</p>
-          <p class="card-text">290din.</p>
+          <p class="card-text">290 din.</p>
           <div class="accordion border-0">
             <div class="accordion-item border-0">
               <button class="accordion-button collapsed p-0 w-auto border-0" type="button" data-bs-toggle="collapse" data-bs-target="#slatke_palacinke/med-sastav">
@@ -788,7 +788,7 @@ require 'views/partials/header.php';
         <div class="card-body">
           <h3 class="card-title h4">Džem</h3>
           <p class="card-text">300g</p>
-          <p class="card-text">280din.</p>
+          <p class="card-text">280 din.</p>
           <div class="accordion border-0">
             <div class="accordion-item border-0">
               <button class="accordion-button collapsed p-0 w-auto border-0" type="button" data-bs-toggle="collapse" data-bs-target="#slatke_palacinke/dzem-sastav">
@@ -806,7 +806,7 @@ require 'views/partials/header.php';
         <div class="card-body">
           <h3 class="card-title h4">Šećer</h3>
           <p class="card-text">350g</p>
-          <p class="card-text">180din.</p>
+          <p class="card-text">180 din.</p>
           <div class="accordion border-0">
             <div class="accordion-item border-0">
               <button class="accordion-button collapsed p-0 w-auto border-0" type="button" data-bs-toggle="collapse" data-bs-target="#slatke_palacinke/secer-sastav">
@@ -865,7 +865,7 @@ require 'views/partials/header.php';
           <div class="card-body">
             <h3 class="card-title h4">Pomfrit</h3>
             <p class="card-text">250g</p>
-            <p class="card-text">300din.</p>
+            <p class="card-text">300 din.</p>
             <div class="accordion border-0">
               <div class="accordion-item border-0">
                 <button class="accordion-button collapsed p-0 w-auto border-0" type="button" data-bs-toggle="collapse" data-bs-target="#pomfrit-sastav">
@@ -889,52 +889,52 @@ require 'views/partials/header.php';
             <tr>
               <td>Plazma u mleku</td>
               <td>50g</td>
-              <td>120din.</td>
+              <td>120 din.</td>
             </tr>
             <tr>
               <td>Lešnik</td>
               <td>30g</td>
-              <td>90din.</td>
+              <td>90 din.</td>
             </tr>
             <tr>
               <td>Orah</td>
               <td>30g</td>
-              <td>90din.</td>
+              <td>90 din.</td>
             </tr>
             <tr>
               <td>Malina</td>
               <td>50g</td>
-              <td>90din.</td>
+              <td>90 din.</td>
             </tr>
             <tr>
               <td>Višnja</td>
               <td>50g</td>
-              <td>90din.</td>
+              <td>90 din.</td>
             </tr>
             <tr>
               <td>Banana</td>
               <td>50g</td>
-              <td>90din.</td>
+              <td>90 din.</td>
             </tr>
             <tr>
               <td>Šlag</td>
               <td></td>
-              <td>90din.</td>
+              <td>90 din.</td>
             </tr>
             <tr>
               <td>Plazma</td>
               <td>30g</td>
-              <td>80din.</td>
+              <td>80 din.</td>
             </tr>
             <tr>
               <td>Kokos</td>
               <td>30g</td>
-              <td>80din.</td>
+              <td>80 din.</td>
             </tr>
             <tr>
               <td>Kikiriki</td>
               <td>30g</td>
-              <td>80din.</td>
+              <td>80 din.</td>
             </tr>
           </tbody>
         </table>
@@ -952,7 +952,7 @@ require 'views/partials/header.php';
         <div class="card-body">
           <h3 class="card-title h4">Rosa Voda</h3>
           <p class="card-text">0.5l</p>
-          <p class="card-text">130din.</p>
+          <p class="card-text">130 din.</p>
         </div>
       </div>
     </div>
@@ -972,7 +972,7 @@ require 'views/partials/header.php';
         <div class="card-body">
           <h3 class="card-title h4">Coca-Cola Zero</h3>
           <p class="card-text">0.33l</p>
-          <p class="card-text">180din.</p>
+          <p class="card-text">180 din.</p>
         </div>
       </div>
     </div>
@@ -982,7 +982,7 @@ require 'views/partials/header.php';
         <div class="card-body">
           <h3 class="card-title h4">Fanta</h3>
           <p class="card-text">0.33l</p>
-          <p class="card-text">180din.</p>
+          <p class="card-text">180 din.</p>
         </div>
       </div>
     </div>
@@ -992,7 +992,7 @@ require 'views/partials/header.php';
         <div class="card-body">
           <h3 class="card-title h4">Ultra Energy</h3>
           <p class="card-text">0.25l</p>
-          <p class="card-text">200din.</p>
+          <p class="card-text">200 din.</p>
         </div>
       </div>
     </div>
