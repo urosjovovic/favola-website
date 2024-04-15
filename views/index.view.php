@@ -16,7 +16,7 @@ require 'views/partials/header.php';
     </div>
     <div class="col-6 col-md-3">
       <div class="card">
-        <img loading="lazy" src="images/pice/margarita.jpg" class="card-img-top" alt="...">
+        <img src="images/pice/margarita.jpg" class="card-img-top" alt="...">
         <div class="card-body">
           <h3 class="card-title h4">Margherita</h3>
           <p class="card-text">24/32/42cm</p>
@@ -34,7 +34,7 @@ require 'views/partials/header.php';
     </div>
     <div class="col-6 col-md-3">
       <div class="card">
-        <img loading="lazy" src="images/pice/vesuvio.jpg" class="card-img-top" alt="...">
+        <img src="images/pice/vesuvio.jpg" class="card-img-top" alt="...">
         <div class="card-body">
           <h3 class="card-title h4">Vesuvio</h3>
           <p class="card-text">24/32/42cm</p>
@@ -52,7 +52,7 @@ require 'views/partials/header.php';
     </div>
     <div class="col-6 col-md-3">
       <div class="card">
-        <img loading="lazy" src="images/pice/fungi.jpg" class="card-img-top" alt="...">
+        <img src="images/pice/fungi.jpg" class="card-img-top" alt="...">
         <div class="card-body">
           <h3 class="card-title h4">Funghi</h3>
           <p class="card-text">24/32/42cm</p>
