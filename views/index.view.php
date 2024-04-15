@@ -34,7 +34,7 @@ require 'views/partials/header.php';
     </div>
     <div class="col-6 col-md-3">
       <div class="card">
-        <img loading="lazy" src="images/pice/vesuvio.JPG" class="card-img-top" alt="...">
+        <img loading="lazy" src="images/pice/vesuvio.jpg" class="card-img-top" alt="...">
         <div class="card-body">
           <h3 class="card-title h4">Vesuvio</h3>
           <p class="card-text">24/32/42cm</p>
@@ -70,7 +70,7 @@ require 'views/partials/header.php';
     </div>
     <div class="col-6 col-md-3">
       <div class="card">
-        <img loading="lazy" src="images/pice/capricciosa.JPG" class="card-img-top" alt="...">
+        <img loading="lazy" src="images/pice/capricciosa.jpg" class="card-img-top" alt="...">
         <div class="card-body">
           <h3 class="card-title h4">Capricciosa</h3>
           <p class="card-text">24/32/42cm</p>
@@ -106,7 +106,7 @@ require 'views/partials/header.php';
     </div>
     <div class="col-6 col-md-3">
       <div class="card">
-        <img loading="lazy" src="images/pice/peperoni.JPG" class="card-img-top" alt="...">
+        <img loading="lazy" src="images/pice/peperoni.jpg" class="card-img-top" alt="...">
         <div class="card-body">
           <h3 class="card-title h4">Peperoni</h3>
           <p class="card-text">24/32/42cm</p>
@@ -124,7 +124,7 @@ require 'views/partials/header.php';
     </div>
     <div class="col-6 col-md-3">
       <div class="card">
-        <img loading="lazy" src="images/pice/tuna.JPG" class="card-img-top" alt="...">
+        <img loading="lazy" src="images/pice/tuna.jpg" class="card-img-top" alt="...">
         <div class="card-body">
           <h3 class="card-title h4">Tuna</h3>
           <p class="card-text">24/32/42cm</p>
@@ -142,7 +142,7 @@ require 'views/partials/header.php';
     </div>
     <div class="col-6 col-md-3">
       <div class="card">
-        <img loading="lazy" src="images/pice/favola.JPG" class="card-img-top" alt="...">
+        <img loading="lazy" src="images/pice/favola.jpg" class="card-img-top" alt="...">
         <div class="card-body">
           <h3 class="card-title h4">Favola Specijal</h3>
           <p class="card-text">24/32/42cm</p>
@@ -256,7 +256,7 @@ require 'views/partials/header.php';
     </div>
     <div class="col-6 col-md-3">
       <div class="card">
-        <img loading="lazy" src="images/tortilje/tortilja-sunka.JPG" class="card-img-top" alt="...">
+        <img loading="lazy" src="images/tortilje/tortilja-sunka.jpg" class="card-img-top" alt="...">
         <div class="card-body">
           <h3 class="card-title h4">Tortilja Šunka</h3>
           <p class="card-text">350g</p>
@@ -274,7 +274,7 @@ require 'views/partials/header.php';
     </div>
     <div class="col-6 col-md-3">
       <div class="card">
-        <img loading="lazy" src="images/tortilje/tortilja-pecenica.JPG" class="card-img-top" alt="...">
+        <img loading="lazy" src="images/tortilje/tortilja-pecenica.jpg" class="card-img-top" alt="...">
         <div class="card-body">
           <h3 class="card-title h4">Tortilja Pečenica</h3>
           <p class="card-text">350g</p>
@@ -370,7 +370,7 @@ require 'views/partials/header.php';
     </div>
     <div class="col-6 col-md-3">
       <div class="card">
-        <img loading="lazy" src="images/piroske/piroska-italijanska.JPG" class="card-img-top" alt="...">
+        <img loading="lazy" src="images/piroske/piroska-italijanska.jpg" class="card-img-top" alt="...">
         <div class="card-body">
           <h3 class="card-title h4">Italijanska Piroška</h3>
           <p class="card-text">400g</p>
@@ -388,7 +388,7 @@ require 'views/partials/header.php';
     </div>
     <div class="col-6 col-md-3">
       <div class="card">
-        <img loading="lazy" src="images/piroske/piroska-zlatiborska.JPG" class="card-img-top" alt="...">
+        <img loading="lazy" src="images/piroske/piroska-zlatiborska.jpg" class="card-img-top" alt="...">
         <div class="card-body">
           <h3 class="card-title h4">Zlatiborska Piroška</h3>
           <p class="card-text">500g</p>
@@ -448,7 +448,7 @@ require 'views/partials/header.php';
     </div>
     <div class="col-6 col-md-3">
       <div class="card">
-        <img loading="lazy" src="images/sendvici/sendvic-sunka.JPG" class="card-img-top" alt="...">
+        <img loading="lazy" src="images/sendvici/sendvic-sunka.jpg" class="card-img-top" alt="...">
         <div class="card-body">
           <h3 class="card-title h4">Šunka</h3>
           <p class="card-text">330g</p>
@@ -466,7 +466,7 @@ require 'views/partials/header.php';
     </div>
     <div class="col-6 col-md-3">
       <div class="card">
-        <img loading="lazy" src="images/sendvici/sendvic-svinjski vrat.JPG" class="card-img-top" alt="...">
+        <img loading="lazy" src="images/sendvici/sendvic-svinjski vrat.jpg" class="card-img-top" alt="...">
         <div class="card-body">
           <h3 class="card-title h4">Suvi Vrat</h3>
           <p class="card-text">330g</p>
@@ -484,7 +484,7 @@ require 'views/partials/header.php';
     </div>
     <div class="col-6 col-md-3">
       <div class="card">
-        <img loading="lazy" src="images/sendvici/sendvic-pecenica.JPG" class="card-img-top" alt="...">
+        <img loading="lazy" src="images/sendvici/sendvic-pecenica.jpg" class="card-img-top" alt="...">
         <div class="card-body">
           <h3 class="card-title h4">Pečenica</h3>
           <p class="card-text">330g</p>
@@ -502,7 +502,7 @@ require 'views/partials/header.php';
     </div>
     <div class="col-6 col-md-3">
       <div class="card">
-        <img loading="lazy" src="images/sendvici/sendvic-tuna.JPG" class="card-img-top" alt="...">
+        <img loading="lazy" src="images/sendvici/sendvic-tuna.jpg" class="card-img-top" alt="...">
         <div class="card-body">
           <h3 class="card-title h4">Tuna</h3>
           <p class="card-text">330g</p>
@@ -520,7 +520,7 @@ require 'views/partials/header.php';
     </div>
     <div class="col-6 col-md-3">
       <div class="card">
-        <img loading="lazy" src="images/sendvici/sendvic-kulen.JPG" class="card-img-top" alt="...">
+        <img loading="lazy" src="images/sendvici/sendvic-kulen.jpg" class="card-img-top" alt="...">
         <div class="card-body">
           <h3 class="card-title h4">Kulen</h3>
           <p class="card-text">330g</p>
@@ -538,7 +538,7 @@ require 'views/partials/header.php';
     </div>
     <div class="col-6 col-md-3">
       <div class="card">
-        <img loading="lazy" src="images/sendvici/sendvic-prsuta.JPG" class="card-img-top" alt="...">
+        <img loading="lazy" src="images/sendvici/sendvic-prsuta.jpg" class="card-img-top" alt="...">
         <div class="card-body">
           <h3 class="card-title h4">Pršuta</h3>
           <p class="card-text">330g</p>
@@ -562,7 +562,7 @@ require 'views/partials/header.php';
     </div>
     <div class="col-6 col-md-3">
       <div class="card">
-        <img loading="lazy" src="images/slane_palacinke/palacinka-sunka.JPG" class="card-img-top" alt="...">
+        <img loading="lazy" src="images/slane_palacinke/palacinka-sunka.jpg" class="card-img-top" alt="...">
         <div class="card-body">
           <h3 class="card-title h4">Slana Palačinka Šunka</h3>
           <p class="card-text">300g</p>
@@ -580,7 +580,7 @@ require 'views/partials/header.php';
     </div>
     <div class="col-6 col-md-3">
       <div class="card">
-        <img loading="lazy" src="images/slane_palacinke/palacinka-kulen.JPG" class="card-img-top" alt="...">
+        <img loading="lazy" src="images/slane_palacinke/palacinka-kulen.jpg" class="card-img-top" alt="...">
         <div class="card-body">
           <h3 class="card-title h4">Slana Palačinka Kulen</h3>
           <p class="card-text">300g</p>
@@ -598,7 +598,7 @@ require 'views/partials/header.php';
     </div>
     <div class="col-6 col-md-3">
       <div class="card">
-        <img loading="lazy" src="images/slane_palacinke/palacinka-pecenica.JPG" class="card-img-top" alt="...">
+        <img loading="lazy" src="images/slane_palacinke/palacinka-pecenica.jpg" class="card-img-top" alt="...">
         <div class="card-body">
           <h3 class="card-title h4">Slana Palačinka Pečenica</h3>
           <p class="card-text">300g</p>
@@ -622,7 +622,7 @@ require 'views/partials/header.php';
     </div>
     <div class="col-6 col-md-3">
       <div class="card">
-        <img loading="lazy" src="images/slatke_palacinke/eurokrem.JPG" class="card-img-top" alt="...">
+        <img loading="lazy" src="images/slatke_palacinke/eurokrem.jpg" class="card-img-top" alt="...">
         <div class="card-body">
           <h3 class="card-title h4">Eurokrem</h3>
           <p class="card-text">300g</p>
@@ -640,7 +640,7 @@ require 'views/partials/header.php';
     </div>
     <div class="col-6 col-md-3">
       <div class="card">
-        <img loading="lazy" src="images/slatke_palacinke/nutela.JPG" class="card-img-top" alt="...">
+        <img loading="lazy" src="images/slatke_palacinke/nutela.jpg" class="card-img-top" alt="...">
         <div class="card-body">
           <h3 class="card-title h4">Nutela</h3>
           <p class="card-text">300g</p>
@@ -676,7 +676,7 @@ require 'views/partials/header.php';
     </div>
     <div class="col-6 col-md-3">
       <div class="card">
-        <img loading="lazy" src="images/slatke_palacinke/mars.JPG" class="card-img-top" alt="...">
+        <img loading="lazy" src="images/slatke_palacinke/mars.jpg" class="card-img-top" alt="...">
         <div class="card-body">
           <h3 class="card-title h4">Mars</h3>
           <p class="card-text">300g</p>
@@ -694,7 +694,7 @@ require 'views/partials/header.php';
     </div>
     <div class="col-6 col-md-3">
       <div class="card">
-        <img loading="lazy" src="images/slatke_palacinke/milka.JPG" class="card-img-top" alt="...">
+        <img loading="lazy" src="images/slatke_palacinke/milka.jpg" class="card-img-top" alt="...">
         <div class="card-body">
           <h3 class="card-title h4">Milka</h3>
           <p class="card-text">300g</p>
@@ -712,7 +712,7 @@ require 'views/partials/header.php';
     </div>
     <div class="col-6 col-md-3">
       <div class="card">
-        <img loading="lazy" src="images/slatke_palacinke/kinder.JPG" class="card-img-top" alt="...">
+        <img loading="lazy" src="images/slatke_palacinke/kinder.jpg" class="card-img-top" alt="...">
         <div class="card-body">
           <h3 class="card-title h4">Kinder</h3>
           <p class="card-text">300g</p>
@@ -730,7 +730,7 @@ require 'views/partials/header.php';
     </div>
     <div class="col-6 col-md-3">
       <div class="card">
-        <img loading="lazy" src="images/slatke_palacinke/snikers.JPG" class="card-img-top" alt="...">
+        <img loading="lazy" src="images/slatke_palacinke/snikers.jpg" class="card-img-top" alt="...">
         <div class="card-body">
           <h3 class="card-title h4">Snikers</h3>
           <p class="card-text">300g</p>
@@ -748,7 +748,7 @@ require 'views/partials/header.php';
     </div>
     <div class="col-6 col-md-3">
       <div class="card">
-        <img loading="lazy" src="images/slatke_palacinke/oreo.JPG" class="card-img-top" alt="...">
+        <img loading="lazy" src="images/slatke_palacinke/oreo.jpg" class="card-img-top" alt="...">
         <div class="card-body">
           <h3 class="card-title h4">Oreo</h3>
           <p class="card-text">350g</p>
@@ -802,7 +802,7 @@ require 'views/partials/header.php';
     </div>
     <div class="col-6 col-md-3">
       <div class="card">
-        <img loading="lazy" src="images/slatke_palacinke/secer.JPG" class="card-img-top" alt="...">
+        <img loading="lazy" src="images/slatke_palacinke/secer.jpg" class="card-img-top" alt="...">
         <div class="card-body">
           <h3 class="card-title h4">Šećer</h3>
           <p class="card-text">350g</p>
