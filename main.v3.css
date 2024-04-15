@@ -1,5 +1,6 @@
 :root {
     --primary-color: #4CAF50;
+    --secondary-color: #f00;
 }
 
 html{
@@ -69,11 +70,11 @@ img {
     min-height: 50px;
     width: 70vw;
     background-color: var(--primary-color);
-    color: white;
+    color: #fff;
     font-size: 16px;
     padding: 10px;
     background-color: var(--primary-color);
-    color: white;
+    color: #fff;
     border: none;
     border-radius: 5px;
     cursor: pointer;
@@ -111,7 +112,7 @@ img {
     flex: 1;
 }
 .navbar{
-    box-shadow: 0px 0px 11px 5px #349966;
+    box-shadow: 0px 0px 11px 5px var(--primary-color);
     position: fixed;
     top: 0;
     z-index: 100;
@@ -139,7 +140,7 @@ img {
 }
 
 .navbar .nav-item .free-dostava-btn {
-    background-color: #f00;
+    background-color: var(--secondary-color);
     border-radius: 0.5rem;
     color: #fff;
     align-self: center;
@@ -172,7 +173,7 @@ img {
 
 .navbar .call-to-action a {
     color: #fff;
-    background-color: #349966;
+    background-color:  var(--primary-color);
 }
 .navbar .call-to-action .radno-vreme {
     display: block;
@@ -231,8 +232,8 @@ footer{
 
 .zone .address a {
     text-decoration: underline;
-    text-decoration-color: black;
-    color: black;
+    text-decoration-color: #000;
+    color: #000;
 }
 
 .mobile-bottom-bar {
@@ -247,11 +248,11 @@ footer{
 }
 
 .mobile-bottom-bar .phone-icon {
-    color: #349966;
+    color: var(--primary-color);
 }
 
 .mobile-bottom-bar .location-icon {
-    color: #f00;
+    color:  var(--secondary-color);
 }
 
 .mobile-bottom-bar a {
@@ -273,7 +274,7 @@ footer{
 
 .socialIcons a i {
     font-size: 2em;
-    color: white;
+    color: #fff;
     opacity: 0.9;
 }
 
@@ -286,11 +287,11 @@ footer{
 }
 
 .footer-wrapper {
-    background-color: #349966;
+    background-color: var(--primary-color);
 }
 
 .footer-wrapper a,li {
-    color: #FFF;
+    color: #fff;
 }
 
 footer h2 {
