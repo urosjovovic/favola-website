@@ -4,7 +4,7 @@
       <img src="images/logo.svg" alt="Picerija Favola Logo" />
     </a>
     <h1 class="d-block d-md-none">Pizza Favola</h1>
-    <button class="navbar-toggler me-3 me-lg-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <button class="navbar-toggler me-3 me-lg-0" type="button" data-bs-toggle="collapse" data-bs-target="" aria-controls="" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarSupportedContent">

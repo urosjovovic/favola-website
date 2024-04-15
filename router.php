@@ -5,7 +5,8 @@ $uri = parse_url($_SERVER['REQUEST_URI'])['path'];
 $routes = [
      '/' => 'controllers/index.php',
      '/politika-privatnosti' => 'controllers/politika-privatnosti.php',
-     '/uslovi-koriscenja' =>'controllers/uslovi-koriscenja.php',
+     '/uslovi-koriscenja' => 'controllers/uslovi-koriscenja.php',
+     '/robots.txt'=> 'robots.txt',
 ];
 
 function routeToController ($uri, $routes) {
