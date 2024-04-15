@@ -22,7 +22,7 @@
     <link rel="preload" as="image" href="
 													<?= $preload_cover_image ?>" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="main.v3.css">
+    <link rel="stylesheet" type="text/css" href="main.v4.css">
     <link rel="icon" href="images/logo.svg">
     <link rel="icon" type="image/ico" sizes="16x16" rel="noopener" target="_blank" href="images/favicon-16x16.ico">
     <link rel="icon" type="image/ico" sizes="32x32" rel="noopener" target="_blank" href="images/favicon-32x32.ico">
