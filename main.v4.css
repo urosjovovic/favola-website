@@ -293,7 +293,7 @@ footer{
     background-color: var(--primary-color);
 }
 
-.footer-wrapper a,li {
+.footer-wrapper a, .footer-wrapper li {
     color: #fff;
 }
 
@@ -303,6 +303,6 @@ footer h2 {
 
 }
 
-.footer-wrapper a:hover, a:focus, a:active {
+.footer-wrapper a:hover,a:focus,a:active {
     color: #fff !important;
 }
