@@ -861,7 +861,7 @@ require 'views/partials/header.php';
           <h2 class="h1">Prilozi</h2>
         </div>
         <div class="card">
-          <img loading="lazy" src="images/prilozi/pomfrit.JPG" class="card-img-top" alt="...">
+          <img loading="lazy" src="images/prilozi/pomfrit.jpg" class="card-img-top" alt="...">
           <div class="card-body">
             <h3 class="card-title h4">Pomfrit</h3>
             <p class="card-text">250g</p>
