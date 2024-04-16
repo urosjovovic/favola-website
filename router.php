@@ -6,6 +6,7 @@ $routes = [
      '/' => 'controllers/index.controller.php',
      '/politika-privatnosti' => 'controllers/politika-privatnosti.controller.php',
      '/uslovi-koriscenja' => 'controllers/uslovi-koriscenja.controller.php',
+     '/poruci-online' => 'controllers/online-order.controller.php',
      '/robots.txt'=> 'robots.txt',
 ];
 
