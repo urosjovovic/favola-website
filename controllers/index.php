@@ -24,7 +24,6 @@ $image_path_array = [
     'pice-margarita' => 'images/pice/margarita/margarita',
     'pice-fungi' => 'images/pice/fungi/fungi',
     'pice-vesuvio' => 'controllers/uslovi-koriscenja.php',
-    '/robots.txt'=> 'robots.txt',
 ];
 
 require "views/index.view.php";
