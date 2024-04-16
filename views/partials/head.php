@@ -46,11 +46,6 @@
     <meta name="robots" content="noindex">
   </head>
   <body>
-    <script
-    id="CookieDeclaration"
-    src="https://consent.cookiebot.com/1edbc0d4-f57f-449f-a0a5-6ac8f6ae16a3/cd.js"
-    type="text/javascript">
-  </script>
     <!-- Google Tag Manager (noscript) -->
     <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TTKRW5P2"
     height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
