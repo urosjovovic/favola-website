@@ -40,7 +40,7 @@
     <meta name="theme-color" content="#ffffff">
     <link rel="manifest" href="manifest.json">
     <link rel="preload" as="style" href="assets/fontawesome-free-6-5-2-web/css/fontawesome.min.css" onload="this.rel='stylesheet'"/>
-    <!-- <link href="assets/fontawesome-free-6-5-2-web/css/brands.min.css" rel="stylesheet" /> -->
+    <link href="assets/fontawesome-free-6-5-2-web/css/brands.min.css" rel="stylesheet" />
     <link rel="preload" as="style" href="assets/fontawesome-free-6-5-2-web/css/solid.min.css" onload="this.rel='stylesheet'"/>
     <!-- OVO IZBRISATI KADA KRENE LIVE -->
     <meta name="robots" content="noindex">
