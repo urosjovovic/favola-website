@@ -3,9 +3,9 @@
 $uri = parse_url($_SERVER['REQUEST_URI'])['path'];
 
 $routes = [
-     '/' => 'controllers/index.php',
-     '/politika-privatnosti' => 'controllers/politika-privatnosti.php',
-     '/uslovi-koriscenja' => 'controllers/uslovi-koriscenja.php',
+     '/' => 'controllers/index.controller.php',
+     '/politika-privatnosti' => 'controllers/politika-privatnosti.controller.php',
+     '/uslovi-koriscenja' => 'controllers/uslovi-koriscenja.controller.php',
      '/robots.txt'=> 'robots.txt',
 ];
 
