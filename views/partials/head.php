@@ -46,6 +46,11 @@
     <meta name="robots" content="noindex">
   </head>
   <body>
+    <script
+    id="CookieDeclaration"
+    src="https://consent.cookiebot.com/00000000-0000-0000-0000-000000000000/cd.js"
+    type="text/javascript">
+  </script>
     <!-- Google Tag Manager (noscript) -->
     <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TTKRW5P2"
     height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
