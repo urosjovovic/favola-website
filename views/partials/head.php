@@ -48,7 +48,7 @@
   <body>
     <script
     id="CookieDeclaration"
-    src="https://consent.cookiebot.com/00000000-0000-0000-0000-000000000000/cd.js"
+    src="https://consent.cookiebot.com/1edbc0d4-f57f-449f-a0a5-6ac8f6ae16a3/cd.js"
     type="text/javascript">
   </script>
     <!-- Google Tag Manager (noscript) -->
