@@ -10,5 +10,21 @@ $og_description = "Gladni ste? Poručite iz picerije Favola i dobijate dostavu d
 $og_image_alt = "Razna hrana";
 $preload_cover_image = "";
 $footer_title_html_raw = "<h1> Favola Pizza</h1>";
+// $image_path_array = [
+//     'pice-margarita' => 'images/pice/margarita/margarita',
+//     'pice-fungi' => 'images/pice/fungi/fungi',
+// ];
+
+require 'helpers.php'; // assuming you have defined your function in helpers.php
+
+// $image_path_array = [
+//     'pice-margarita' => 'images/pice/margarita/margarita',
+// ];
+$image_path_array = [
+    'pice-margarita' => 'images/pice/margarita/margarita',
+    'pice-fungi' => 'images/pice/fungi/fungi',
+    'pice-vesuvio' => 'controllers/uslovi-koriscenja.php',
+    '/robots.txt'=> 'robots.txt',
+];
 
 require "views/index.view.php";

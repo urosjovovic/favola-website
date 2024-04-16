@@ -32,7 +32,12 @@ sizes="100vw"
     </div>
     <div class="col-6 col-md-3">
       <div class="card">
-        <img src="images/pice/margarita.jpg" class="card-img-top" alt="...">
+        <!-- <img src="images/pice/margarita.jpg"  -->
+        <img
+        <?php
+echo imageSrcSetMenuItem("pice-margarita", $image_path_array); // replace this with your actual function
+?>   
+        class="card-img-top" alt="...">
         <div class="card-body">
           <h3 class="card-title h4">Margherita</h3>
           <p class="card-text">24/32/42cm</p>
@@ -68,7 +73,11 @@ sizes="100vw"
     </div>
     <div class="col-6 col-md-3">
       <div class="card">
-        <img src="images/pice/fungi.jpg" class="card-img-top" alt="...">
+        <img 
+        <?php
+echo imageSrcSetMenuItem("pice-fungi", $image_path_array); // replace this with your actual function
+?>   
+        class="card-img-top" alt="...">
         <div class="card-body">
           <h3 class="card-title h4">Funghi</h3>
           <p class="card-text">24/32/42cm</p>
@@ -578,17 +587,17 @@ sizes="100vw"
     </div>
     <div class="col-6 col-md-3">
       <div class="card">
-        <img loading="lazy" src="images/slane_palacinke/palacinka-sunka.jpg" class="card-img-top" alt="...">
+        <img loading="lazy" src="images/slane-palacinke/palacinka-sunka.jpg" class="card-img-top" alt="...">
         <div class="card-body">
           <h3 class="card-title h4">Slana Palačinka Šunka</h3>
           <p class="card-text">300g</p>
           <p class="card-text">370 din.</p>
           <div class="accordion border-0">
             <div class="accordion-item border-0">
-              <button class="accordion-button collapsed p-0 w-auto border-0" type="button" data-bs-toggle="collapse" data-bs-target="#slane_palacinke/palacinka-sunka-sastav">
+              <button class="accordion-button collapsed p-0 w-auto border-0" type="button" data-bs-toggle="collapse" data-bs-target="#slane-palacinke/palacinka-sunka-sastav">
                 <b>Sastav</b>
               </button>
-              <div id="slane_palacinke/palacinka-sunka-sastav" class="accordion-collapse collapse border-0"> šunka, pavlaka, kačkavalj </div>
+              <div id="slane-palacinke/palacinka-sunka-sastav" class="accordion-collapse collapse border-0"> šunka, pavlaka, kačkavalj </div>
             </div>
           </div>
         </div>
@@ -596,17 +605,17 @@ sizes="100vw"
     </div>
     <div class="col-6 col-md-3">
       <div class="card">
-        <img loading="lazy" src="images/slane_palacinke/palacinka-kulen.jpg" class="card-img-top" alt="...">
+        <img loading="lazy" src="images/slane-palacinke/palacinka-kulen.jpg" class="card-img-top" alt="...">
         <div class="card-body">
           <h3 class="card-title h4">Slana Palačinka Kulen</h3>
           <p class="card-text">300g</p>
           <p class="card-text">400 din.</p>
           <div class="accordion border-0">
             <div class="accordion-item border-0">
-              <button class="accordion-button collapsed p-0 w-auto border-0" type="button" data-bs-toggle="collapse" data-bs-target="#slane_palacinke/palacinka-kulen-sastav">
+              <button class="accordion-button collapsed p-0 w-auto border-0" type="button" data-bs-toggle="collapse" data-bs-target="#slane-palacinke/palacinka-kulen-sastav">
                 <b>Sastav</b>
               </button>
-              <div id="slane_palacinke/palacinka-kulen-sastav" class="accordion-collapse collapse border-0"> kulen, pavlaka, kačkavalj </div>
+              <div id="slane-palacinke/palacinka-kulen-sastav" class="accordion-collapse collapse border-0"> kulen, pavlaka, kačkavalj </div>
             </div>
           </div>
         </div>
@@ -614,17 +623,17 @@ sizes="100vw"
     </div>
     <div class="col-6 col-md-3">
       <div class="card">
-        <img loading="lazy" src="images/slane_palacinke/palacinka-pecenica.jpg" class="card-img-top" alt="...">
+        <img loading="lazy" src="images/slane-palacinke/palacinka-pecenica.jpg" class="card-img-top" alt="...">
         <div class="card-body">
           <h3 class="card-title h4">Slana Palačinka Pečenica</h3>
           <p class="card-text">300g</p>
           <p class="card-text">400 din.</p>
           <div class="accordion border-0">
             <div class="accordion-item border-0">
-              <button class="accordion-button collapsed p-0 w-auto border-0" type="button" data-bs-toggle="collapse" data-bs-target="#slane_palacinke/palacinka-pecenica-sastav">
+              <button class="accordion-button collapsed p-0 w-auto border-0" type="button" data-bs-toggle="collapse" data-bs-target="#slane-palacinke/palacinka-pecenica-sastav">
                 <b>Sastav</b>
               </button>
-              <div id="slane_palacinke/palacinka-pecenica-sastav" class="accordion-collapse collapse border-0"> pečenica, pavlaka, kačkavalj </div>
+              <div id="slane-palacinke/palacinka-pecenica-sastav" class="accordion-collapse collapse border-0"> pečenica, pavlaka, kačkavalj </div>
             </div>
           </div>
         </div>
