@@ -35,7 +35,7 @@ sizes="100vw"
         <!-- <img src="images/pice/margarita.jpg"  -->
         <img
         <?php
-echo imageSrcSetMenuItem("pice-margarita", $image_path_array); // replace this with your actual function
+echo imageSrcSetMenuItem("tortilje-dimljena-piletina-sunka-i-pecenica-tortilja", $image_path_array); // replace this with your actual function
 ?>   
         class="card-img-top" alt="...">
         <div class="card-body">
