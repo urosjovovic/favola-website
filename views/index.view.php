@@ -384,7 +384,7 @@ echo imageSrcSetMenuItem("tortilje-tortilja-prsuta", $image_path_array); // repl
     <div class="col-6 col-md-3">
       <div class="card">
         <img loading="lazy" <?php
-echo imageSrcSetMenuItem("", $image_path_array); // replace this with your actual function
+echo imageSrcSetMenuItem("tortilje-dimljena-piletina-tortilja", $image_path_array); // replace this with your actual function
 ?> class="card-img-top" alt="...">
         <div class="card-body">
           <h3 class="card-title h4">Tortilja Dimljena Piletina</h3>
