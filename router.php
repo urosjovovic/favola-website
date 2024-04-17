@@ -8,6 +8,7 @@ $routes = [
      '/uslovi-koriscenja' => 'controllers/uslovi-koriscenja.controller.php',
      '/poruci-online' => 'controllers/online-order.controller.php',
      '/robots.txt'=> 'robots.txt',
+     '/obavestenje-o-privatnosti-online-porudzbine' => 'controllers/obavestenje-o-privatnosti-online-porudzbine.controller.php',
 ];
 
 function routeToController ($uri, $routes) {
