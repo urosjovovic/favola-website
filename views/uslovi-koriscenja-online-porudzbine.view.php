@@ -2,6 +2,7 @@
 
 require 'views/partials/head.php';
 require 'views/partials/header.php';
+ini_set('error_reporting', E_ALL);
 
 ?>
 <!-- Page content start -->
@@ -43,19 +44,6 @@ G. neizvršavanje obaveza od strane dobavljača ili podizvođača.
 5.	Izmene opštih uslova poslovanja
 LAZAR GVOZDENOVIĆ PR KETERING I UGOSTITELJSKE USLUGE GVOZDENOVIĆ BEOGRAD zadržava pravo da izmeni opšte uslove poslovanja. Bilo kakve promene u ovim uslovima će biti postavljene i objavljene na našoj veb stranici. Na Vas će biti primenljive odredbe o našem poslovanju koje su postavljene na našoj veb stranici u trenutku Vaše poružbine, osim u slučaju da neka izmena odredaba opštih uslova bude izvršena na osnovu zakona i/ili odluke nadležnog državnog organa.
 Korišćenje naših servisa podrazumeva saglasnost korisnika sa navedenim Uslovima korišćenja. LAZAR GVOZDENOVIĆ PR KETERING I UGOSTITELJSKE USLUGE GVOZDENOVIĆ BEOGRAD se obavezuje da će se pridržavati svega navedenog, a sve promene uslova postaju važeće tek nakon objavljivanja na ovoj strani.
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 GENERAL TERMS AND CONDITIONS OF PURCHASE THROUGH favola.rs
 
