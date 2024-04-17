@@ -5,8 +5,8 @@ require 'views/partials/header.php';
 
 ?>
 <!-- Page content start -->
-<h1 class="text-center py-5"> STIŽE USKORO! </h1>
-<!-- iframe od Mister D -->
+<iframe src="https://whitelabel.misterd.rs/favola-dostava?pp=%22www.favola.rs/obavestenje-o-privatnosti-online-porudzbine%22&tos=%22www.favola.rs/uslovi-koriscenja-online-porudzbine%22" 
+style="height:90vh; width: 90vw;"></iframe>
 <!-- Page content end -->
 
 <?php
