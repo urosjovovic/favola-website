@@ -43,7 +43,7 @@
     <link href="assets/fontawesome-free-6-5-2-web/css/brands.min.css" rel="stylesheet" />
     <link rel="preload" as="style" href="assets/fontawesome-free-6-5-2-web/css/solid.min.css" onload="this.rel='stylesheet'"/>
     <!-- OVO IZBRISATI KADA KRENE LIVE -->
-    <meta name="robots" content="noindex">
+    <!-- <meta name="robots" content="noindex"> -->
   </head>
   <body>
     <!-- Google Tag Manager (noscript) -->
