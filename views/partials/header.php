@@ -34,7 +34,7 @@
           <a class="nav-link" href="/#pica">Piće</a>
         </li>
         <li class="nav-item free-dostava-item">
-          <a class="nav-link free-dostava-btn d-md-block d-none" href="/#zone">FREE DOSTAVA</a>
+          <a class="nav-link free-dostava-btn d-md-block d-none" href="/#zone">DOSTAVA</a>
         </li>
       </ul>
       <div class="call-to-action d-none d-md-block">
@@ -86,7 +86,7 @@
           <a class="nav-link" href="/#pica">Piće</a>
         </li>
         <li class="nav-item free-dostava-item">
-          <a class="nav-link free-dostava-btn d-md-block d-none py-1" href="#zone">FREE DOSTAVA</a>
+          <a class="nav-link free-dostava-btn d-md-block d-none py-1" href="#zone">DOSTAVA</a>
         </li>
         <div class="d-md-none py-2 border-info border-top">
           <span>Telefon: <a class="ms-auto" href="tel:+381628950833">+38162 895 0833</a>
@@ -106,7 +106,7 @@
   <div class="w-100 text-center border-bottom border-1 text-muted">Plaćanje je moguće isključivo gotovinom</div>
   <div class="quick-info mx-3">
     <p class="besplatna-dostava my-0">
-      <b>BESPLATNA DOSTAVA</b>
+      <b>PORUČITE DOSTAVU</b>
     </p>
     <p class="radno-vreme my-0">Pon-Sub: 12:00-03:30h</p>
   </div>
