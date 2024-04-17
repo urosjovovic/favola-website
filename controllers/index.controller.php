@@ -68,6 +68,11 @@ $image_path_array = [
     'pice-srbijana' => 'images/proizvodi/pice/srbijana/srbijana',
     'piroske-piroska-zlatiborska' => 'images/proizvodi/piroske/piroska-zlatiborska/piroska-zlatiborska',
     'piroske-piroska-italijanska' => 'images/proizvodi/piroske/piroska-italijanska/piroska-italijanska',
+    'pica-ultra' => 'images/proizvodi/pica/ultra/ultra',
+    'pica-coca-cola' => 'images/proizvodi/pica/coca-cola/coca-cola',
+    'pica-cola-zero' => 'images/proizvodi/pica/cola-zero/cola-zero',
+    'pica-fanta' => 'images/proizvodi/pica/fanta/fanta',
+    'pica-rosa' => 'images/proizvodi/pica/rosa/rosa',
 ];
 
 require "views/index.view.php";

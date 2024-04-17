@@ -4,7 +4,7 @@ echo "\$image_path_array = ["
 
 # Use find to iterate over all files in the subdirectories of images/proizvodi/
 # and ignore hidden files (files starting with a dot)
-find images/proizvodi -type f ! -name '.*' | while read file; do
+find images/proizvodi/pica -type f ! -name '.*' | while read file; do
     # Extract the second-level parent directory name
     parent_folder=$(basename $(dirname $(dirname "$file")))
     
