@@ -8,6 +8,7 @@ $routes = [
      '/uslovi-koriscenja' => 'controllers/uslovi-koriscenja.controller.php',
      '/poruci-online' => 'controllers/online-order.controller.php',
      '/robots.txt'=> 'robots.txt',
+     '/sitemap.xml'=> 'sitemap.xml',
      '/obavestenje-o-privatnosti-online-porudzbine' => 'controllers/obavestenje-o-privatnosti-online-porudzbine.controller.php',
      '/uslovi-koriscenja-online-porudzbine' => 'controllers/uslovi-koriscenja-online-porudzbine.controller.php'
 ];
