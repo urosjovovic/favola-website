@@ -1,7 +1,6 @@
 <!-- <nav class="container-fluid navbar navbar-expand-md navbar-light bg-white p-0 invisible navbar-content-pusher">
   <div class="container p-0">
     <a class="navbar-brand p-0 pt-1 ms-3 ms-lg-0" href="/#">
-      <!-- <img loading="lazy" alt="Picerija Favola Logo" src="images/favola-header-logo.png"> -->
       <img src="images/logo.svg" alt="Picerija Favola Logo" />
     </a>
     <h1 class="d-block d-md-none me-3 mb-0">Pizerija Favola</h1>
