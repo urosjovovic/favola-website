@@ -35,7 +35,7 @@
           <a class="nav-link" href="/#pica">Piće</a>
         </li>
         <li class="nav-item free-dostava-item">
-          <a class="nav-link free-dostava-btn d-md-block d-none py-1" href="#zone">DOSTAVA</a>
+          <a class="nav-link free-dostava-btn d-md-block d-none py-1" href="/#zone">DOSTAVA</a>
         </li>
         <div class="d-md-none py-2 border-info border-top">
           <span>Telefon: <a class="ms-auto" href="tel:+381628950833">+38162 895 0833</a>
@@ -88,7 +88,7 @@
           <a class="nav-link" href="/#pica">Piće</a>
         </li>
         <li class="nav-item free-dostava-item">
-          <a class="nav-link free-dostava-btn d-md-block d-none py-1" href="#zone">DOSTAVA</a>
+          <a class="nav-link free-dostava-btn d-md-block d-none py-1" href="/#zone">DOSTAVA</a>
         </li>
         <div class="d-md-none py-2 border-info border-top">
           <span>Telefon: <a class="ms-auto" href="tel:+381628950833">+38162 895 0833</a>
