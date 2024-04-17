@@ -10,7 +10,7 @@ style="height:70vh; width: 100vw!important;"></iframe>
 <!-- Page content end -->
 <style>
     .navbar {
-        position: relative!important;
+        position: relative;
     }
 </style>
 <?php
