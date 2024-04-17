@@ -9,9 +9,10 @@ $routes = [
      '/poruci-online' => 'controllers/online-order.controller.php',
      '/robots.txt'=> 'robots.txt',
      '/obavestenje-o-privatnosti-online-porudzbine' => 'controllers/obavestenje-o-privatnosti-online-porudzbine.controller.php',
+     '/uslovi-koriscenja-online-porudzbine' => 'controllers/uslovi-koriscenja-online-porudzbine.controller.php'
 ];
 
-function routeToController ($uri, $routes) {
+function routeToController($uri, $routes) {
      if (array_key_exists($uri, $routes)) {
          require $routes[$uri];
      } else{
