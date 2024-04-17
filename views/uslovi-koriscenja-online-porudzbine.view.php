@@ -6,7 +6,7 @@ ini_set('error_reporting', E_ALL);
 
 ?>
 <!-- Page content start -->
-<div>
+<div class="container py-5">
 <h1>OPŠTI USLOVI KUPOVINE PREKO favola.rs </h1>
 
 <p>Poštovani potrošači,<br>

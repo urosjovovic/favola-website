@@ -5,7 +5,7 @@ require 'views/partials/header.php';
 
 ?>
 <!-- Page content start -->
-<div>
+<div class="container py-5">
 <h1>OBAVEŠTENJE O PRIVATNOSTI</h1>
 
 <h2>1.	Datum izdavanja Obaveštenja o privatnosti</h2>
