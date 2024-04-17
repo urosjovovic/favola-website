@@ -247,6 +247,7 @@ footer{
 .mobile-bottom-bar {
     height: auto;
     top: unset;
+    position: fixed !important;
 }
 
 .mobile-bottom-bar i {
