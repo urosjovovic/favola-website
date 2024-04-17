@@ -1057,7 +1057,9 @@ echo imageSrcSetMenuItem("prilozi-pomfrit", $image_path_array); // replace this 
     </div>
     <div class="col-6 col-md-3">
       <div class="card">
-        <img loading="lazy" src="images/pica/rosa.png" class="card-img-top" alt="...">
+        <img loading="lazy" <?php
+echo imageSrcSetMenuItem("pica-rosa", $image_path_array); // replace this with your actual function
+?>  class="card-img-top" alt="...">
         <div class="card-body">
           <h3 class="card-title h4">Rosa Voda</h3>
           <p class="card-text">0.5l</p>
@@ -1067,7 +1069,9 @@ echo imageSrcSetMenuItem("prilozi-pomfrit", $image_path_array); // replace this 
     </div>
     <div class="col-6 col-md-3">
       <div class="card">
-        <img loading="lazy" src="images/pica/coca-cola.png" class="card-img-top" alt="...">
+        <img loading="lazy" <?php
+echo imageSrcSetMenuItem("pica-coca-cola", $image_path_array); // replace this with your actual function
+?>  class="card-img-top" alt="...">
         <div class="card-body">
           <h3 class="card-title h4">Coca-Cola</h3>
           <p class="card-text">0.33l</p>
@@ -1077,7 +1081,9 @@ echo imageSrcSetMenuItem("prilozi-pomfrit", $image_path_array); // replace this 
     </div>
     <div class="col-6 col-md-3">
       <div class="card">
-        <img loading="lazy" src="images/pica/cola-zero.png" class="card-img-top" alt="...">
+        <img loading="lazy" <?php
+echo imageSrcSetMenuItem("pica-cola-zero", $image_path_array); // replace this with your actual function
+?>  class="card-img-top" alt="...">
         <div class="card-body">
           <h3 class="card-title h4">Coca-Cola Zero</h3>
           <p class="card-text">0.33l</p>
@@ -1087,7 +1093,9 @@ echo imageSrcSetMenuItem("prilozi-pomfrit", $image_path_array); // replace this 
     </div>
     <div class="col-6 col-md-3">
       <div class="card">
-        <img loading="lazy" src="images/pica/fanta.png" class="card-img-top" alt="...">
+        <img loading="lazy" <?php
+echo imageSrcSetMenuItem("pica-fanta", $image_path_array); // replace this with your actual function
+?>  class="card-img-top" alt="...">
         <div class="card-body">
           <h3 class="card-title h4">Fanta</h3>
           <p class="card-text">0.33l</p>
@@ -1097,7 +1105,9 @@ echo imageSrcSetMenuItem("prilozi-pomfrit", $image_path_array); // replace this 
     </div>
     <div class="col-6 col-md-3">
       <div class="card">
-        <img loading="lazy" src="images/pica/ultra.png" class="card-img-top" alt="...">
+        <img loading="lazy" <?php
+echo imageSrcSetMenuItem("pica-ultra", $image_path_array); // replace this with your actual function
+?>  class="card-img-top" alt="...">
         <div class="card-body">
           <h3 class="card-title h4">Ultra Energy</h3>
           <p class="card-text">0.25l</p>
