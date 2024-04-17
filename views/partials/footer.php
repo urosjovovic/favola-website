@@ -1,3 +1,4 @@
+</div>
 <div class="w-100 footer-wrapper">
   <footer class="container py-2">
     <div class="row">
