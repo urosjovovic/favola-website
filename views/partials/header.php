@@ -44,7 +44,7 @@
       <div class="d-md-none">
         <a class="ms-auto" href="tel:+381628950833">Telefon: +38162 895 0833</a>
         <span class="radno-vreme">Radno vreme - Pon-Sub: 12:00-03:30h</span>
-        <span class="radno-vreme">Adresa: Ljubićka 14, Beograd</span>
+        <span class="radno-vreme">Adresa: Ljubićka 11, Beograd</span>
       </div>
     </div>
   </div>
