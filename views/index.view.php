@@ -22,7 +22,7 @@ images/cover/cover-w2800.webp 2800w,
 images/cover/cover-w3200.webp 3200w"
 sizes="100vw"
   alt="Slika">
-  <button class="hero-image-button btn-lg" onclick="alert('Button Clicked!')">Poruci onlajn</button>
+  <a href="/poruci-online"><button class="hero-image-button btn-lg">Poruči onlajn</button></a>
 </div>
 <div class="container meni">
   <!-- Pice -->
