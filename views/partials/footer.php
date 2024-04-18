@@ -82,7 +82,7 @@
     <div class="d-flex flex-column flex-sm-row justify-content-between py-2 border-top">
       <div class="flex-grow-1 flex-basis-0 justify-content-md-start justify-content-center d-flex">© 2022 Company, Inc. All rights reserved.</div>
       <div class="text-center">
-        <p>Powerd by: @2023</p>
+        <p>Powerd by: <a href="www.profymedia.rs">www.profymedia.rs</a></p>
       </div>
       <div class="footerbottom flex-grow-1 flex-basis-0">
         <div class="text-center">
