@@ -90,7 +90,7 @@
             <a href="" aria-label="facebook">
               <i class="fa-brands fa-facebook"></i>
             </a>
-            <a href="#" aria-label="instagram">
+            <a href="https://www.instagram.com/pizzeria_favola_/" aria-label="instagram">
               <i class="fa-brands fa-instagram"></i>
             </a>
             <a href="#" aria-label="youtube">
