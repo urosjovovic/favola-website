@@ -37,7 +37,7 @@ sizes="100vw"
         <?php
 echo imageSrcSetMenuItem("pice-margarita", $image_path_array); // replace this with your actual function
 ?>   
-        class="card-img-top" alt="picamargherita">
+        class="card-img-top" alt="Pica Margherita">
         <div class="card-body">
           <h3 class="card-title h4">Margherita</h3>
           <p class="card-text">24/32/42cm</p>
@@ -57,7 +57,7 @@ echo imageSrcSetMenuItem("pice-margarita", $image_path_array); // replace this w
       <div class="card">
         <img <?php
 echo imageSrcSetMenuItem("pice-vesuvio", $image_path_array); // replace this with your actual function
-          ?>    class="card-img-top" alt="picavesuvio">
+          ?>    class="card-img-top" alt="Pica Vesuvio">
         <div class="card-body">
           <h3 class="card-title h4">Vesuvio</h3>
           <p class="card-text">24/32/42cm</p>
@@ -79,7 +79,7 @@ echo imageSrcSetMenuItem("pice-vesuvio", $image_path_array); // replace this wit
         <?php
 echo imageSrcSetMenuItem("pice-fungi", $image_path_array); // replace this with your actual function
 ?>   
-        class="card-img-top" alt="picafunghi">
+        class="card-img-top" alt="Pica Funghi">
         <div class="card-body">
           <h3 class="card-title h4">Funghi</h3>
           <p class="card-text">24/32/42cm</p>
@@ -99,7 +99,7 @@ echo imageSrcSetMenuItem("pice-fungi", $image_path_array); // replace this with 
       <div class="card">
         <img loading="lazy"         <?php
 echo imageSrcSetMenuItem("pice-capricciosa", $image_path_array); // replace this with your actual function
-?>   class="card-img-top" alt="picacapricciosa">
+?>   class="card-img-top" alt="Pica Capricciosa">
         <div class="card-body">
           <h3 class="card-title h4">Capricciosa</h3>
           <p class="card-text">24/32/42cm</p>
@@ -119,7 +119,7 @@ echo imageSrcSetMenuItem("pice-capricciosa", $image_path_array); // replace this
       <div class="card">
         <img loading="lazy" <?php
 echo imageSrcSetMenuItem("pice-vegetarijana", $image_path_array); // replace this with your actual function
-?>  class="card-img-top" alt="picavegetarijana">
+?>  class="card-img-top" alt="Pica Vegetarijana">
         <div class="card-body">
           <h3 class="card-title h4">Vegetarijana</h3>
           <p class="card-text">24/32/42cm</p>
@@ -139,7 +139,7 @@ echo imageSrcSetMenuItem("pice-vegetarijana", $image_path_array); // replace thi
       <div class="card">
         <img loading="lazy" <?php
 echo imageSrcSetMenuItem("pice-peperoni", $image_path_array); // replace this with your actual function
-          ?> class="card-img-top" alt="picapeperoni">
+          ?> class="card-img-top" alt="Pica Peperoni">
         <div class="card-body">
           <h3 class="card-title h4">Peperoni</h3>
           <p class="card-text">24/32/42cm</p>
@@ -159,7 +159,7 @@ echo imageSrcSetMenuItem("pice-peperoni", $image_path_array); // replace this wi
       <div class="card">
         <img loading="lazy" <?php
 echo imageSrcSetMenuItem("pice-tuna", $image_path_array); // replace this with your actual function
-?>  class="card-img-top" alt="picatuna">
+?>  class="card-img-top" alt="Pica Tuna">
         <div class="card-body">
           <h3 class="card-title h4">Tuna</h3>
           <p class="card-text">24/32/42cm</p>
@@ -179,7 +179,7 @@ echo imageSrcSetMenuItem("pice-tuna", $image_path_array); // replace this with y
       <div class="card">
         <img loading="lazy" <?php
 echo imageSrcSetMenuItem("pice-favola", $image_path_array); // replace this with your actual function
-?> class="card-img-top" alt="picafavola">
+?> class="card-img-top" alt="Pica Favola">
         <div class="card-body">
           <h3 class="card-title h4">Favola Specijal</h3>
           <p class="card-text">24/32/42cm</p>
@@ -199,7 +199,7 @@ echo imageSrcSetMenuItem("pice-favola", $image_path_array); // replace this with
       <div class="card">
         <img loading="lazy" <?php
 echo imageSrcSetMenuItem("pice-srbijana", $image_path_array); // replace this with your actual function
-?> class="card-img-top" alt="picasrbijana">
+?> class="card-img-top" alt="Pica Srbijana">
         <div class="card-body">
           <h3 class="card-title h4">Srbijana</h3>
           <p class="card-text">24/32/42cm</p>
@@ -219,7 +219,7 @@ echo imageSrcSetMenuItem("pice-srbijana", $image_path_array); // replace this wi
       <div class="card">
         <img loading="lazy" <?php
 echo imageSrcSetMenuItem("pice-prsuta", $image_path_array); // replace this with your actual function
-?> class="card-img-top" alt="picaprsuta">
+?> class="card-img-top" alt="Pica Prsuta">
         <div class="card-body">
           <h3 class="card-title h4">Pršuta</h3>
           <p class="card-text">24/32/42cm</p>
@@ -239,7 +239,7 @@ echo imageSrcSetMenuItem("pice-prsuta", $image_path_array); // replace this with
       <div class="card">
         <img loading="lazy"  <?php
 echo imageSrcSetMenuItem("pice-pikanta", $image_path_array); // replace this with your actual function
-?> class="card-img-top" alt="picapikante">
+?> class="card-img-top" alt="Pica Pikante">
         <div class="card-body">
           <h3 class="card-title h4">Pikante</h3>
           <p class="card-text">24/32/42cm</p>
@@ -259,7 +259,7 @@ echo imageSrcSetMenuItem("pice-pikanta", $image_path_array); // replace this wit
       <div class="card">
         <img loading="lazy"<?php
 echo imageSrcSetMenuItem("pice-quattro-formaggi", $image_path_array); // replace this with your actual function
-?> class="card-img-top" alt="picaquattroformaggi">
+?> class="card-img-top" alt=" Pica Quattro Formaggi">
         <div class="card-body">
           <h3 class="card-title h4">Quattro Formaggi</h3>
           <p class="card-text">24/32/42cm</p>
@@ -279,7 +279,7 @@ echo imageSrcSetMenuItem("pice-quattro-formaggi", $image_path_array); // replace
       <div class="card">
         <img loading="lazy" <?php
 echo imageSrcSetMenuItem("pice-bbq-pizza", $image_path_array); // replace this with your actual function
-?> class="card-img-top" alt="picabbq">
+?> class="card-img-top" alt="Pica Bbq">
         <div class="card-body">
           <h3 class="card-title h4">BBQ</h3>
           <p class="card-text">24/32/42cm</p>
@@ -305,7 +305,7 @@ echo imageSrcSetMenuItem("pice-bbq-pizza", $image_path_array); // replace this w
       <div class="card">
         <img loading="lazy" <?php
 echo imageSrcSetMenuItem("tortilje-tortilja-sunka", $image_path_array); // replace this with your actual function
-?>  class="card-img-top" alt="tortiljasunka">
+?>  class="card-img-top" alt="Tortilja Sunka">
         <div class="card-body">
           <h3 class="card-title h4">Tortilja Šunka</h3>
           <p class="card-text">350g</p>
@@ -325,7 +325,7 @@ echo imageSrcSetMenuItem("tortilje-tortilja-sunka", $image_path_array); // repla
       <div class="card">
         <img loading="lazy" <?php
 echo imageSrcSetMenuItem("tortilje-tortilja-pecenica", $image_path_array); // replace this with your actual function
-?> class="card-img-top" alt="tortiljapecenica">
+?> class="card-img-top" alt="Tortilja Pecenica">
         <div class="card-body">
           <h3 class="card-title h4">Tortilja Pečenica</h3>
           <p class="card-text">350g</p>
@@ -345,7 +345,7 @@ echo imageSrcSetMenuItem("tortilje-tortilja-pecenica", $image_path_array); // re
       <div class="card">
         <img loading="lazy" <?php
 echo imageSrcSetMenuItem("tortilje-tortilja-kulen", $image_path_array); // replace this with your actual function
-?> class="card-img-top" alt="tortiljakulen">
+?> class="card-img-top" alt="Tortilja Kulen">
         <div class="card-body">
           <h3 class="card-title h4">Tortilja Kulen</h3>
           <p class="card-text">350g</p>
@@ -365,7 +365,7 @@ echo imageSrcSetMenuItem("tortilje-tortilja-kulen", $image_path_array); // repla
       <div class="card">
         <img loading="lazy" <?php
 echo imageSrcSetMenuItem("tortilje-tortilja-prsuta", $image_path_array); // replace this with your actual function
-?> class="card-img-top" alt="tortiljaprsuta">
+?> class="card-img-top" alt="Tortilja Prsuta">
         <div class="card-body">
           <h3 class="card-title h4">Tortilja Pršuta</h3>
           <p class="card-text">350g</p>
@@ -385,7 +385,7 @@ echo imageSrcSetMenuItem("tortilje-tortilja-prsuta", $image_path_array); // repl
       <div class="card">
         <img loading="lazy" <?php
 echo imageSrcSetMenuItem("tortilje-dimljena-piletina-tortilja", $image_path_array); // replace this with your actual function
-?> class="card-img-top" alt="tortiljadimljenapiletina">
+?> class="card-img-top" alt="Tortilja Dimljena Piletina">
         <div class="card-body">
           <h3 class="card-title h4">Tortilja Dimljena Piletina</h3>
           <p class="card-text">350g</p>
@@ -405,7 +405,7 @@ echo imageSrcSetMenuItem("tortilje-dimljena-piletina-tortilja", $image_path_arra
       <div class="card">
         <img loading="lazy" <?php
 echo imageSrcSetMenuItem("tortilje-pileca-tortilja", $image_path_array); // replace this with your actual function
-?> class="card-img-top" alt="tortiljahrskavapiletina">
+?> class="card-img-top" alt="Tortilja Hrskava Piletina">
         <div class="card-body">
           <h3 class="card-title h4">Hrskava Piletina</h3>
           <p class="card-text">350g</p>
@@ -431,7 +431,7 @@ echo imageSrcSetMenuItem("tortilje-pileca-tortilja", $image_path_array); // repl
       <div class="card">
         <img loading="lazy" <?php
 echo imageSrcSetMenuItem("piroske-piroska-italijanska", $image_path_array); // replace this with your actual function
-?> class="card-img-top" alt="piroskaitalijanska">
+?> class="card-img-top" alt="Piroska Italijanska">
         <div class="card-body">
           <h3 class="card-title h4">Italijanska Piroška</h3>
           <p class="card-text">400g</p>
@@ -451,7 +451,7 @@ echo imageSrcSetMenuItem("piroske-piroska-italijanska", $image_path_array); // r
       <div class="card">
         <img loading="lazy" <?php
 echo imageSrcSetMenuItem("piroske-piroska-zlatiborska", $image_path_array); // replace this with your actual function
-?> class="card-img-top" alt="piroskazlatiborska">
+?> class="card-img-top" alt="Piroska Zlatiborska">
         <div class="card-body">
           <h3 class="card-title h4">Zlatiborska Piroška</h3>
           <p class="card-text">500g</p>
@@ -471,7 +471,7 @@ echo imageSrcSetMenuItem("piroske-piroska-zlatiborska", $image_path_array); // r
       <div class="card">
         <img loading="lazy" <?php
 echo imageSrcSetMenuItem("obroci-pileci-stapici-obrok", $image_path_array); // replace this with your actual function
-?> class="card-img-top" alt="pohovanistapici">
+?> class="card-img-top" alt="Pohovani Stapici">
         <div class="card-body">
           <h3 class="card-title h4">Pohovani Štapići</h3>
           <p class="card-text">550g</p>
@@ -491,7 +491,7 @@ echo imageSrcSetMenuItem("obroci-pileci-stapici-obrok", $image_path_array); // r
       <div class="card">
         <img loading="lazy" <?php
 echo imageSrcSetMenuItem("obroci-pohovani-kackavalj-obrok", $image_path_array); // replace this with your actual function
-?> class="card-img-top" alt="pohovanikackavalj">
+?> class="card-img-top" alt="Pohovani Kackavalj">
         <div class="card-body">
           <h3 class="card-title h4">Pohovani Kačkavalj</h3>
           <p class="card-text">550g</p>
@@ -517,7 +517,7 @@ echo imageSrcSetMenuItem("obroci-pohovani-kackavalj-obrok", $image_path_array); 
       <div class="card">
         <img loading="lazy" <?php
 echo imageSrcSetMenuItem("sendvici-sendvic-sunka", $image_path_array); // replace this with your actual function
-?> class="card-img-top" alt="sendvicsunka">
+?> class="card-img-top" alt="Sendvic Sunka">
         <div class="card-body">
           <h3 class="card-title h4">Šunka</h3>
           <p class="card-text">330g</p>
@@ -537,7 +537,7 @@ echo imageSrcSetMenuItem("sendvici-sendvic-sunka", $image_path_array); // replac
       <div class="card">
         <img loading="lazy" <?php
 echo imageSrcSetMenuItem("sendvici-sendvic-svinjski-vrat", $image_path_array); // replace this with your actual function
-?> class="card-img-top" alt="sendvicsuvivrat">
+?> class="card-img-top" alt="Sendvic Suvi Vrat">
         <div class="card-body">
           <h3 class="card-title h4">Suvi Vrat</h3>
           <p class="card-text">330g</p>
@@ -557,7 +557,7 @@ echo imageSrcSetMenuItem("sendvici-sendvic-svinjski-vrat", $image_path_array); /
       <div class="card">
         <img loading="lazy" <?php
 echo imageSrcSetMenuItem("sendvici-sendvic-pecenica", $image_path_array); // replace this with your actual function
-?> class="card-img-top" alt="sendvicpecenica">
+?> class="card-img-top" alt="Sendvic Pecenica">
         <div class="card-body">
           <h3 class="card-title h4">Pečenica</h3>
           <p class="card-text">330g</p>
@@ -577,7 +577,7 @@ echo imageSrcSetMenuItem("sendvici-sendvic-pecenica", $image_path_array); // rep
       <div class="card">
         <img loading="lazy" <?php
 echo imageSrcSetMenuItem("sendvici-sendvic-tuna", $image_path_array); // replace this with your actual function
-?> class="card-img-top" alt="sendvictuna">
+?> class="card-img-top" alt="Sendvic Tuna">
         <div class="card-body">
           <h3 class="card-title h4">Tuna</h3>
           <p class="card-text">330g</p>
@@ -597,7 +597,7 @@ echo imageSrcSetMenuItem("sendvici-sendvic-tuna", $image_path_array); // replace
       <div class="card">
         <img loading="lazy" <?php
 echo imageSrcSetMenuItem("sendvici-sendvic-kulen", $image_path_array); // replace this with your actual function
-?> class="card-img-top" alt="sendvickulen">
+?> class="card-img-top" alt="Sendvic Kulen">
         <div class="card-body">
           <h3 class="card-title h4">Kulen</h3>
           <p class="card-text">330g</p>
@@ -617,7 +617,7 @@ echo imageSrcSetMenuItem("sendvici-sendvic-kulen", $image_path_array); // replac
       <div class="card">
         <img loading="lazy" <?php
 echo imageSrcSetMenuItem("sendvici-sendvic-prsuta", $image_path_array); // replace this with your actual function
-?> class="card-img-top" alt="sendvicprusuta">
+?> class="card-img-top" alt="Sendvic Prusuta">
         <div class="card-body">
           <h3 class="card-title h4">Pršuta</h3>
           <p class="card-text">330g</p>
@@ -643,7 +643,7 @@ echo imageSrcSetMenuItem("sendvici-sendvic-prsuta", $image_path_array); // repla
       <div class="card">
         <img loading="lazy" <?php
 echo imageSrcSetMenuItem("slane-palacinke-palacinka-sunka", $image_path_array); // replace this with your actual function
-?> class="card-img-top" alt="slanapalacinkasunka">
+?> class="card-img-top" alt="Slana Palacinka Sunka">
         <div class="card-body">
           <h3 class="card-title h4">Slana Palačinka Šunka</h3>
           <p class="card-text">300g</p>
@@ -663,7 +663,7 @@ echo imageSrcSetMenuItem("slane-palacinke-palacinka-sunka", $image_path_array); 
       <div class="card">
         <img loading="lazy" <?php
 echo imageSrcSetMenuItem("slane-palacinke-palacinka-kulen", $image_path_array); // replace this with your actual function
-?> class="card-img-top" alt="slanapalacinkakulen">
+?> class="card-img-top" alt="Slana Palacinka Kulen">
         <div class="card-body">
           <h3 class="card-title h4">Slana Palačinka Kulen</h3>
           <p class="card-text">300g</p>
@@ -683,7 +683,7 @@ echo imageSrcSetMenuItem("slane-palacinke-palacinka-kulen", $image_path_array); 
       <div class="card">
         <img loading="lazy" <?php
 echo imageSrcSetMenuItem("slane-palacinke-palacinka-pecenica", $image_path_array); // replace this with your actual function
-?> class="card-img-top" alt="slanapalacinkapecenica">
+?> class="card-img-top" alt="Slana Palacinka Pecenica">
         <div class="card-body">
           <h3 class="card-title h4">Slana Palačinka Pečenica</h3>
           <p class="card-text">300g</p>
@@ -709,7 +709,7 @@ echo imageSrcSetMenuItem("slane-palacinke-palacinka-pecenica", $image_path_array
       <div class="card">
         <img loading="lazy" <?php
 echo imageSrcSetMenuItem("slatke-palacinke-eurokrem", $image_path_array); // replace this with your actual function
-?> class="card-img-top" alt="slatkapalacinkaeurokrem">
+?> class="card-img-top" alt="Slatka Palacinka Eurokrem">
         <div class="card-body">
           <h3 class="card-title h4">Eurokrem</h3>
           <p class="card-text">300g</p>
@@ -729,7 +729,7 @@ echo imageSrcSetMenuItem("slatke-palacinke-eurokrem", $image_path_array); // rep
       <div class="card">
         <img loading="lazy" <?php
 echo imageSrcSetMenuItem("slatke-palacinke-nutela", $image_path_array); // replace this with your actual function
-?> class="card-img-top" alt="slatkapalacinkanutela">
+?> class="card-img-top" alt="Slatka Palacinka Nutela">
         <div class="card-body">
           <h3 class="card-title h4">Nutela</h3>
           <p class="card-text">300g</p>
@@ -749,7 +749,7 @@ echo imageSrcSetMenuItem("slatke-palacinke-nutela", $image_path_array); // repla
       <div class="card">
         <img loading="lazy" <?php
 echo imageSrcSetMenuItem("slatke-palacinke-baunti", $image_path_array); // replace this with your actual function
-?> class="card-img-top" alt="slatkapalacinkabaunti">
+?> class="card-img-top" alt="Slatka Palacinka Baunti">
         <div class="card-body">
           <h3 class="card-title h4">Bounty</h3>
           <p class="card-text">350g</p>
@@ -769,7 +769,7 @@ echo imageSrcSetMenuItem("slatke-palacinke-baunti", $image_path_array); // repla
       <div class="card">
         <img loading="lazy" <?php
 echo imageSrcSetMenuItem("slatke-palacinke-mars", $image_path_array); // replace this with your actual function
-?> class="card-img-top" alt="slatkapalacinkamars">
+?> class="card-img-top" alt="Slatka Palacinka Mars">
         <div class="card-body">
           <h3 class="card-title h4">Mars</h3>
           <p class="card-text">300g</p>
@@ -789,7 +789,7 @@ echo imageSrcSetMenuItem("slatke-palacinke-mars", $image_path_array); // replace
       <div class="card">
         <img loading="lazy" <?php
 echo imageSrcSetMenuItem("slatke-palacinke-milka", $image_path_array); // replace this with your actual function
-?> class="card-img-top" alt="slatkapalacinkamilka">
+?> class="card-img-top" alt="Slatka Palacinka Milka">
         <div class="card-body">
           <h3 class="card-title h4">Milka</h3>
           <p class="card-text">300g</p>
@@ -809,7 +809,7 @@ echo imageSrcSetMenuItem("slatke-palacinke-milka", $image_path_array); // replac
       <div class="card">
         <img loading="lazy" <?php
 echo imageSrcSetMenuItem("slatke-palacinke-kinder", $image_path_array); // replace this with your actual function
-?> class="card-img-top" alt="slatkapalacinkakinder">
+?> class="card-img-top" alt="Slatka Palacinka Kinder">
         <div class="card-body">
           <h3 class="card-title h4">Kinder</h3>
           <p class="card-text">300g</p>
@@ -829,7 +829,7 @@ echo imageSrcSetMenuItem("slatke-palacinke-kinder", $image_path_array); // repla
       <div class="card">
         <img loading="lazy" <?php
 echo imageSrcSetMenuItem("slatke-palacinke-snikers", $image_path_array); // replace this with your actual function
-?> class="card-img-top" alt="slatkapalacinkasnikers">
+?> class="card-img-top" alt="Slatka Palacinka Snikers">
         <div class="card-body">
           <h3 class="card-title h4">Snikers</h3>
           <p class="card-text">300g</p>
@@ -849,7 +849,7 @@ echo imageSrcSetMenuItem("slatke-palacinke-snikers", $image_path_array); // repl
       <div class="card">
         <img loading="lazy" <?php
 echo imageSrcSetMenuItem("slatke-palacinke-oreo", $image_path_array); // replace this with your actual function
-?> class="card-img-top" alt="slatkapalacinkaoreo">
+?> class="card-img-top" alt="Slatka Palacinka Oreo">
         <div class="card-body">
           <h3 class="card-title h4">Oreo</h3>
           <p class="card-text">350g</p>
@@ -869,7 +869,7 @@ echo imageSrcSetMenuItem("slatke-palacinke-oreo", $image_path_array); // replace
       <div class="card">
         <img loading="lazy" <?php
 echo imageSrcSetMenuItem("slatke-palacinke-med", $image_path_array); // replace this with your actual function
-?> class="card-img-top" alt="slatkapalacinkamed">
+?> class="card-img-top" alt="Slatka Palacinka Med">
         <div class="card-body">
           <h3 class="card-title h4">Med</h3>
           <p class="card-text">300g</p>
@@ -889,7 +889,7 @@ echo imageSrcSetMenuItem("slatke-palacinke-med", $image_path_array); // replace 
       <div class="card">
         <img loading="lazy" <?php
 echo imageSrcSetMenuItem("slatke-palacinke-dzem", $image_path_array); // replace this with your actual function
-?> class="card-img-top" alt="slatkapalacinkadzem">
+?> class="card-img-top" alt="Slatka Palacinka Dzem">
         <div class="card-body">
           <h3 class="card-title h4">Džem</h3>
           <p class="card-text">300g</p>
@@ -909,7 +909,7 @@ echo imageSrcSetMenuItem("slatke-palacinke-dzem", $image_path_array); // replace
       <div class="card">
         <img loading="lazy" <?php
 echo imageSrcSetMenuItem("slatke-palacinke-secer", $image_path_array); // replace this with your actual function
-?> class="card-img-top" alt="slatkapalacinkasecer">
+?> class="card-img-top" alt="Slatka Palacinka Secer">
         <div class="card-body">
           <h3 class="card-title h4">Šećer</h3>
           <p class="card-text">350g</p>
@@ -970,7 +970,7 @@ echo imageSrcSetMenuItem("slatke-palacinke-secer", $image_path_array); // replac
         <div class="card">
           <img loading="lazy" <?php
 echo imageSrcSetMenuItem("prilozi-pomfrit", $image_path_array); // replace this with your actual function
-?> class="card-img-top" alt="pomfrit">
+?> class="card-img-top" alt="Pomfrit">
           <div class="card-body">
             <h3 class="card-title h4">Pomfrit</h3>
             <p class="card-text">250g</p>
@@ -1059,7 +1059,7 @@ echo imageSrcSetMenuItem("prilozi-pomfrit", $image_path_array); // replace this 
       <div class="card">
         <img loading="lazy" <?php
 echo imageSrcSetMenuItem("pica-rosa", $image_path_array); // replace this with your actual function
-?>  class="card-img-top" alt="rosavoda">
+?>  class="card-img-top" alt="Rosa Voda">
         <div class="card-body">
           <h3 class="card-title h4">Rosa Voda</h3>
           <p class="card-text">0.5l</p>
@@ -1071,7 +1071,7 @@ echo imageSrcSetMenuItem("pica-rosa", $image_path_array); // replace this with y
       <div class="card">
         <img loading="lazy" <?php
 echo imageSrcSetMenuItem("pica-coca-cola", $image_path_array); // replace this with your actual function
-?>  class="card-img-top" alt="cocacola">
+?>  class="card-img-top" alt="Coca Cola">
         <div class="card-body">
           <h3 class="card-title h4">Coca-Cola</h3>
           <p class="card-text">0.33l</p>
@@ -1083,7 +1083,7 @@ echo imageSrcSetMenuItem("pica-coca-cola", $image_path_array); // replace this w
       <div class="card">
         <img loading="lazy" <?php
 echo imageSrcSetMenuItem("pica-cola-zero", $image_path_array); // replace this with your actual function
-?>  class="card-img-top" alt="cocacolazero">
+?>  class="card-img-top" alt="Coca Cola Zero">
         <div class="card-body">
           <h3 class="card-title h4">Coca-Cola Zero</h3>
           <p class="card-text">0.33l</p>
@@ -1095,7 +1095,7 @@ echo imageSrcSetMenuItem("pica-cola-zero", $image_path_array); // replace this w
       <div class="card">
         <img loading="lazy" <?php
 echo imageSrcSetMenuItem("pica-fanta", $image_path_array); // replace this with your actual function
-?>  class="card-img-top" alt="fanta">
+?>  class="card-img-top" alt="Fanta">
         <div class="card-body">
           <h3 class="card-title h4">Fanta</h3>
           <p class="card-text">0.33l</p>
@@ -1107,7 +1107,7 @@ echo imageSrcSetMenuItem("pica-fanta", $image_path_array); // replace this with 
       <div class="card">
         <img loading="lazy" <?php
 echo imageSrcSetMenuItem("pica-ultra", $image_path_array); // replace this with your actual function
-?>  class="card-img-top" alt="ultraenergy">
+?>  class="card-img-top" alt="Ultra Energy">
         <div class="card-body">
           <h3 class="card-title h4">Ultra Energy</h3>
           <p class="card-text">0.25l</p>
