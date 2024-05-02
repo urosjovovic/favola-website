@@ -656,6 +656,8 @@ echo imageSrcSetMenuItem("sendvici-sendvic-prsuta", $image_path_array); // repla
   <div class="row d-flex justify-content-evenly gy-4 mt-3" id="palacinke-slane">
     <div class="my-3">
       <h2 class="h1">Palačinke Slane</h2>
+      <p>Pogledajte naše neodoljive slane palačinke u Favoli! Savršene za brzi i ukusan obrok. <br>
+      Klasična palacinka od sunke, pikantna palacinka od kulena ili možda sočna palacinka od pečenice? U Favoli imamo slane palačinke za svaki ukus!</p>
     </div>
     <div class="col-6 col-md-3">
       <div class="card">
@@ -722,6 +724,7 @@ echo imageSrcSetMenuItem("slane-palacinke-palacinka-pecenica", $image_path_array
   <div class="row d-flex justify-content-evenly gy-4 mt-3" id="palacinke-slatke">
     <div class="my-3">
       <h2 class="h1">Palačinke Slatke</h2>
+      <p>Najlepse slatke palacinke traže Vas u Favoli! Sa čak 11 vrsta slatkih palacinki, Favola je raj za ljubitelje slatkog.Otkrijte savrseni slatki zalogaj sa palačinkom od orea, nutele, kinder, bounty ili mozda mars čokolade i mnoge druge ukuse. Dođite i uverite se sami u kvalitet nasih slatkih palačinki.</p>
     </div>
     <div class="col-6 col-md-3">
       <div class="card">
