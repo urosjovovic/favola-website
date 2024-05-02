@@ -29,6 +29,7 @@ sizes="100vw"
   <div class="row d-flex justify-content-evenly gy-4 mt-3" id="pice">
     <div class="my-3">
       <h2 class="h1">Pice</h2>
+      <p>Naše Favola pice su pravljene od sastojaka visokog kvaliteta, sa puno ljubavi naših veštih pica majstora. Uz našu brzu dostavu imaćete utisak kao da su upravo izašle iz pećnice, hrskave, meke i tako sočne!</p>
     </div>
     <div class="col-6 col-md-3">
       <div class="card">
@@ -300,6 +301,7 @@ echo imageSrcSetMenuItem("pice-bbq-pizza", $image_path_array); // replace this w
   <div class="row d-flex justify-content-evenly gy-4 mt-3" id="tortilje">
     <div class="my-3">
       <h2 class="h1">Tortilje</h2>
+      <p>Naše Favola tortilje predstavljaju zdraviju opciju naše ponude, najkvalitetnije tortilje, sveze povrće i salate, visoko proteinska piletina učiniće da se svakim zalogajem osećate </p>
     </div>
     <div class="col-6 col-md-3">
       <div class="card">
@@ -426,6 +428,12 @@ echo imageSrcSetMenuItem("tortilje-pileca-tortilja", $image_path_array); // repl
   <div class="row d-flex justify-content-evenly gy-4 mt-3" id="piroske-i-obroci">
     <div class="my-3">
       <h2 class="h1">Piroške i Obroci</h2>
+      <p>Gladni ste i želite nešto ukusno? Imamo sve što vam treba!
+        Omiljene Favola piroške su tu za vas! Ukoliko vam se jede Italijanska kuhinja, a niste za picu, probajte našu bogatu Italijansku pirošku punu ukusa Italije, ali tu je i Zlatiborska piroška koja predstavlja pravu gurmansku bombu sa kajmakom, slaninom, pršutom i suvim vratom za potpuni užitak.
+        <br>A za one koji žele gotov obrok, nudimo i: <br>
+        Pohovane štapiće sa čak 250g belog mesa, pomfritom i salatom - idealno za brzi i ukusan obrok.
+        <br>Obrok za ljubitelje kačkavalja sa čak 250g pohovanog kačkavalja uz pomfrit i salatu - uživanje je garantovano, a obrok je potpun!
+      </p>
     </div>
     <div class="col-6 col-md-3">
       <div class="card">
@@ -512,6 +520,16 @@ echo imageSrcSetMenuItem("obroci-pohovani-kackavalj-obrok", $image_path_array); 
   <div class="row d-flex justify-content-evenly gy-4 mt-3" id="sendvici">
     <div class="my-3">
       <h2 class="h1">Sendviči</h2>
+      <p><b>Sendviči za svaki ukus i trenutak!</b></p>
+      <p>Bez obzira na to što vam se jede, u Favoli ćete pronaći savršeni sendvič za vas. Svež somun, kvalitetni sastojci i puno ljubavi u svakom zalogaju - to je ono što naše sendviče čine jedinstvenima.
+      Uz sendviče nudimo i širok izbor dodataka: kačkavalj, salatu, pavlaku, feferone, kukuruz... Dođite i sami se uvjerite u ukus naših sendviča!</p>
+      <p>Za ljubitelje klasike:</p>
+      <ul>
+        <li>Sendvič pršut: sočan pršut, sveži kajmak i hrskavi listići rukole na mekanom somunu - jednostavno savršenstvo sendviča pršuta!</li>
+        <li>Sendvič kulen: pikantni kulen, pavlaka,kačkavalj i ljuti peperoni za one koji vole začiinjeni sendvič.</li>
+        <li>Sendvič pečenica:pečenica,pavlaka, kačkavalj, salata i paradajz - kombinacija sendviča pečenica koja se ne može pobijediti!</li>
+        <li>Imamo i sendvic od tune, suvog vrata i sendvič od šunke.</li>
+      </ul>
     </div>
     <div class="col-6 col-md-3">
       <div class="card">
