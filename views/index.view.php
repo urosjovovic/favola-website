@@ -30,29 +30,7 @@ sizes="100vw"
     <div class="my-3">
       <h2 class="h1">Pice</h2>
     </div>
-    <div class="col-6 col-md-3">
-      <div class="card">
-        <!-- <img src="images/pice/margarita.jpg"  -->
-        <img
-        <?php
-echo imageSrcSetMenuItem("pice-margarita", $image_path_array); // replace this with your actual function
-?>   
-        class="card-img-top" alt="Pica Margherita">
-        <div class="card-body">
-          <h3 class="card-title h4">Margherita</h3>
-          <p class="card-text">24/32/42cm</p>
-          <p class="card-text">590/910/1210 din.</p>
-          <div class="accordion border-0">
-            <div class="accordion-item border-0">
-              <button class="accordion-button collapsed p-0 w-auto border-0" type="button" data-bs-toggle="collapse" data-bs-target="#pice-margarita-sastav">
-                <b>Sastav</b>
-              </button>
-              <div id="pice-margarita-sastav" class="accordion-collapse collapse border-0"> pelat, kačkavalj, bosiljak, crne masline </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
+    <?php echo productCardPrintCol6ColMd3("pice-margarita", $image_path_array, "Margherita Test", "24/32/42cm", "590/910/1210 din.", ""); ?>
     <div class="col-6 col-md-3">
       <div class="card">
         <img <?php

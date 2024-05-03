@@ -29,26 +29,23 @@
         </ul>
       </div>
       <div class="col-6 col-md-2 mb-3">
-        <h2 class="h4">Opšte</h2>
+        <h2 class="h4">General</h2>
         <ul class="nav flex-column">
           <li class="nav-item mb-2">
-            <a href="/#zone" class="nav-link p-0">Lokacija</a>
+            <a href="/#zone" class="nav-link p-0">Location</a>
           </li>
           <li class="nav-item mb-2">
-            <a href="/#map-canvas" class="nav-link p-0">Zone dostave</a>
+            <a href="/#map-canvas" class="nav-link p-0">Directions</a>
           </li>
           <li class="nav-item mb-2">
-            <a href="/#cover" class="nav-link p-0">Online poručivanje</a>
+            <a href="/privacy-policy" class="nav-link p-0">Privacy policy</a>
           </li>
           <li class="nav-item mb-2">
-            <a href="/politika-privatnosti" class="nav-link p-0">Politika privatnosti</a>
-          </li>
-          <li class="nav-item mb-2">
-            <a href="/uslovi-koriscenja" class="nav-link p-0">Uslovi korišćenja</a>
+            <a href="/terms-and-conditions" class="nav-link p-0">Terms and conditions</a>
           </li>
         </ul>
       </div>
-      <!--
+      
       <div class="col-6 col-md-2 mb-3">
         <h2 class="h4">Podaci</h2>
         <ul class="nav flex-column">
@@ -62,8 +59,8 @@
           <li>Adresa firme:_</li>
         </ul>
       </div>
--->
-      <div class="col-12 col-md-5 offset-md-3 mb-3">
+
+      <div class="col-12 col-md-5 mb-3">
         <div>
           <?= $footer_title_html_raw ?>
           <p>
@@ -86,7 +83,7 @@
       </div>
       <div class="footerbottom flex-grow-1 flex-basis-0">
         <div class="text-center">
-          <div class="socialIcons justify-content-md-end justify-content-center d-flex">
+          <!-- <div class="socialIcons justify-content-md-end justify-content-center d-flex">
             <a href="" aria-label="facebook">
               <i class="fa-brands fa-facebook"></i>
             </a>
@@ -96,7 +93,7 @@
             <a href="#" aria-label="youtube">
               <i class="fa-brands fa-youtube"></i>
             </a>
-          </div>
+          </div> -->
         </div>
       </div>
     </div>
