@@ -191,7 +191,10 @@ img {
     display: block;
     font-size: 0.75rem;
 }
-
+.navbar-collapse {
+    max-height: 70vh;
+    overflow: auto;
+}
 .navbar .call-to-action {
     text-align: center;
 }
