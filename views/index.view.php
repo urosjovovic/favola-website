@@ -43,7 +43,7 @@ echo imageSrcSetMenuItem("pice-margarita", $image_path_array); // replace this w
           <h3 class="card-title h4">Margherita</h3>
           <p class="card-text">24/32/42cm</p>
           <p class="card-text">590/910/1210 din.</p>
-          <div class="accordion border-0">
+          <div data-nosnippet class="accordion border-0">
             <div class="accordion-item border-0">
               <button class="accordion-button collapsed p-0 w-auto border-0" type="button" data-bs-toggle="collapse" data-bs-target="#pice-margarita-sastav">
                 <b>Sastav</b>
