@@ -316,6 +316,6 @@ footer h2 {
 
 }
 
-.footer-wrapper a:hover,a:focus,a:active {
+.footer-wrapper>a:hover .footer-wrapper>a:focus .footer-wrapper>a:active {
     color: #fff !important;
 }
