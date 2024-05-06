@@ -10,6 +10,42 @@ html{
 body {
     height: auto!important;
 }
+.delivery-pickup-switcher {
+    position: fixed;
+    top: 50%;
+    z-index: 1000;
+    border-radius: 0 1rem 1rem 0;
+    background-color: #b4b4b4;
+    border: 1px solid #888888;
+    border-left: 0px;
+}
+.delivery-pickup-switcher .btn {
+    display:flex;
+    font-weight: 700;
+    color: #fff;
+    border: 0;
+}
+
+.delivery-pickup-switcher i {
+    font-size: 1.5rem;
+    margin-right: 5px;
+    line-height: 1;
+}
+
+.delivery-pickup-switcher .delivery-pickup-switcher-delivery .btn
+{
+    border-radius: 0px 1rem 1rem 0px;
+}
+
+.delivery-pickup-switcher .delivery-pickup-switcher-pickup .btn
+{
+    border-radius: 0px 1rem 1rem 0px;
+}
+
+.delivery-pickup-switcher .active {
+    background-color: var(--primary-color);
+    color: #fff;
+}
 
 /* 
 .nav-bar{

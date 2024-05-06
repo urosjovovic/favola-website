@@ -3,6 +3,14 @@
 require 'views/partials/head.php';
 require 'views/partials/header.php';
 ?>
+<div class="delivery-pickup-switcher">
+  <div class="delivery-pickup-switcher-delivery">
+    <a class="btn <?php if($uri == '/') echo 'active';?>" href="/"><i class="fa-solid fa-store fa-l"></i>Šalter</a>
+  </div>
+  <div class="delivery-pickup-switcher-pickup">
+    <a class="btn <?php if($uri == '/dostava') echo 'active';?>" href="/dostava"><i class="fa-solid fa-bag-shopping"></i>Dostava</a>
+  </div>
+</div>
 <!-- // Page content start -->
 <div class="container-fluid g-0 hero-image" id="cover">
   <img
