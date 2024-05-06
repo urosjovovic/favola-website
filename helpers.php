@@ -43,7 +43,7 @@ function productCardPrintCol6ColMd3($itemid, $item_images_path_array, $item_name
             <div class="card-body">
             '.(($item_name != null) ? '<h3 class="card-title h4">'.$item_name.'</h3>' : '').'
             '.(($item_size != null) ? '<p class="card-text">'.$item_size.'</p>' : '').'
-            '.(($item_price_delivery != null && $item_price_pickup != null) ? '<p class="card-text">'.$item_price_delivery.'</p>' : '').'
+            '.(($item_price_delivery != null) ? '<p class="card-text">'.$item_price_delivery.'</p>' : '').'
             '.(($item_description != null) ? '<div class="accordion border-0">
             <div class="accordion-item border-0">
               <button class="accordion-button collapsed p-0 w-auto border-0" type="button" data-bs-toggle="collapse" data-bs-target="#'.$itemid.'-sastav">

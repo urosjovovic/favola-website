@@ -30,12 +30,14 @@ sizes="100vw"
     <div class="my-3">
       <h2 class="h1">Pice</h2>
     </div>
+    <?php 
+    echo productCardPrintCol6ColMd3("pice-margarita", $image_path_array, "Margherita", "24/32/42cm", "590/910/1210 din.", '', "pelat, kačkavalj, bosiljak, crne masline");
+    ?>
     <div class="col-6 col-md-3">
       <div class="card">
         <!-- <img src="images/pice/margarita.jpg"  -->
         <img
         <?php
-        echo productCardPrintCol6ColMd3("pice-margarita", $image_path_array, "Margherita", "24/32/42cm", "590/910/1210 din.", '', "pelat, kačkavalj, bosiljak, crne masline");
 echo imageSrcSetMenuItem("pice-margarita", $image_path_array); // replace this with your actual function
 ?>   
         class="card-img-top" alt="Pica Margherita">
