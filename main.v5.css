@@ -124,7 +124,7 @@ img {
     width: 100%;
 }
 .navbar-brand {
-    max-width: 70px;
+    max-width: 110px;
 }
 @media (max-width: 767px)
 {
@@ -163,10 +163,6 @@ img {
     display: flex;
 }
 
-.navbar-collapse {
-    max-height: 70vh;
-    overflow: auto;
-}
 .meni .card .card-img-top{
     width: 373px;
     max-width: 100%;
@@ -191,10 +187,7 @@ img {
     display: block;
     font-size: 0.75rem;
 }
-.navbar-collapse {
-    max-height: 70vh;
-    overflow: auto;
-}
+
 .navbar .call-to-action {
     text-align: center;
 }
@@ -316,6 +309,6 @@ footer h2 {
 
 }
 
-.footer-wrapper>a:hover .footer-wrapper>a:focus .footer-wrapper>a:active {
+.footer-wrapper a:hover,a:focus,a:active {
     color: #fff !important;
 }

@@ -37,14 +37,14 @@
           <a class="nav-link free-dostava-btn d-md-block d-none py-1" href="/#zone">DOSTAVA</a>
         </li>
         <div class="d-md-none py-2 border-info border-top">
-          <span>Telefon: <a class="ms-auto" href="tel:+38520478708">+385 20 478 708</a>
+          <span>Telefon: <a class="ms-auto" href="tel:+381628950833">+38162 895 0833</a>
           </span>
           <p class="radno-vreme mb-0">Radno vreme - Pon-Sub: 12:00-03:30h</p>
           <p class="radno-vreme mb-0">Adresa: Ljubićka 11, Beograd</p>
         </div>
       </ul>
       <div class="call-to-action d-none d-md-block">
-        <a class="btn ms-auto" href="tel:+38520478708">+385 20 478 708</a>
+        <a class="btn ms-auto" href="tel:+381628950833">+38162 895 0833</a>
         <span class="radno-vreme">Pon-Sub: 12:00-03:30h</span>
       </div>
     </div>
@@ -52,11 +52,11 @@
 </nav> -->
 <nav class="container-fluid navbar navbar-expand-md navbar-light bg-white p-0">
   <div class="container p-0">
-    <a class="navbar-brand p-0 pb-1 pt-1 ms-3 ms-lg-0" href="/#">
+    <a class="navbar-brand p-0 pt-1 ms-3 ms-lg-0" href="/#">
       <!-- <img loading="lazy" alt="Picerija Favola Logo" src="images/favola-header-logo.png"> -->
-      <img src="images/logo.svg" alt="Pizzeria Kabalero Logo" />
+      <img src="images/logo.svg" alt="Picerija Favola Logo" />
     </a>
-    <h1 class="d-block d-md-none me-3 mb-0">Pizzeria Kabalero</h1>
+    <h1 class="d-block d-md-none me-3 mb-0">Pizerija Favola</h1>
     <button class="navbar-toggler me-3 me-lg-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -90,14 +90,14 @@
           <a class="nav-link free-dostava-btn d-md-block d-none py-1" href="/#zone">DOSTAVA</a>
         </li>
         <div class="d-md-none py-2 border-info border-top">
-          <span>Telefon: <a class="ms-auto" href="tel:+38520478708">+385 20 478 708</a>
+          <span>Telefon: <a class="ms-auto" href="tel:+381628950833">+38162 895 0833</a>
           </span>
           <p class="radno-vreme mb-0">Radno vreme - Pon-Sub: 12:00-03:30h</p>
           <p class="radno-vreme mb-0">Adresa: Ljubićka 11, Beograd</p>
         </div>
       </ul>
       <div class="call-to-action d-none d-md-block">
-        <a class="btn ms-auto" href="tel:+38520478708">+385 20 478 708</a>
+        <a class="btn ms-auto" href="tel:+381628950833">+38162 895 0833</a>
         <span class="radno-vreme">Pon-Sub: 12:00-03:30h</span>
       </div>
     </div>
@@ -114,7 +114,7 @@
   <a class="nav-item mx-3" href="/#zone" aria-label="Lokacija">
     <i class="location-icon fa-solid fa-location-dot fa-2xl"></i>
   </a>
-  <a class="nav-item mx-3" href="tel:+38520478708" aria-label="Telefon">
+  <a class="nav-item mx-3" href="tel:+381628950833" aria-label="Telefon">
     <i class="phone-icon fa-solid fa-phone fa-2xl"></i>
   </a>
 </nav>

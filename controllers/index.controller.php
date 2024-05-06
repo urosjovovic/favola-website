@@ -1,15 +1,15 @@
 <?php
 
-$title = "Pizzeria Kabalero - Generational Restorant on the Mediteranean";
+$title = "Favola Pizza - Neka svaki zalogaj bude bajka!";
 $meta_description = "Gladni ste? Poručite iz picerije Favola i dobijate dostavu do 35 minuta! Uživaćete u ukusima naših pica, tortilja, pirošaka, palačinaka i obroka.";
-$meta_title = "Pizzeria Kabalero - Generational Restorant on the Mediteranean";
-$og_title = "Pizzeria Kabalero - Generational Restorant on the Mediteranean";
-$og_url = "https://www.pizzeria-kabalero.hr";
-$og_image = "https://www.pizzeria-kabalero.hr/images/cover-w1250.webp";
+$meta_title = "Favola Pizza - Neka svaki zalogaj bude bajka!";
+$og_title = "Favola Pizza - Neka svaki zalogaj bude bajka!";
+$og_url = "https://www.favola.rs";
+$og_image = "https://www.favola.rs/images/cover-w1250.webp";
 $og_description = "Gladni ste? Poručite iz picerije Favola i dobijate dostavu do 35 minuta! Uživaćete u ukusima naših pica, tortilja, pirošaka, palačinaka i obroka.";
 $og_image_alt = "Razna hrana";
 $preload_cover_image = "";
-$footer_title_html_raw = "<h1> Pizzeria Kabalero </h1>";
+$footer_title_html_raw = "<h1> Favola Pizza</h1>";
 
 require 'helpers.php'; // assuming you have defined your function in helpers.php
 // $image_path_array = [
