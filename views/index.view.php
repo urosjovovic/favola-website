@@ -35,6 +35,7 @@ sizes="100vw"
         <!-- <img src="images/pice/margarita.jpg"  -->
         <img
         <?php
+        echo productCardPrintCol6ColMd3("pice-margarita", $image_path_array, "Margherita", "24/32/42cm", "590/910/1210 din.", '', "pelat, kačkavalj, bosiljak, crne masline");
 echo imageSrcSetMenuItem("pice-margarita", $image_path_array); // replace this with your actual function
 ?>   
         class="card-img-top" alt="Pica Margherita">
