@@ -33,9 +33,15 @@ function imageSrcSetMenuItem($itemid, $item_images_path_array) {
 }
 
 
-function productCardPrintCol6ColMd3($itemid, $item_images_path_array, $item_name, $item_size, $item_price_delivery, $item_price_pickup, $item_description) {
+function productCardPrintCol6ColMd3($itemid, $uri, $item_images_path_array, $item_name, $item_size, $item_price_delivery, $item_price_pickup, $item_description) {
     try {
         if (array_key_exists($itemid, $item_images_path_array)) {
+            if($uri == '/'){
+                $item_price = $item_price_pickup;
+            }
+            if($uri == '/dostava'){
+                $item_price = $item_price_delivery;
+            }
             return '
             <div class="col-6 col-md-3">
             <div class="card">'.
@@ -43,7 +49,7 @@ function productCardPrintCol6ColMd3($itemid, $item_images_path_array, $item_name
             <div class="card-body">
             '.(($item_name != null) ? '<h3 class="card-title h4">'.$item_name.'</h3>' : '').'
             '.(($item_size != null) ? '<p class="card-text">'.$item_size.'</p>' : '').'
-            '.(($item_price_delivery != null) ? '<p class="card-text">'.$item_price_delivery.'</p>' : '').'
+            '.(($item_price != null) ? '<p class="card-text">'.$item_price.'</p>' : '').'
             '.(($item_description != null) ? '<div class="accordion border-0">
             <div class="accordion-item border-0">
               <button class="accordion-button collapsed p-0 w-auto border-0" type="button" data-bs-toggle="collapse" data-bs-target="#'.$itemid.'-sastav">
