@@ -107,7 +107,7 @@
   <div class="w-100 text-center border-bottom border-1 text-muted">Plaćanje je moguće isključivo gotovinom</div>
   <div class="quick-info mx-3">
     <p class="besplatna-dostava my-0">
-      <b>PORUČITE DOSTAVU</b>
+      <b><?php if($uri == '/dostava') echo 'PORUČITE DOSTAVU';?><?php if($uri == '/') echo 'Ljubićka 11, Beograd';?></b>
     </p>
     <p class="radno-vreme my-0">Pon-Sub: 12:00-03:30h</p>
   </div>

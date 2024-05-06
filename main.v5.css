@@ -10,6 +10,12 @@ html{
 body {
     height: auto!important;
 }
+@media (max-width: 767px)
+{
+    .delivery-pickup-switcher {
+        top: 70%!important;
+}
+}
 .delivery-pickup-switcher {
     position: fixed;
     top: 50%;
