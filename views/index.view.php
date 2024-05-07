@@ -242,7 +242,6 @@ images/cover/cover-w3200.webp 3200w" sizes="100vw" alt="Slika">
         </div>
       </div>
     </div>
-  </div>
   <!-- Dodaci Slatki -->
   <div class="slatki-dodaci row justify-content-center" id="slatki-dodaci">
     <div class="my-3 text-center">
@@ -254,7 +253,7 @@ images/cover/cover-w3200.webp 3200w" sizes="100vw" alt="Slika">
           <tr>
             <td>Plazma u mleku</td>
             <td>50g</td>
-            <td>120 din.</td>
+            <td><?php if($uri == '/'){echo '90 din.';}else{echo '120 din.';}?></td>
           </tr>
           <tr>
             <td>Lešnik</td>
@@ -315,6 +314,7 @@ images/cover/cover-w3200.webp 3200w" sizes="100vw" alt="Slika">
                                   echo productCardPrintCol6ColMd3("pica-cola-zero", $uri, $image_path_array, "Coca-cola Zero", "0.33l", "180 din.", "140 din.", "");
                                   echo productCardPrintCol6ColMd3("pica-fanta", $uri, $image_path_array, "Fanta", "0.33l", "180 din.", "140 din.", "");
                                   echo productCardPrintCol6ColMd3("pica-ultra", $uri, $image_path_array, "Ultra", "0.25l", "200 din.", "150 din.", "");?>
+</div>
 </div>
 <!-- Od kontenjera za sve proizvode -->
 <!-- Zone i dostave -->
