@@ -258,47 +258,47 @@ images/cover/cover-w3200.webp 3200w" sizes="100vw" alt="Slika">
           <tr>
             <td>Lešnik</td>
             <td>30g</td>
-            <td>90 din.</td>
+            <td><?php if($uri == '/'){echo '90 din.';}else{echo '120 din.';}?></td>
           </tr>
           <tr>
             <td>Orah</td>
             <td>30g</td>
-            <td>90 din.</td>
+            <td><?php if($uri == '/'){echo '90 din.';}else{echo '120 din.';}?></td>
           </tr>
           <tr>
             <td>Malina</td>
             <td>50g</td>
-            <td>90 din.</td>
+            <td><?php if($uri == '/'){echo '70 din.';}else{echo '90 din.';}?></td>
           </tr>
           <tr>
             <td>Višnja</td>
             <td>50g</td>
-            <td>90 din.</td>
+            <td><?php if($uri == '/'){echo '70 din.';}else{echo '90 din.';}?></td>
           </tr>
           <tr>
             <td>Banana</td>
             <td>50g</td>
-            <td>90 din.</td>
+            <td><?php if($uri == '/'){echo '70 din.';}else{echo '90 din.';}?></td>
           </tr>
           <tr>
             <td>Šlag</td>
             <td></td>
-            <td>90 din.</td>
+            <td><?php if($uri == '/'){echo '70 din.';}else{echo '90 din.';}?></td>
           </tr>
           <tr>
             <td>Plazma</td>
             <td>30g</td>
-            <td>80 din.</td>
+            <td><?php if($uri == '/'){echo '50 din.';}else{echo '70 din.';}?></td>
           </tr>
           <tr>
             <td>Kokos</td>
             <td>30g</td>
-            <td>80 din.</td>
+            <td><?php if($uri == '/'){echo '50 din.';}else{echo '70 din.';}?></td>
           </tr>
           <tr>
             <td>Kikiriki</td>
             <td>30g</td>
-            <td>80 din.</td>
+            <td><?php if($uri == '/'){echo '50 din.';}else{echo '70 din.';}?></td>
           </tr>
         </tbody>
       </table>
