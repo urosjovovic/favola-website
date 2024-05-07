@@ -39,13 +39,13 @@
         <div class="d-md-none py-2 border-info border-top">
           <span>Telefon: <a class="ms-auto" href="tel:+381628950833">+38162 895 0833</a>
           </span>
-          <p class="radno-vreme mb-0">Radno vreme - Pon-Sub: 12:00-03:30h</p>
+          <p class="radno-vreme mb-0">Radno vreme - Pon-Sub: 09:00-01:00h</p>
           <p class="radno-vreme mb-0">Adresa: Ljubićka 11, Beograd</p>
         </div>
       </ul>
       <div class="call-to-action d-none d-md-block">
         <a class="btn ms-auto" href="tel:+381628950833">+38162 895 0833</a>
-        <span class="radno-vreme">Pon-Sub: 12:00-03:30h</span>
+        <span class="radno-vreme">Pon-Sub: 09:00-01:00h</span>
       </div>
     </div>
   </div>
@@ -92,30 +92,31 @@
         <div class="d-md-none py-2 border-info border-top">
           <span>Telefon: <a class="ms-auto" href="tel:+381628950833">+38162 895 0833</a>
           </span>
-          <p class="radno-vreme mb-0">Radno vreme - Pon-Sub: 12:00-03:30h</p>
+          <p class="radno-vreme mb-0">Radno vreme - Pon-Sub: 09:00-01:00h</p>
           <p class="radno-vreme mb-0">Adresa: Ljubićka 11, Beograd</p>
         </div>
       </ul>
       <div class="call-to-action d-none d-md-block">
-        <a class="btn ms-auto" href="tel:+381628950833">+38162 895 0833</a>
-        <span class="radno-vreme">Pon-Sub: 12:00-03:30h</span>
+        <a class="btn ms-auto" href="<?php if($uri == '/dostava') { echo '/poruci-online';}else{echo 'tel:+381628950833';}?>">
+        <?php if($uri == '/dostava'){ echo 'PORUČI DOSTAVU';}else{ echo '+381 62 895 0833';}?></a>
+        <span class="radno-vreme">Pon-Sub: 09:00-01:00h</span>
       </div>
     </div>
   </div>
 </nav>
 <nav class="mobile-bottom-bar navbar fixed-bottom navbar-light bg-light justify-content-center d-md-none pb-3 pt-0">
-  <div class="w-100 text-center border-bottom border-1 text-muted">Plaćanje je moguće isključivo gotovinom</div>
+  <div class="w-100 text-center border-bottom border-1 text-muted">Plaćanje je moguće isključivo gotovinom <br> Dostava je dostupna samo za online porudžbine</div>
   <div class="quick-info mx-3">
     <p class="besplatna-dostava my-0">
-      <b>PORUČITE DOSTAVU</b>
+      <b><?php if($uri == '/dostava') {echo 'PORUČITE DOSTAVU';}else{echo 'Ljubićka 11, Beograd';}?></b>
     </p>
-    <p class="radno-vreme my-0">Pon-Sub: 12:00-03:30h</p>
+    <p class="radno-vreme my-0">Pon-Sub: 09:00-01:00h</p>
   </div>
   <a class="nav-item mx-3" href="/#zone" aria-label="Lokacija">
     <i class="location-icon fa-solid fa-location-dot fa-2xl"></i>
   </a>
-  <a class="nav-item mx-3" href="tel:+381628950833" aria-label="Telefon">
-    <i class="phone-icon fa-solid fa-phone fa-2xl"></i>
+  <a class="nav-item mx-3" href="<?php if($uri == '/dostava') {echo '/poruci-online';}else{echo 'tel:+381628950833';}?>" aria-label="Telefon">
+  <?php if($uri == '/dostava') {echo '<i class="order-icon fa-solid fa-bag-shopping fa-2xl"></i>';}else{ echo '<i class="order-icon fa-solid fa-phone fa-2xl"></i>';}?>
   </a>
 </nav>
 <div class="page-main-content">
