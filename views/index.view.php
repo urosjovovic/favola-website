@@ -57,7 +57,7 @@ sizes="100vw"
   <div class="row d-flex justify-content-evenly gy-4 mt-3" id="tortilje">
     <div class="my-3">
       <h2 class="h1">Tortilje</h2>
-      <p>Naše Favola tortilje predstavljaju zdraviju opciju naše ponude, najkvalitetnije tortilje, sveze povrće i salate, visoko proteinska piletina učiniće da se svakim zalogajem osećate </p>
+      <p>Naše Favola tortilje predstavljaju zdraviju opciju naše ponude, najkvalitetnije tortilje, sveze povrće i salate, visoko proteinska piletina učiniće da se svakim zalogajem osećate izvanredno. </p>
     </div>
     <?php
     echo productCardPrintCol6ColMd3("tortilje-tortilja-sunka", $uri, $image_path_array, "Šunka", "350g", "550 din.", "480 din.", "dresing, kačkavalj, šunka, paradajz, zelena salata");
@@ -71,13 +71,8 @@ sizes="100vw"
   <!-- Obroci i piroske -->
   <div class="row d-flex justify-content-evenly gy-4 mt-3" id="piroske-i-obroci">
     <div class="my-3">
-      <h2 class="h1">Piroške i Obroci</h2>
-      <p>Gladni ste i želite nešto ukusno? Imamo sve što vam treba!
-        Omiljene Favola piroške su tu za vas! Ukoliko vam se jede Italijanska kuhinja, a niste za picu, probajte našu bogatu Italijansku pirošku punu ukusa Italije, ali tu je i Zlatiborska piroška koja predstavlja pravu gurmansku bombu sa kajmakom, slaninom, pršutom i suvim vratom za potpuni užitak.
-        <br>A za one koji žele gotov obrok, nudimo i: <br>
-        Pohovane štapiće sa čak 250g belog mesa, pomfritom i salatom - idealno za brzi i ukusan obrok.
-        <br>Obrok za ljubitelje kačkavalja sa čak 250g pohovanog kačkavalja uz pomfrit i salatu - uživanje je garantovano, a obrok je potpun!
-      </p>
+    <h2 class="h1">Piroške i Obroci</h2>
+<p>Gladni li ste? Želite li Piroške? Imamo ih! Uživajte u omiljenim Favola piroškama, Italijanskim piroškama punim ukusa Italije, ili Zlatiborskim piroškama za pravo gurmansko iskustvo. A za brzi obrok, probajte naše Pohovane štapiće ili Pohovani kačkavalj!</p>
     </div>
     <?php
     echo productCardPrintCol6ColMd3("piroske-piroska-italijanska", $uri, $image_path_array, "Italijanska", "400g", "710 din.", "540 din.", "pelat, kačkavalj, šunka, pečurke, pavlaka, origano");
@@ -93,16 +88,8 @@ sizes="100vw"
   <div class="row d-flex justify-content-evenly gy-4 mt-3" id="sendvici">
     <div class="my-3">
       <h2 class="h1">Sendviči</h2>
-      <p><b>Sendviči za svaki ukus i trenutak!</b></p>
-      <p>Bez obzira na to što vam se jede, u Favoli ćete pronaći savršeni sendvič za vas. Svež somun, kvalitetni sastojci i puno ljubavi u svakom zalogaju - to je ono što naše sendviče čine jedinstvenima.
-      Uz sendviče nudimo i širok izbor dodataka: kačkavalj, salatu, pavlaku, feferone, kukuruz... Dođite i sami se uvjerite u ukus naših sendviča!</p>
-      <p>Za ljubitelje klasike:</p>
-      <ul>
-        <li>Sendvič pršut: sočan pršut, sveži kajmak i hrskavi listići rukole na mekanom somunu - jednostavno savršenstvo sendviča pršuta!</li>
-        <li>Sendvič kulen: pikantni kulen, pavlaka,kačkavalj i ljuti peperoni za one koji vole začiinjeni sendvič.</li>
-        <li>Sendvič pečenica:pečenica,pavlaka, kačkavalj, salata i paradajz - kombinacija sendviča pečenica koja se ne može pobijediti!</li>
-        <li>Imamo i sendvic od tune, suvog vrata i sendvič od šunke.</li>
-      </ul>
+      <p><b>Favola sendviči za svaki ukus i trenutak!</b></p>
+      <p>Bez obzira na to što vam se jede, u Favoli ćete pronaći savršeni sendvič za vas. Svež somun, kvalitetni sastojci i puno ljubavi u svakom zalogaju - to je ono što naše sendviče čine jedinstvenima. Tu je sendvic sunka, kulen, pecenica, tuna i mnogi drugi! </p>
     </div>
     <?php
     echo productCardPrintCol6ColMd3("sendvici-sendvic-sunka", $uri, $image_path_array, "Šunka", "330g", "410 din.", "370 din.", "somun, šunka, pavlaka, kačkavalj, salata, paradajz");
@@ -263,7 +250,7 @@ sizes="100vw"
      echo productCardPrintCol6ColMd3("pica-cola-zero", $uri, $image_path_array, "Coca-cola Zero", "0.33l", "180 din.", "140 din.", "");
      echo productCardPrintCol6ColMd3("pica-fanta", $uri, $image_path_array, "Fanta", "0.33l", "180 din.", "140 din.", "");
      echo productCardPrintCol6ColMd3("pica-ultra", $uri, $image_path_array, "Ultra", "0.25l", "200 din.", "150 din.", "");?>
-      
+
 </div><!-- Od kontenjera za sve proizvode -->
 
 <!-- Zone i dostave -->
