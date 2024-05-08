@@ -8,17 +8,17 @@ require 'views/partials/header.php';
 <div class="container py-5">
 <h1>OBAVEŠTENJE O PRIVATNOSTI</h1>
 
-<h2>1.	Datum izdavanja Obaveštenja o privatnosti</h2>
+<h2><i>Datum izdavanja Obaveštenja o privatnosti</i></h2>
 
-<p>Ovo Obaveštenje o privatnosti (Obaveštenje) je izdato dana 20.02.2024.</p>
+<p>Ovo Obaveštenje o privatnosti (Obaveštenje) je izdato dana 08.05.2024.</p>
 
-<h2>2.	O nama</h2>
+<h2><i>O nama</i></h2>
 
-<p>U ovom Obaveštenju, Favola, "mi" i "naši" upućuje na privredno društvo LAZAR GVOZDENOVIĆ PR KETERING I UGOSTITELJSKE USLUGE GVOZDENOVIĆ BEOGRAD, MB: 67381106, PIB:114180453. („Restoran“).</p>
+<p>U ovom Obaveštenju, Favola, ‘’mi’’ i ”naši’’ upućuje na privredno društvo LAZAR GVOZDENOVIĆ PR KETERING I UGOSTITELJSKE USLUGE GVOZDENOVIĆ BEOGRAD, Ljubićka 11, PIB: 114180453, MB: 67381106 („Restoran“).</p>
 
-<h2>3.	Svrha obaveštenja</h2>
+<h2><i>Svrha obaveštenja</i></h2>
 
-<p>Briga o ličnim podacima i transparentnost u radu su ključne vrednosti na kojima zasnivamo naše poslovanje. Obrađujemo Vaše lične podatke kako bismo Vam omogućili korišćenje usluge naručivanja i dostave hrane preko našeg vebsajta (Vebsajt). Svrha ovog Obaveštenja je da Vas upozna sa načinom na koji koristimo Vaše lične podatke u navedene svrhe. Ono daje informacije o tome kako prikupljamo, koristimo, skladištimo i na drugi način obrađujemo lične podatke. Ovo Obaveštenje se izdaje u cilju usklađivanja sa Opštom uredom o zaštiti podataka (GDPR) i Zakonom o zaštiti podatka o ličnosti (ZZPL). </p>
+<p>Briga o ličnim podacima i transparentnost u radu su ključne vrednosti na kojima zasnivamo naše poslovanje. Obrađujemo Vaše lične podatke kako bismo Vam omogućili korišćenje usluge naručivanja i dostave hrane preko našeg vebsajta (Vebsajt). Svrha ovog Obaveštenja je da Vas upozna sa načinom na koji koristimo Vaše lične podatke u navedene svrhe. Ono daje informacije o tome kako prikupljamo, koristimo, skladištimo i na drugi način obrađujemo lične podatke. Ovo Obaveštenje se izdaje u cilju usklađivanja sa Opštom uredom o zaštiti podataka (GDPR) i Zakonom o zaštiti podatka o ličnosti (ZZPL).</p>
 
 <p>Podatak o ličnosti je svaki podatak koji se odnosi na fizičko lice čiji je identitet određen ili odrediv, kao što su lično ime, godište, fotografija ili lokacija. Podaci koji su anonimizovani se ne smatraju ličnim podacima.</p>
 
@@ -28,19 +28,19 @@ require 'views/partials/header.php';
 
 <p>Pitanja, pritužbe, zahteve za ostvarivanje Vaših prava i dodatne informacije oko Obaveštenja o privatnosti i zaštite podataka o ličnosti kod nas možete dobiti na sledeću imejl adresu keteringdenis@gmail.com.</p>
 
-<h2>4.	Izmene i dopune</h2>
+<h2>Izmene i dopune</h2>
 
-<p>Poslednja verzija Obaveštenja je izdata dana 20.02.2024. </p>
+<p>Poslednja verzija Obaveštenja je izdata dana 08.05.2024.</p>
 
 <p>Ukoliko se ovo Obaveštenje menja ili dopunjuje, unećemo datum poslednje verzije dokumenta.</p>
 
-<h2>5.	Podaci o ličnosti koje prikupljamo</h2>
+<h2>Podaci o ličnosti koje prikupljamo</h2>
 
-<p>Kada koristite usluge online naručivanja preko Vebsajta, nije potrebno da se registrujete na Vebsajtu kako biste koristili uslugu online naručivanja, već je dovoljno da unesete sve tražene podatke kako biste naručili hranu, odnosno druge proizvode. 
+<p>Kada koristite usluge online naručivanja preko Vebsajta, nije potrebno da se registrujete na Vebsajtu kako biste koristili uslugu online naručivanja, već je dovoljno da unesete sve tražene podatke kako biste naručili hranu, odnosno druge proizvode.</p>
 
 <p>Restoran će prikupiti i koristiti Vaše ime i prezime, imejl adresu, adresu dostave, broj telefona, kao i ostale podatke koje sami unesete na Vebsajt prilikom sastavljanja online narudžbine, a isključivo u cilju uspešne realizacije Vaše narudžbine i ispunjavanja zakonskih i drugih obaveza rukovaoca i/ili obrađivača Vaših ličnih podataka u vezi sa takvom narudžbinom.</p>
 
-<h2>6.	Svrha obrade i pravni osnov za obradu</h2>
+<h2>Svrha obrade i pravni osnov za obradu</h2>
 
 <p>Obrađujemo Vaše lične podatke ako je ta obrada neophodna da bismo zaključili i izvršili ugovor sa Vama. Možemo da obrađujemo Vaše lične podatke ukoliko to od nas zakon zahteva. Takođe, možemo da obrađujemo Vaše lične podatke ukoliko je obrada neophodna u cilju zaštite Vaših životnih interesa. Ukoliko obrađujemo Vaše lične podatke na osnovu naših zakonskih obaveza ili u cilju zaštite Vaših životnih interesa, obavestićemo Vas o tome. Takođe, možemo da obrađujemo Vaše podatke o ličnosti kako bismo ostvarili naš legitimni interes poslovanja.</p>
 
@@ -50,13 +50,13 @@ require 'views/partials/header.php';
 
 <p>Prihvatanjem Uslova korišćenja zaključujete ugovor sa nama. Vaše lične podatke obrađujemo u svrhu zaključenja i izvršavanja tog ugovora.</p>
 
-<h2>7.	Obrađivači</h2>
+<h2>Obrađivači</h2>
 
 <p>Restoran je angažovao Pin Technology d.o.o. Beograd-Savski Venac u cilju pružanja usluge online poručivanja hrane, odnosno drugih proizvoda i tom prilikom on obrađuje Vaše podatke o ličnosti.</p>
 
 <p>Restoran ima sa svim obrađivačima potpisane ugovore o obradi podataka o ličnosti.</p>
 
-<h2>8.	Primaoci podataka o ličnosti</h2>
+<h2>Primaoci podataka o ličnosti</h2>
 
 <p>Vaši lični podaci će tokom realizacije Vaše online porudžbine biti dostupni isključivo Restoranu i Pin Technology d.o.o. Beograd-Savski Venac.</p>
 
@@ -72,27 +72,27 @@ require 'views/partials/header.php';
 </ol>
 <p>Svi primaoci su obavezni da preduzmu odgovarajuće tehničke, organizacione i kadrovske mere kako bi zaštitili Vaše lične podatke i Vaša prava. Restoran ima sa svim primaocima potpisane ugovore o obradi podataka o ličnosti.</p>
 
-<h2>9.	Prenos podataka o ličnosti u druge države</h2>
+<h2>Prenos podataka o ličnosti u druge države</h2>
 
 <p>Lični podaci mogu se prenositi bez ikakvih zaštitnih mera potrebnih u trećim zemljama kada se prenose u zemlje koje se nalaze u EU, zemlje potpisnice Konvencije 108 (Srbija) i države za koje je od strane Evropske unije utvrđeno da obezbeđuju primereni nivo zaštite.</p>
 
 <p>Ako se lični podaci prenose u državu koja se ne nalazi u EU ili u državu koja nije potpisnica Konvencije 108 (Srbija) ili u državu za koju od strane Evropske unije nije utvrđeno da obezbeđuje primereni nivo zaštite, primenjujemo odgovarajuće mere zaštite (npr. potpisane standardne ugovorne klauzule).</p>
 
-<h2>10.	Rok čuvanja</h2>
+<h2>Rok čuvanja</h2>
 
 <p> <b>Restoran neće skladištiti Vaše podatke o ličnosti.</b> </p>
 
-<p>Vaši podaci će ovlašćenim licima biti dostupni najkasnije do uspešne finalizacije online porudžbine, izuzev podataka koji su neophodni radi dostave elektronskog fiskalnog računa na Vašu imejl adresu i ispunjenja ostalih zakonskih obaveza Restorana, u kom slučaju navedeni podaci mogu i duže biti dostupni ovlašćenim licima. Za više informacija o tome gde se i koliko dugo čuvaju Vaši lični podaci, kao i za više informacija o Vašim pravima za brisanje i prenosivost podataka, kontaktirajte nas na sledeću imejl adresu: keteringdenis@gmail.com.</p>
+<p>Vaši podaci će ovlašćenim licima biti dostupni najkasnije do uspešne finalizacije online porudžbine, izuzev podataka koji su neophodni radi dostave elektronskog fiskalnog računa na Vašu imejl adresu i ispunjenja ostalih zakonskih obaveza Restorana, u kom slučaju navedeni podaci mogu i duže biti dostupni ovlašćenim licima. Za više informacija o tome gde se i koliko dugo čuvaju Vaši lični podaci, kao i za više informacija o Vašim pravima za brisanje i prenosivost podataka, kontaktirajte nas na sledeću imejl adresu: keteringdenis@gmail.com </p>
 
 <h2>11.	Bezbednost ličnih podataka</h2>
 
-<p>Sprovodimo odgovarajuće fizičke, proceduralne, tehničke, organizacione i kadrovske mere kako bismo dostigli odgovarajući nivo zaštite Vaših ličnih podataka koje obrađujemo. Primenjujemo najbolje industrijske standarde u zaštiti podataka. Zaštita se odnosi na gubitak, korišćenje protivno svrsi, neovlašćeni pristup i uvid, menjanje i uništenje tih ličnih podataka. Ipak nijedna mera bezbednosti ne može da garantuje da će lični podaci biti 100% zaštićeni, ali u svakom momentu svojim kontrolisanim procesima i uz visoku odgovornost stalno unapređujemo sve mere bezbednosti u cilju zaštite Vaših ličnih podataka.</p>
+<p>Sprovodimo odgovarajuće fizičke, proceduralne, tehničke, organizacione i kadrovske mere kako bismo dostigli odgovarajući nivo zaštite Vaših ličnih podataka koje obrađujemo. Primenjujemo najbolje industrijske standarde u zaštiti podataka. Zaštita se odnosi na gubitak, korišćenje protivno svrsi, neovlašćeni pristup i uvid, menjanje i uništenje tih ličnih podataka. Ipak nijedna mera bezbednosti ne može da garantuje da će lični podaci biti 100% zaštićeni, ali u svakom momentu svojim kontrolisanim procesima i uz visoku odgovornost stalno unapređujemo sve mere bezbednosti u cilju zaštite Vaših ličnih podataka</p>
 
-<h2>12.	Svesno ne prikupljamo podatke od maloletnih lica mlađih od 15 godina</h2>
+<h2>Svesno ne prikupljamo podatke od maloletnih lica mlađih od 15 godina</h2>
 
 <p>Mi svesno ne prikupljamo lične podatke od maloletnih lica koja imaju ispod 15 godina i izbrisaćemo sve podatke za koje se naknadno utvrdi da su podaci maloletnog lica ispod 15 godina, osim ukoliko nismo dobili saglasnost od roditelja ili staratelja takvog maloletnog lica da prikupljamo njegove podatke. U slučaju da roditelj ili staratelj veruje da je njegovo/njeno dete nama pružilo informacije i želi da ti podaci budu uklonjeni ili ispravljeni, molimo Vas da nas kontaktirate na sledeću imejl adresu: keteringdenis@gmail.com.</p> 
 
-<h2>13.	Vaša prava</h2>
+<h2>Vaša prava</h2>
 
 <p>Možete da koristite određena prava prema u odnosu na lične podatke koje obrađujemo o Vama. U svakom trenutku možete da podnesete zahtev za ostvarivanje tih prava. </p>
 
@@ -123,7 +123,7 @@ require 'views/partials/header.php';
 <h1>Privacy Notice</h1>
 
 <h2>1.	Date of issue of the Privacy Notice</h2>
-<p>This Privacy Notice (Notice) was issued on 20.02.2024.</p>
+<p>This Privacy Notice (Notice) was issued on  08.05.2024.</p>
 <h2>2.	About us</h2>
 <p>In this Notice, Favola, "we" and "our" refer to the company LAZAR GVOZDENOVIĆ PR KETERING I UGOSTITELJSKE USLUGE GVOZDENOVIĆ BEOGRAD, business ID: 67381106, tax ID: 114180453. (“Restaurant”).</p>
 <h2>3.	Purpose of Notice</h2>
@@ -133,7 +133,7 @@ Processing is any action or set of actions performed on personal data or sets of
 <p>Restaurant is the controller of your personal data. This will be explained in more detail below.
 You can submit questions, complaints, requests to exercise your rights and additional information about the Privacy Notice and the protection of personal to the following email address keteringdenis@gmail.com.</p>
 <h2>4.	Changes and Amendments </h2>
-<p>The latest version of this Notice was issued on 20.02.2024.</p>
+<p>The latest version of this Notice was issued on  08.05.2024.</p>
 <p>In case this Notice is amended, we will enter the date of the last version of the document.</p>
 <h2>5.	Personal Data We Collect</h2>
 <p>When you use the online ordering services through the Website, you do not need to register on the Website in order to use the online ordering service, however, you need to enter all the required personal data and other data relating to your order so you can successfully place your.</p>
