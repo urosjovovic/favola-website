@@ -47,7 +47,7 @@ images/cover/cover-w3200.webp 3200w" sizes="100vw" alt="Slika">
 <div class="container meni">
   <!-- Pice -->
   <div class="row d-flex justify-content-evenly gy-4 mt-3" id="pice">
-    <div class="my-3">
+    <div class="my-3 text-center">
       <h2 class="h1">Pice</h2>
       <p>Naše Favola pice su pravljene od sastojaka visokog kvaliteta, sa puno ljubavi naših veštih pica majstora. Uz našu brzu dostavu imaćete utisak kao da su upravo izašle iz pećnice, hrskave, meke i tako sočne!</p>
     </div> <?php 
@@ -66,7 +66,7 @@ images/cover/cover-w3200.webp 3200w" sizes="100vw" alt="Slika">
   </div>
   <!-- Tortilje -->
   <div class="row d-flex justify-content-evenly gy-4 mt-3" id="tortilje">
-    <div class="my-3">
+    <div class="my-3 text-center">
       <h2 class="h1">Tortilje</h2>
       <p>Naše Favola tortilje predstavljaju zdraviju opciju naše ponude, najkvalitetnije tortilje, sveze povrće i salate, visoko proteinska piletina učiniće da se svakim zalogajem osećate izvanredno. </p>
     </div> <?php
@@ -80,7 +80,7 @@ images/cover/cover-w3200.webp 3200w" sizes="100vw" alt="Slika">
   </div>
   <!-- Obroci i piroske -->
   <div class="row d-flex justify-content-evenly gy-4 mt-3" id="piroske-i-obroci">
-    <div class="my-3">
+    <div class="my-3 text-center">
       <h2 class="h1">Piroške i Obroci</h2>
       <p>Gladni li ste? Želite li Piroške? Imamo ih! Uživajte u omiljenim Favola piroškama, Italijanskim piroškama punim ukusa Italije, ili Zlatiborskim piroškama za pravo gurmansko iskustvo. A za brzi obrok, probajte naše Pohovane štapiće ili Pohovani kačkavalj!</p>
     </div> <?php
@@ -137,12 +137,12 @@ images/cover/cover-w3200.webp 3200w" sizes="100vw" alt="Slika">
   </div>
   <!--Sendvici  -->
   <div class="row d-flex justify-content-evenly gy-4 mt-3" id="sendvici">
-    <div class="my-3">
+    <div class="my-3 text-center">
       <h2 class="h1">Sendviči</h2>
       <p>
         <b>Favola sendviči za svaki ukus i trenutak!</b>
       </p>
-      <p>Bez obzira na to što vam se jede, u Favoli ćete pronaći savršeni sendvič za vas. Svež somun, kvalitetni sastojci i puno ljubavi u svakom zalogaju - to je ono što naše sendviče čine jedinstvenima. Tu je sendvic sunka, kulen, pecenica, tuna i mnogi drugi! </p>
+      <p>Bez obzira na to što vam se jede, u Favoli ćete pronaći savršeni sendvič za Vas. Svež somun, kvalitetni sastojci i puno ljubavi u svakom zalogaju - to je ono što naše sendviče čine jedinstvenima. Tu je sendvic sunka, kulen, pecenica, tuna i mnogi drugi! </p>
     </div> <?php
     echo productCardPrintCol6ColMd3("sendvici-sendvic-sunka", $uri, $image_path_array, "Šunka", "330g", "410 din.", "370 din.", "somun, šunka, pavlaka, kačkavalj, salata, paradajz");
     echo productCardPrintCol6ColMd3("sendvici-sendvic-svinjski-vrat", $uri, $image_path_array, "Suvi vrat", "330g", "430 din.", "410 din.", "somun, suvi vrat, pavlaka, kačkavalj, salata, paradajz");
@@ -154,7 +154,7 @@ images/cover/cover-w3200.webp 3200w" sizes="100vw" alt="Slika">
   </div>
   <!-- Palacinke slane -->
   <div class="row d-flex justify-content-evenly gy-4 mt-3" id="palacinke-slane">
-    <div class="my-3">
+    <div class="my-3 text-center">
       <h2 class="h1">Palačinke Slane</h2>
       <p>Pogledajte naše neodoljive slane palačinke u Favoli! Savršene za brzi i ukusan obrok. <br> Klasična palacinka od sunke, pikantna palacinka od kulena ili možda sočna palacinka od pečenice? U Favoli imamo slane palačinke za svaki ukus! </p>
     </div> <?php
@@ -165,7 +165,7 @@ images/cover/cover-w3200.webp 3200w" sizes="100vw" alt="Slika">
   </div>
   <!-- Slatke palacinke -->
   <div class="row d-flex justify-content-evenly gy-4 mt-3" id="palacinke-slatke">
-    <div class="my-3">
+    <div class="my-3 text-center">
       <h2 class="h1">Palačinke Slatke</h2>
       <p>Najlepse slatke palacinke traže Vas u Favoli! Sa čak 11 vrsta slatkih palacinki, Favola je raj za ljubitelje slatkog.Otkrijte savrseni slatki zalogaj sa palačinkom od orea, nutele, kinder, bounty ili mozda mars čokolade i mnoge druge ukuse. Dođite i uverite se sami u kvalitet nasih slatkih palačinki.</p>
     </div> <?php
