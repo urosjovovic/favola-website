@@ -28,4 +28,5 @@ function abort($code = 404) {
     die();
 }
 
-routeToController($uri, $routes);
+if($uri == "/oceni") {header("Location: https://g.page/r/CZrQ1v1TTjhkEBM/review", true, 301); exit;}else{
+routeToController($uri, $routes);}
