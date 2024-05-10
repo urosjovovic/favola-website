@@ -33,8 +33,37 @@ images/cover/cover-w3200.webp 3200w" sizes="100vw" alt="Slika">
   </a>
 </div> -->
 <div class="promo-banners">
-  <img src="images/promocije/mala-promocija.png" class="promo-left" alt="Slika">
-  <img src="images/promocije/velika-promocija.png" class="promo-right" alt="Slika">
+  <img srcset="
+images/promocije/mala-promocija-w600.webp 600w,
+images/promocije/mala-promocija-w700.webp 700w,
+images/promocije/mala-promocija-w800.webp 800w,
+images/promocije/mala-promocija-w900.webp 900w,
+images/promocije/mala-promocija-w1000.webp 1000w,
+images/promocije/mala-promocija-w1100.webp 1100w,
+images/promocije/mala-promocija-w1250.webp 1250w,
+images/promocije/mala-promocija-w1400.webp 1400w,
+images/promocije/mala-promocija-w1600.webp 1600w,
+images/promocije/mala-promocija-w1800.webp 1800w,
+images/promocije/mala-promocija-w2000.webp 2000w,
+images/promocije/mala-promocija-w2400.webp 2400w,
+images/promocije/mala-promocija-w2800.webp 2800w,
+images/promocije/mala-promocija-w3200.webp 3200w" sizes="(min-width: 768px) 50vw, 100vw" alt="Slika" class="promo-left">
+  
+  <img srcset="
+images/promocije/velika-promocija-w600.webp 600w,
+images/promocije/velika-promocija-w700.webp 700w,
+images/promocije/velika-promocija-w800.webp 800w,
+images/promocije/velika-promocija-w900.webp 900w,
+images/promocije/velika-promocija-w1000.webp 1000w,
+images/promocije/velika-promocija-w1100.webp 1100w,
+images/promocije/velika-promocija-w1250.webp 1250w,
+images/promocije/velika-promocija-w1400.webp 1400w,
+images/promocije/velika-promocija-w1600.webp 1600w,
+images/promocije/velika-promocija-w1800.webp 1800w,
+images/promocije/velika-promocija-w2000.webp 2000w,
+images/promocije/velika-promocija-w2400.webp 2400w,
+images/promocije/velika-promocija-w2800.webp 2800w,
+images/promocije/velika-promocija-w3200.webp 3200w" sizes="(min-width: 768px) 50vw, 100vw" class="promo-right" alt="Slika">
 </div>
 <div class="container meni">
   <!-- Pice -->
