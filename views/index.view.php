@@ -4,23 +4,11 @@ require 'views/partials/head.php';
 require 'views/partials/header.php';
 ?> <div class="delivery-pickup-switcher">
   <div class="delivery-pickup-switcher-delivery">
-    <a class="btn 
-			
-			
-			
-			
-			
-			<?php if($uri == '/') echo 'active';?>" href="/">
+    <a class="btn <?php if($uri == '/') echo 'active';?>" href="/">
       <i class="fa-solid fa-store fa-l"></i>Šalter </a>
   </div>
   <div class="delivery-pickup-switcher-pickup">
-    <a class="btn 
-			
-			
-			
-			
-			
-			<?php if($uri == '/dostava') echo 'active';?>" href="/dostava">
+    <a class="btn <?php if($uri == '/dostava') echo 'active';?>" href="/dostava">
       <i class="fa-solid fa-bag-shopping"></i>Dostava </a>
   </div>
 </div>
@@ -65,7 +53,7 @@ images/cover/cover-w3200.webp 3200w" sizes="100vw" alt="Slika">
     echo productCardPrintCol6ColMd3("pice-favola", $uri, $image_path_array, "Favola Specijal", "24/32/42cm", "810/1360/1850 din.", "590/1130/1590 din.", "pelat, kačkavalj, pečurke, šunka, suvi vrat, kunel, slanina, jaje, masline, origano, pavlaka");																																						echo productCardPrintCol6ColMd3("pice-srbijana", $uri, $image_path_array, "Srbijana", "24/32/42cm", "830/1390/1890 din.", "610/1150/1630 din.", "pelat, kačkavalj, šunka, pršuta, kulen, slanina, jaje, kajmak, origano");
     echo productCardPrintCol6ColMd3("pice-prsuta", $uri, $image_path_array, "Pršuto", "24/32/42cm", "800/1250/1650 din.", "600/1030/1430 din.", "pelat, kačkavalj, pršuta, crne masline, origano, parmezan, rukola");
     echo productCardPrintCol6ColMd3("pice-pikanta", $uri, $image_path_array, "Pikante", "24/32/42cm", "700/1110/1450 din.", "510/920/1270 din.", "pelat, kačkavalj, kulen, feferoni, crne masline, origano");
-    echo productCardPrintCol6ColMd3("pice-quattro-formaggi", $uri, $image_path_array, "Quattro formaggi", "24/32/42cm", "680/1190/1600 din.", "600/980/1380 din.", "pelat, kačkavalj, parmezan, dimljeni kačkavalj, plavi sir, masline, origano");																																						echo productCardPrintCol6ColMd3("pice-bbq-pizza", $uri, $image_path_array, "BBQ", "24/32/42cm", "640/1090/1440 din.", "520/930/1260 din.", "BBQ sos, kačkavalj, dimljena piletina, crveni luk, origano, masline");															
+    echo productCardPrintCol6ColMd3("pice-quattro-formaggi", $uri, $image_path_array, "Quattro Formaggi", "24/32/42cm", "680/1190/1600 din.", "600/980/1380 din.", "pelat, kačkavalj, parmezan, dimljeni kačkavalj, plavi sir, masline, origano");																																						echo productCardPrintCol6ColMd3("pice-bbq-pizza", $uri, $image_path_array, "BBQ", "24/32/42cm", "640/1090/1440 din.", "520/930/1260 din.", "BBQ sos, kačkavalj, dimljena piletina, crveni luk, origano, masline");															
     ?>
   </div>
   <!-- Tortilje -->
@@ -78,8 +66,8 @@ images/cover/cover-w3200.webp 3200w" sizes="100vw" alt="Slika">
     echo productCardPrintCol6ColMd3("tortilje-tortilja-pecenica", $uri, $image_path_array, "Pečenica", "350g", "570 din.", "480 din.", "dresing, kačkavalj, pečenica, paradajz, zelena salata");
     echo productCardPrintCol6ColMd3("tortilje-tortilja-kulen", $uri, $image_path_array, "Kulen", "350g", "590 din.", "480 din.", "dresing, kačkavalj, kulen, paradajz, zelena salata");
     echo productCardPrintCol6ColMd3("tortilje-tortilja-prsuta", $uri, $image_path_array, "Pršuto", "350g", "650 din.", "540 din.", "dresing, kačkavalj, pršuta, paradajz, zelena salata");
-    echo productCardPrintCol6ColMd3("tortilje-dimljena-piletina-tortilja", $uri, $image_path_array, "Dimljena piletina", "350g", "610 din.", "490 din.", "dresing, kačkavalj, dimljena piletina, paradajz, zelena salata");
-    echo productCardPrintCol6ColMd3("tortilje-pileca-tortilja", $uri, $image_path_array, "Hrskava piletina", "350g", "630 din.", "500 din.", "dresing, kačkavalj, hrskava piletina, paradajz, zelena salata")																	
+    echo productCardPrintCol6ColMd3("tortilje-dimljena-piletina-tortilja", $uri, $image_path_array, "Dimljena Piletina", "350g", "610 din.", "490 din.", "dresing, kačkavalj, dimljena piletina, paradajz, zelena salata");
+    echo productCardPrintCol6ColMd3("tortilje-pileca-tortilja", $uri, $image_path_array, "Hrskava Piletina", "350g", "630 din.", "500 din.", "dresing, kačkavalj, hrskava piletina, paradajz, zelena salata")																	
     ?>
   </div>
   <!-- Obroci i piroske -->
@@ -90,53 +78,8 @@ images/cover/cover-w3200.webp 3200w" sizes="100vw" alt="Slika">
     </div> <?php
     echo productCardPrintCol6ColMd3("piroske-piroska-italijanska", $uri, $image_path_array, "Italijanska", "400g", "710 din.", "540 din.", "pelat, kačkavalj, šunka, pečurke, pavlaka, origano");
     echo productCardPrintCol6ColMd3("piroske-piroska-zlatiborska", $uri, $image_path_array, "Zlatiborska", "500g", "830 din.", "740 din.", "šunka, suvi vrat, slanina, pršuta, kajmak, jaje");									
-    echo productCardPrintCol6ColMd3("obroci-pileci-stapici-obrok", $uri, $image_path_array, "Pohovani štapići", "550g", "810 din.", "740 din.", "250g - pohovani pileći štapići, 
-					
-			
-			
-			
-			
-			<br>
-    150g - pomfrit, 
-						
-				
-				
-				
-				
-				<br>
-    150g - zelena salata, paradajz, 
-							
-					
-					
-					
-					
-					<br>
-    tartar sos");
-    echo productCardPrintCol6ColMd3("obroci-pohovani-kackavalj-obrok", $uri, $image_path_array, "Pohovani kačkavalj", "550g", "720 din.", "660 din.", "250g - pohovanog kačkavalja,
-								
-						
-						
-						
-						
-						<br>150g - pomfrit
-									
-							
-							
-							
-							
-							<br>150g - zelena salata,
-										
-								
-								
-								
-								
-								<br> paradajz,
-											
-									
-									
-									
-									
-									<br> pavlaka");																			
+    echo productCardPrintCol6ColMd3("obroci-pileci-stapici-obrok", $uri, $image_path_array, "Pohovani Štapići", "550g", "810 din.", "740 din.", "250g - pohovani pileći štapići,<br>150g - pomfrit, <br>150g - zelena salata, paradajz, <br>tartar sos");
+    echo productCardPrintCol6ColMd3("obroci-pohovani-kackavalj-obrok", $uri, $image_path_array, "Pohovani Kačkavalj", "550g", "720 din.", "660 din.", "250g - pohovanog kačkavalja,<br>150g - pomfrit<br>150g - zelena salata,<br> paradajz,<br> pavlaka");																			
     ?>
   </div>
   <!--Sendvici  -->
@@ -149,7 +92,7 @@ images/cover/cover-w3200.webp 3200w" sizes="100vw" alt="Slika">
       <p>Bez obzira na to što vam se jede, u Favoli ćete pronaći savršeni sendvič za Vas. Svež somun, kvalitetni sastojci i puno ljubavi u svakom zalogaju - to je ono što naše sendviče čine jedinstvenima. Tu je sendvic sunka, kulen, pecenica, tuna i mnogi drugi! </p>
     </div> <?php
     echo productCardPrintCol6ColMd3("sendvici-sendvic-sunka", $uri, $image_path_array, "Šunka", "330g", "410 din.", "370 din.", "somun, šunka, pavlaka, kačkavalj, salata, paradajz");
-    echo productCardPrintCol6ColMd3("sendvici-sendvic-svinjski-vrat", $uri, $image_path_array, "Suvi vrat", "330g", "430 din.", "410 din.", "somun, suvi vrat, pavlaka, kačkavalj, salata, paradajz");
+    echo productCardPrintCol6ColMd3("sendvici-sendvic-svinjski-vrat", $uri, $image_path_array, "Suvi Vrat", "330g", "430 din.", "410 din.", "somun, suvi vrat, pavlaka, kačkavalj, salata, paradajz");
     echo productCardPrintCol6ColMd3("sendvici-sendvic-pecenica", $uri, $image_path_array, "Pečenica", "330g", "430 din.", "410 din.", "somun, pečenica, pavlaka, kačkavalj, salata, paradajz");
     echo productCardPrintCol6ColMd3("sendvici-sendvic-tuna", $uri, $image_path_array, "Tuna", "330g", "480 din.", "430 din.", "somun, kečap, tuna, biljni kačkavalj, kukuruz šećerac, salata");
     echo productCardPrintCol6ColMd3("sendvici-sendvic-kulen", $uri, $image_path_array, "Kulen", "330g", "470 din.", "420 din.", "somun, kulen, pavlaka, kačkavalj, salata, feferone");
@@ -255,7 +198,7 @@ images/cover/cover-w3200.webp 3200w" sizes="100vw" alt="Slika">
       <table class="table-striped table">
         <tbody>
           <tr>
-            <td>Plazma u mleku</td>
+            <td>Plazma u Mleku</td>
             <td>50g</td>
             <td><?php if($uri == '/'){echo '90 din.';}else{echo '120 din.';}?></td>
           </tr>
