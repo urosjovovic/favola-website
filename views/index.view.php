@@ -25,7 +25,7 @@ require 'views/partials/header.php';
   </div>
 </div>
 <!-- // Page content start -->
-<div class="container-fluid g-0 hero-image" id="cover">
+<!-- <div class="container-fluid g-0 hero-image" id="cover">
   <img srcset="images/cover/cover-w600.webp 600w,
 images/cover/cover-w700.webp 700w,
 images/cover/cover-w800.webp 800w,
@@ -43,6 +43,10 @@ images/cover/cover-w3200.webp 3200w" sizes="100vw" alt="Slika">
   <a href="/poruci-online">
     <button class="hero-image-button btn-lg">Poruči onlajn</button>
   </a>
+</div> -->
+<div class="promo-banners">
+  <img src="images/promocije/mala-promocija.png" class="promo-left" alt="Slika">
+  <img src="images/promocije/velika-promocija.png" class="promo-right" alt="Slika">
 </div>
 <div class="container meni">
   <!-- Pice -->

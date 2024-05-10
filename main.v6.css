@@ -354,3 +354,34 @@ footer h2 {
 .footer-wrapper a:hover,a:focus,a:active {
     color: #fff !important;
 }
+
+
+@media (min-width: 768px)
+{
+    .promo-left {
+        border-right: 5px solid #fcf398;
+        width: 50%;
+    }
+    
+    
+    .promo-right {
+        border-left: 5px solid #fcf398;
+        width: 50%;
+    }
+    .promo-banners{
+        display: flex;
+    }
+}
+
+@media (max-width: 767px)
+{
+    .promo-left {
+        border-bottom: 2px solid var(--primary-color);
+    }
+    
+    
+    .promo-right {
+        border-top: 2px solid var(--primary-color);
+        border-bottom: 4px solid var(--primary-color);
+    }
+}
