@@ -56,7 +56,7 @@
       <!-- <img loading="lazy" alt="Picerija Favola Logo" src="images/favola-header-logo.png"> -->
       <img src="images/logo.svg" alt="Picerija Favola Logo" />
     </a>
-    <h1 class="d-block d-md-none me-3 mb-0">Pizerija Favola</h1>
+    <h1 class="d-block d-md-none me-3 mb-0">Picerija Favola</h1>
     <button class="navbar-toggler me-3 me-lg-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>

@@ -9,7 +9,7 @@ $og_image = "https://www.favola.rs/images/cover-w1250.webp";
 $og_description = "Gladni ste? Poručite iz picerije Favola i dobijate dostavu do 35 minuta! Uživaćete u ukusima naših pica, tortilja, pirošaka, palačinaka i obroka.";
 $og_image_alt = "Razna hrana";
 $preload_cover_image = "";
-$footer_title_html_raw = "<h1> Favola Pizza</h1>";
+$footer_title_html_raw = "<h2 class=\"d-none d-md-block\">Picerija Favola</h2>";
 
 require 'helpers.php'; // assuming you have defined your function in helpers.php
 // $image_path_array = [
