@@ -2,3 +2,4 @@ User-agent: *
 Disallow: 
 Disallow: /cgi-bin/
 Sitemap: https://www.favola.rs
+Sitemap: http://www.favola.rs/sitemap.xml
