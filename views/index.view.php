@@ -13,7 +13,7 @@ require 'views/partials/header.php';
   </div>
 </div>
 <!-- // Page content start -->
-<!-- <div class="container-fluid g-0 hero-image" id="cover">
+ <div class="container-fluid g-0 hero-image" id="cover">
   <img srcset="images/cover/cover-w600.webp 600w,
 images/cover/cover-w700.webp 700w,
 images/cover/cover-w800.webp 800w,
@@ -31,8 +31,8 @@ images/cover/cover-w3200.webp 3200w" sizes="100vw" alt="Slika">
   <a href="/poruci-online">
     <button class="hero-image-button btn-lg">Poruči onlajn</button>
   </a>
-</div> -->
-<div class="promo-banners">
+</div>
+<!-- // <div class="promo-banners">
   <img srcset="
 images/promocije/mala-promocija-w600.webp 600w,
 images/promocije/mala-promocija-w700.webp 700w,
@@ -64,7 +64,7 @@ images/promocije/velika-promocija-w2000.webp 2000w,
 images/promocije/velika-promocija-w2400.webp 2400w,
 images/promocije/velika-promocija-w2800.webp 2800w,
 images/promocije/velika-promocija-w3200.webp 3200w" sizes="(min-width: 768px) 50vw, 100vw" class="promo-right" alt="Slika">
-</div>
+</div> -->
 <div class="container meni">
   <!-- Pice -->
   <div class="row d-flex justify-content-evenly gy-4 mt-3" id="pice">
@@ -121,7 +121,7 @@ images/promocije/velika-promocija-w3200.webp 3200w" sizes="(min-width: 768px) 50
       <p>Bez obzira na to što vam se jede, u Favoli ćete pronaći savršeni sendvič za Vas. Svež somun, kvalitetni sastojci i puno ljubavi u svakom zalogaju - to je ono što naše sendviče čine jedinstvenima. Tu je sendvic sunka, kulen, pecenica, tuna i mnogi drugi! </p>
     </div> <?php
     echo productCardPrintCol6ColMd3("sendvici-sendvic-sunka", $uri, $image_path_array, "Šunka", "330g", "410 din.", "370 din.", "somun, šunka, pavlaka, kačkavalj, salata, paradajz");
-    echo productCardPrintCol6ColMd3("sendvici-sendvic-svinjski-vrat", $uri, $image_path_array, "Suvi Vrat", "330g", "430 din.", "410 din.", "somun, suvi vrat, pavlaka, kačkavalj, salata, paradajz");
+    #echo productCardPrintCol6ColMd3("sendvici-sendvic-svinjski-vrat", $uri, $image_path_array, "Suvi Vrat", "330g", "430 din.", "410 din.", "somun, suvi vrat, pavlaka, kačkavalj, salata, paradajz");
     echo productCardPrintCol6ColMd3("sendvici-sendvic-pecenica", $uri, $image_path_array, "Pečenica", "330g", "430 din.", "410 din.", "somun, pečenica, pavlaka, kačkavalj, salata, paradajz");
     echo productCardPrintCol6ColMd3("sendvici-sendvic-tuna", $uri, $image_path_array, "Tuna", "330g", "480 din.", "430 din.", "somun, kečap, tuna, biljni kačkavalj, kukuruz šećerac, salata");
     echo productCardPrintCol6ColMd3("sendvici-sendvic-kulen", $uri, $image_path_array, "Kulen", "330g", "470 din.", "420 din.", "somun, kulen, pavlaka, kačkavalj, salata, feferone");
@@ -183,7 +183,7 @@ images/promocije/velika-promocija-w3200.webp 3200w" sizes="(min-width: 768px) 50
             <div class="col-4 col-md-4">Pečurke</div>
             <div class="col-4 col-md-4">Kačkavalj</div>
             <div class="col-4 col-md-4">Šunka</div>
-            <div class="col-4 col-md-4">Suvi vrat</div>
+            <!-- <div class="col-4 col-md-4">Suvi vrat</div>-->
             <div class="col-4 col-md-4">Pečenica</div>
             <div class="col-4 col-md-4">Kulen</div>
             <div class="col-4 col-md-4">Pršuta</div>
