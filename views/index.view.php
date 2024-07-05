@@ -13,7 +13,7 @@ require 'views/partials/header.php';
   </div>
 </div>
 <!-- // Page content start -->
-<!-- <div class="container-fluid g-0 hero-image" id="cover">
+ <div class="container-fluid g-0 hero-image" id="cover">
   <img srcset="images/cover/cover-w600.webp 600w,
 images/cover/cover-w700.webp 700w,
 images/cover/cover-w800.webp 800w,
@@ -31,8 +31,8 @@ images/cover/cover-w3200.webp 3200w" sizes="100vw" alt="Slika">
   <a href="/poruci-online">
     <button class="hero-image-button btn-lg">Poruči onlajn</button>
   </a>
-</div> -->
-<div class="promo-banners">
+</div>
+<!-- // <div class="promo-banners">
   <img srcset="
 images/promocije/mala-promocija-w600.webp 600w,
 images/promocije/mala-promocija-w700.webp 700w,
@@ -64,7 +64,7 @@ images/promocije/velika-promocija-w2000.webp 2000w,
 images/promocije/velika-promocija-w2400.webp 2400w,
 images/promocije/velika-promocija-w2800.webp 2800w,
 images/promocije/velika-promocija-w3200.webp 3200w" sizes="(min-width: 768px) 50vw, 100vw" class="promo-right" alt="Slika">
-</div>
+</div> -->
 <div class="container meni">
   <!-- Pice -->
   <div class="row d-flex justify-content-evenly gy-4 mt-3" id="pice">
