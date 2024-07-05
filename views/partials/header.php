@@ -63,31 +63,31 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav me-3 mb-2 mb-lg-0 ms-3">
         <li class="nav-item">
-          <a class="nav-link" href="/#pice">Pice</a>
+          <a class="nav-link" href="#pice">Pice</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="/#tortilje">Tortilje</a>
+          <a class="nav-link" href="#tortilje">Tortilje</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="/#piroske-i-obroci">Piroške i obroci</a>
+          <a class="nav-link" href="#piroske-i-obroci">Piroške i obroci</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="/#sendvici">Sendvici</a>
+          <a class="nav-link" href="#sendvici">Sendvici</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="/#palacinke-slane">Palačinke Slane</a>
+          <a class="nav-link" href="#palacinke-slane">Palačinke Slane</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="/#palacinke-slatke">Palačinke Slatke</a>
+          <a class="nav-link" href="#palacinke-slatke">Palačinke Slatke</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="/#dodaci">Dodaci</a>
+          <a class="nav-link" href="#dodaci">Dodaci</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="/#pica">Piće</a>
+          <a class="nav-link" href="#pica">Piće</a>
         </li>
         <li class="nav-item free-dostava-item">
-          <a class="nav-link free-dostava-btn d-md-block d-none py-1" href="/#zone">DOSTAVA</a>
+          <a class="nav-link free-dostava-btn d-md-block d-none py-1" href="/dostava#zone">DOSTAVA</a>
         </li>
         <div class="d-md-none py-2 border-info border-top">
           <span>Telefon: <a class="ms-auto" href="tel:+381628950833">+38162 895 0833</a>
