@@ -28,6 +28,9 @@
           <a class="nav-link" href="/#palacinke-slatke">Palačinke Slatke</a>
         </li>
         <li class="nav-item">
+          <a class="nav-link" href="/#paste">Paste</a>
+        </li>
+        <li class="nav-item">
           <a class="nav-link" href="/#dodaci">Dodaci</a>
         </li>
         <li class="nav-item">
@@ -79,6 +82,9 @@
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#palacinke-slatke">Palačinke Slatke</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#paste">Paste</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#dodaci">Dodaci</a>
