@@ -73,6 +73,13 @@ $image_path_array = [
     'pica-cola-zero' => 'images/proizvodi/pica/cola-zero/cola-zero',
     'pica-fanta' => 'images/proizvodi/pica/fanta/fanta',
     'pica-rosa' => 'images/proizvodi/pica/rosa/rosa',
+    'pasta-bolognese' => 'images/proizvodi/paste/bolognese/bolognese',
+    'pasta-pesto' => 'images/proizvodi/paste/pesto/pesto',
+    'pasta-tri-fungi' => 'images/proizvodi/paste/trio-fungi/trio-fungi',
+    'pasta-quattro-formaggi' => 'images/proizvodi/paste/quattro-formaggi/quattro-formaggi',
+    'pasta-amatricana' => 'images/proizvodi/paste/amatricana/amatricana',
+    'pasta-carbonara' => 'images/proizvodi/paste/carbonara/carbonara',
+    'pasta-vegeteriana' => 'images/proizvodi/paste/vegeteriana/vegeteriana',
 ];
 
 require "views/index.view.php";
