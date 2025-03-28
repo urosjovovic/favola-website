@@ -21,6 +21,9 @@
             <a href="/#palacinke" class="nav-link p-0">Palačinke</a>
           </li>
           <li class="nav-item mb-2">
+            <a href="/#paste" class="nav-link p-0">Paste</a>
+          </li>
+          <li class="nav-item mb-2">
             <a href="/#dodaci" class="nav-link p-0">Dodaci</a>
           </li>
           <li class="nav-item mb-2">
