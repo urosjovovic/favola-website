@@ -89,7 +89,7 @@ images/promocije/velika-promocija-w3200.webp 3200w" sizes="(min-width: 768px) 50
   <div class="row d-flex justify-content-evenly gy-4 mt-3" id="paste">
     <div class="my-3 text-center">
       <h2 class="h1">Paste</h2>
-      <p>Naše Favola paste </p>
+      <p>Naše Favola paste su pripremljene od kvalitetne testenine i pažljivo odabranih sastojaka, idealne za brz i ukusan obrok.</p>
     </div> <?php 
     echo productCardPrintCol6ColMd3("pasta-bolognese", $uri, $image_path_array, "Bolognese", "500g", "960 din.", "680 din.", "bolognese sos, mlevena junetina, bosiljak, parmezan");
     echo productCardPrintCol6ColMd3("pasta-pesto", $uri, $image_path_array, "Creme d Pesto", "500g", "940 din.", "660 din.", "piletina, neutralna pavlaka, šampinjoni, pesto sos");		
