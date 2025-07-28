@@ -42,13 +42,13 @@
         <div class="d-md-none py-2 border-info border-top">
           <span>Telefon: <a class="ms-auto" href="tel:+381628950833">+38162 895 0833</a>
           </span>
-          <p class="radno-vreme mb-0">Radno vreme - Pon-Sub: 09:00-01:00h</p>
+          <p class="radno-vreme mb-0">Radno vreme - Svaki dan: 12:00-04:00h</p>
           <p class="radno-vreme mb-0">Adresa: Ljubićka 11, Beograd</p>
         </div>
       </ul>
       <div class="call-to-action d-none d-md-block">
         <a class="btn ms-auto" href="tel:+381628950833">+38162 895 0833</a>
-        <span class="radno-vreme">Pon-Sub: 09:00-01:00h</span>
+        <span class="radno-vreme">Svaki dan: 12:00-04:00h</span>
       </div>
     </div>
   </div>
@@ -98,14 +98,14 @@
         <div class="d-md-none py-2 border-info border-top">
           <span>Telefon: <a class="ms-auto" href="tel:+381628950833">+38162 895 0833</a>
           </span>
-          <p class="radno-vreme mb-0">Radno vreme - Pon-Sub: 09:00-01:00h</p>
+          <p class="radno-vreme mb-0">Radno vreme - Svaki dan: 12:00-04:00h</p>
           <p class="radno-vreme mb-0">Adresa: Ljubićka 11, Beograd</p>
         </div>
       </ul>
       <div class="call-to-action d-none d-md-block">
         <a class="btn ms-auto" href="<?php if($uri == '/dostava') { echo '/poruci-online';}else{echo 'tel:+381628950833';}?>">
         <?php if($uri == '/dostava'){ echo 'PORUČI DOSTAVU';}else{ echo '+381 62 895 0833';}?></a>
-        <span class="radno-vreme">Pon-Sub: 09:00-01:00h</span>
+        <span class="radno-vreme">Svaki dan: 12:00-04:00h</span>
       </div>
     </div>
   </div>
@@ -116,7 +116,7 @@
     <p class="besplatna-dostava my-0">
       <b><?php if($uri == '/dostava') {echo 'PORUČITE DOSTAVU';}else{echo 'Ljubićka 11, Beograd';}?></b>
     </p>
-    <p class="radno-vreme my-0">Pon-Sub: 09:00-01:00h</p>
+    <p class="radno-vreme my-0">Svaki dan: 12:00-04:00h</p>
   </div>
   <a class="nav-item mx-3" href="/#zone" aria-label="Lokacija">
     <i class="location-icon fa-solid fa-location-dot fa-2xl"></i>
